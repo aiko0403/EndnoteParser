@@ -69,17 +69,17 @@ for line in fileinput.input():
 		Abstract = ''.join( elements[1] )
 	elif ''.join( elements[0] ) == 'AU':
 		# print 'ISSN ' + ''.join( elements[1] )
-		N_of_author++
+		N_of_author += 1
 	elif ''.join( elements[0] ) == 'KW':
 		# print 'Volumn ' + ''.join( elements[1] )
-		N_of_keyword++
-	elif ''.join( elemets[0] ) == 'ER':
-		N_of_page = int(End_page) = int(Start_page)
+		N_of_keyword += 1
+	elif ''.join( elements[0] ) == 'ER':
+		N_of_page = int(End_page) - int(Start_page) + 1
 
 		# print out json here
-		print 'N_of_page ' + N_of_page
-		print 'N_of_author ' + N_of_author
-		print 'N_of_keyword ' + N_of_keyword
+		print 'N_of_page ' + str( N_of_page )
+		print 'N_of_author ' + str( N_of_author )
+		print 'N_of_keyword ' + str( N_of_keyword )
 
 
 fileinput.close()
