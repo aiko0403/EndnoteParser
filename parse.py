@@ -38,9 +38,9 @@ for line in fileinput.input():
 		Issue = ""
 		Start_page = ""
 		End_page = ""
-		N_of_page = ""
-		N_of_author = ""
-		N_of_keyword = ""
+		N_of_page = 0
+		N_of_author = 0
+		N_of_keyword = 0
 		Abstract = ""
 	
 	if ''.join( elements[0] ) == 'TI':
@@ -64,15 +64,22 @@ for line in fileinput.input():
 	elif ''.join( elements[0] ) == 'EP':
 		print 'End_page ' + ''.join( elements[1] )
 		End_page = ''.join( elements[1] )
-	elif ''.join( elements[0] ) == 'DO':
-		print 'DOI ' + ''.join( elements[1] )
-		DOI = ''.join( elements[1] )
-	elif ''.join( elements[0] ) == 'SN':
-		print 'ISSN ' + ''.join( elements[1] )
-		ISSN = ''.join( elements[1] )
-	elif ''.join( elements[0] ) == 'VO':
-		print 'Volumn ' + ''.join( elements[1] )
-		Volumn = ''.join( elements[1] )
+	elif ''.join( elements[0] ) == 'AB':
+		print 'Abstract ' + ''.join( elements[1] )
+		Abstract = ''.join( elements[1] )
+	elif ''.join( elements[0] ) == 'AU':
+		# print 'ISSN ' + ''.join( elements[1] )
+		N_of_author++
+	elif ''.join( elements[0] ) == 'KW':
+		# print 'Volumn ' + ''.join( elements[1] )
+		N_of_keyword++
+	elif ''.join( elemets[0] ) == 'ER':
+		N_of_page = int(End_page) = int(Start_page)
+
+		# print out json here
+		print 'N_of_page ' + N_of_page
+		print 'N_of_author ' + N_of_author
+		print 'N_of_keyword ' + N_of_keyword
 
 
 fileinput.close()
