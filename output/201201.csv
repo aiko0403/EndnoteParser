@@ -1,0 +1,15 @@
+ID,Title,DOI,ISSN,Volumn,Issue,N_of_page,N_of_author,N_of_keyword
+5728799,Raytracing Dynamic Scenes on the GPU Using Grids,10.1109/TVCG.2011.46,1077-2626,18,1,12,2,35
+5708139,"Hybrid Parallelism for Volume Rendering on Large-, Multi-, and Many-Core Systems",10.1109/TVCG.2011.24,1077-2626,18,1,13,3,22
+5708137,Drawing-Based Procedural Modeling of Chinese Architectures,10.1109/TVCG.2011.22,1077-2626,18,1,13,3,30
+5669301,Shape Measures for Triangles,10.1109/TVCG.2010.256,1077-2626,18,1,4,1,15
+5669303,Fast Construction of SAH BVHs on the Intel Many Integrated Core (MIC) Architecture,10.1109/TVCG.2010.251,1077-2626,18,1,11,1,26
+5728800,Video Painting Based on a Stabilized Time-Varying Flow Field,10.1109/TVCG.2011.47,1077-2626,18,1,10,3,26
+5710904,A Framework for 3D Model-Based Visual Tracking Using a GPU-Accelerated Particle Filter,10.1109/TVCG.2011.34,1077-2626,18,1,13,2,28
+5674033,"Graph Drawing Aesthetics_Created by Users, Not Algorithms",10.1109/TVCG.2010.269,1077-2626,18,1,12,3,19
+5611507,EventRiver: Visually Exploring Text Collections with Temporal References,10.1109/TVCG.2010.225,1077-2626,18,1,13,5,36
+5669304,Visual Reasoning about Social Networks Using Centrality Sensitivity,10.1109/TVCG.2010.260,1077-2626,18,1,15,3,31
+5708138,Modified Dendrogram of Attribute Space for Multidimensional Transfer Function Design,10.1109/TVCG.2011.23,1077-2626,18,1,11,3,19
+5669302,Automated Illustration of Molecular Flexibility,10.1109/TVCG.2010.250,1077-2626,18,1,14,3,32
+5710907,Output-Sensitive Construction of Reeb Graphs,10.1109/TVCG.2011.37,1077-2626,18,1,14,2,28
+5753890,The Topological Effects of Smoothing,10.1109/TVCG.2011.74,1077-2626,18,1,13,4,23

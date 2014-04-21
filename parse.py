@@ -1,6 +1,35 @@
 import re
 import fileinput
 import sys
+import csv
+
+fin = open('BibTex/201201.rtf','r')
+fin2 = open('EndNote/201201','r')
+fout = open('output_all.csv', 'a')
+
+title_id = {}
+bib_ID=""
+bib_Title = ""
+
+for line in fin:    
+	
+	if line.startswith('@'):
+		# print line
+		elements = re.split('@|{|, \n|\t|\r', line)
+		print elements[1] + '\t' + elements[2]
+		bib_ID = elements[2]
+	elif line.startswith('title'):
+		# print line
+		elements = re.split('={|},', line)
+		print elements[0] + '\t' + elements[1]
+		bib_Title = elements[1]
+		title_id[bib_Title] = bib_ID
+		bib_ID=""
+		bib_Title = ""
+
+# print title_id	
+		    
+fin.close()
 
 r = re.compile(' - ')
 
@@ -16,11 +45,14 @@ N_of_page = ""
 N_of_author = ""
 N_of_keyword = ""
 Abstract = ""
+ID = ""
 
 
+writer = csv.writer(fout)
+writer.writerow( ('ID','Title', 'DOI', 'ISSN', 'Volumn', 'Issue', 'N_of_page', 'N_of_author', 'N_of_keyword') )
 # fout = open(sys.stdout, 'a')
 
-for line in fileinput.input():    
+for line in fin2: #fileinput.input():    
 	elements = r.split(line)
 
 	if len(elements) <2:
@@ -42,6 +74,7 @@ for line in fileinput.input():
 		N_of_author = 0
 		N_of_keyword = 0
 		Abstract = ""
+		ID = ""
 	
 	if ''.join( elements[0] ) == 'TI':
 		print 'Title ' + ''.join( elements[1] )
@@ -75,15 +108,24 @@ for line in fileinput.input():
 		N_of_keyword += 1
 	elif ''.join( elements[0] ) == 'ER':
 		N_of_page = int(End_page) - int(Start_page) + 1
+		ID = title_id[Title]
 
-		# print out json here
 		print 'N_of_page ' + str( N_of_page )
 		print 'N_of_author ' + str( N_of_author )
 		print 'N_of_keyword ' + str( N_of_keyword )
 
+		
 
-fileinput.close()
+		# print out json here  
+		    
+		writer.writerow( (ID, Title, DOI, ISSN, Volumn, Issue, N_of_page, N_of_author, N_of_keyword) )
 
+		
+		    
+
+
+fin2.close()
+fout.close()
 
 
 # ISSN
