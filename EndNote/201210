@@ -1,0 +1,524 @@
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Real-Time Rendering of Rough Refraction
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 10
+SN  - 1077-2626
+VO  - 18
+SP  - 1591
+EP  - 1602
+AU  - De Rousiers, Charles
+AU  - Bousseau, Adrien
+AU  - Subr, Kartic
+AU  - Holzschuch, Nicolas
+AU  - Ramamoorthi, R.
+Y1  - Oct. 2012
+PY  - 2012
+KW  - Geometry
+KW  - Lighting
+KW  - Real time systems
+KW  - Rough surfaces
+KW  - Scattering
+KW  - Surface roughness
+KW  - Real-time rendering
+KW  - bidirectional transmittance distribution function
+KW  - normal distribution function.
+KW  - translucent material
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.282
+AB  - We present an algorithm to render objects made of transparent materials with rough surfaces in real-time, under all-frequency distant illumination. Rough surfaces cause wide scattering as light enters and exits objects, which significantly complicates the rendering of such materials. We present two contributions to approximate the successive scattering events at interfaces, due to rough refraction: First, an approximation of the Bidirectional Transmittance Distribution Function (BTDF), using spherical Gaussians, suitable for real-time estimation of environment lighting using preconvolution; second, a combination of cone tracing and macrogeometry filtering to efficiently integrate the scattered rays at the exiting interface of the object. We demonstrate the quality of our approximation by comparison against stochastic ray tracing. Furthermore we propose two extensions to our method for supporting spatially varying roughness on object surfaces and local lighting for thin objects.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Real-Time GPU Surface Curvature Estimation on Deforming Meshes and Volumetric Data Sets
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 10
+SN  - 1077-2626
+VO  - 18
+SP  - 1603
+EP  - 1613
+AU  - Griffin, Wesley
+AU  - Wang, Yu
+AU  - Berrios, David
+AU  - Olano, Marc
+Y1  - Oct. 2012
+PY  - 2012
+KW  - Face recognition
+KW  - Graphics processing unit
+KW  - Isosurfaces
+KW  - Real time systems
+KW  - GPU
+KW  - Real-time rendering
+KW  - ambient occlusion.
+KW  - curvature
+KW  - geometry shader
+KW  - line drawing
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2012.113
+AB  - Surface curvature is used in a number of areas in computer graphics, including texture synthesis and shape representation, mesh simplification, surface modeling, and nonphotorealistic line drawing. Most real-time applications must estimate curvature on a triangular mesh. This estimation has been limited to CPU algorithms, forcing object geometry to reside in main memory. However, as more computational work is done directly on the GPU, it is increasingly common for object geometry to exist only in GPU memory. Examples include vertex skinned animations and isosurfaces from GPU-based surface reconstruction algorithms. For static models, curvature can be precomputed and CPU algorithms are a reasonable choice. For deforming models where the geometry only resides on the GPU, transferring the deformed mesh back to the CPU limits performance. We introduce a GPU algorithm for estimating curvature in real time on arbitrary triangular meshes. We demonstrate our algorithm with curvature-based NPR feature lines and a curvature-based approximation for an ambient occlusion. We show curvature computation on volumetric data sets with a GPU isosurface extraction algorithm and vertex-skinned animations. We present a graphics pipeline and CUDA implementation. Our curvature estimation is up to {sim}18{times} faster than a multithreaded CPU benchmark.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Interactive Slice WIM: Navigating and Interrogating Volume Data Sets Using a Multisurface, Multitouch VR Interface
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 10
+SN  - 1077-2626
+VO  - 18
+SP  - 1614
+EP  - 1626
+AU  - Coffey, Dane
+AU  - Malbraaten, Nicholas
+AU  - Le, Trung Bao
+AU  - Borazjani, Iman
+AU  - Sotiropoulos, Fotis
+AU  - Erdman, A.G.
+AU  - Keefe, Daniel F.
+Y1  - Oct. 2012
+PY  - 2012
+KW  - Data visualization
+KW  - Navigation
+KW  - Solid modeling
+KW  - Stereo image processing
+KW  - Three dimensional displays
+KW  - Two dimensional displays
+KW  - 3D user interface.
+KW  - World in miniature
+KW  - multitouch
+KW  - overview+detail
+KW  - virtual reality
+KW  - volume visualization
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.283
+AB  - We present Interactive Slice World-in-Miniature (WIM), a framework for navigating and interrogating volumetric data sets using an interface enabled by a virtual reality environment made of two display surfaces: an interactive multitouch table, and a stereoscopic display wall. The framework addresses two current challenges in immersive visualization: 1) providing an appropriate overview+detail style of visualization while navigating through volume data, and 2) supporting interactive querying and data exploration, i.e., interrogating volume data. The approach extends the WIM metaphor, simultaneously displaying a large-scale detailed data visualization and an interactive miniature. Leveraging the table+wall hardware, horizontal slices are projected (like a shadow) down onto the table surface, providing a useful 2D data overview to complement the 3D views as well as a data context for interpreting 2D multitouch gestures made on the table. In addition to enabling effective navigation through complex geometries, extensions to the core Slice WIM technique support interacting with a set of multiple slices that persist on the table even as the user navigates around a scene and annotating and measuring data via points, paths, and volumes specified using interactive slices. Applications of the interface to two volume data sets are presented, and design decisions, limitations, and user feedback are discussed.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Automatic Extraction of Manhattan-World Building Masses from 3D Laser Range Scans
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 10
+SN  - 1077-2626
+VO  - 18
+SP  - 1627
+EP  - 1637
+AU  - Vanegas, Carlos A.
+AU  - Aliaga, Daniel G.
+AU  - Benes, Bedrich
+Y1  - Oct. 2012
+PY  - 2012
+KW  - Geometry
+KW  - Image reconstruction
+KW  - Robustness
+KW  - Shape analysis
+KW  - Three dimensional displays
+KW  - 3D Modeling
+KW  - 3D reconstruction
+KW  - Manhattan world.
+KW  - buildings
+KW  - laser scans
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2012.30
+AB  - We propose a novel approach for the reconstruction of urban structures from 3D point clouds with an assumption of Manhattan World (MW) building geometry; i.e., the predominance of three mutually orthogonal directions in the scene. Our approach works in two steps. First, the input points are classified according to the MW assumption into four local shape types: walls, edges, corners, and edge corners. The classified points are organized into a connected set of clusters from which a volume description is extracted. The MW assumption allows us to robustly identify the fundamental shape types, describe the volumes within the bounding box, and reconstruct visible and occluded parts of the sampled structure. We show results of our reconstruction that has been applied to several synthetic and real-world 3D point data sets of various densities and from multiple viewpoints. Our method automatically reconstructs 3D building models from up to 10 million points in 10 to 60 seconds.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Analytic Solutions of Integral Moving Least Squares for Polygon Soups
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 10
+SN  - 1077-2626
+VO  - 18
+SP  - 1638
+EP  - 1649
+AU  - Taejung Park
+AU  - Sung-Ho Lee
+AU  - Chang-Hun Kim
+Y1  - Oct. 2012
+PY  - 2012
+KW  - Computational modeling
+KW  - Interpolation
+KW  - Least squares approximation
+KW  - Mathematical model
+KW  - Vectors
+KW  - Boundary representations
+KW  - analytic integral solutions.
+KW  - implicit surfaces
+KW  - integral moving least squares
+KW  - polygon soups
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.286
+AB  - This paper presents analytic solutions to the integral moving least squares (MLS) equations originally proposed by Shen et al. by choosing another specific weighting function that renders the numerator in the MLS equation unitless. In addition, we analyze the original method to show that their approximation surfaces (i.e., enveloping surfaces with nonzero epsilon values in the weighting function) often form zero isosurfaces near concavities behind the triangle-soup models. This paper also presents error terms for the integral MLS formulations against signed distance fields. Based on our analytic solutions, we show that our method provides both interpolation and approximation surfaces faster and more efficiently. Because our method computes solutions for integral MLS equations directly, it does not rely on numerical steps that might have numerical-accuracy issues. In particular, unlike the original method that deals with incorrect approximation surfaces by iteratively adjusting parameters, this paper proposes faster and more efficient approximations to surfaces without needing iterative routines. We also present computational efficiency comparisons, in which our method is 15-fold faster in computing integrations, even with conservative assumptions. Finally, we show that the surface normal vectors on the implicit surfaces formed by our analytic solutions are identical to the angle-weighted pseudonormal vectors.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Interactive Quadrangulation with Reeb Atlases and Connectivity Textures
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 10
+SN  - 1077-2626
+VO  - 18
+SP  - 1650
+EP  - 1663
+AU  - Tierny, Julien
+AU  - Daniels II, Joel
+AU  - Nonato, Luis Gustavo
+AU  - Pascucci, Valerio
+AU  - Silva, Cl&#x00E1;udio T.
+Y1  - Oct. 2012
+PY  - 2012
+KW  - Electronic mail
+KW  - Harmonic analysis
+KW  - Level set
+KW  - Linear systems
+KW  - Mesh generation
+KW  - Topology
+KW  - Quadrangulation
+KW  - Reeb graph
+KW  - connectivity operators.
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.270
+AB  - Creating high-quality quad meshes from triangulated surfaces is a highly nontrivial task that necessitates consideration of various application specific metrics of quality. In our work, we follow the premise that automatic reconstruction techniques may not generate outputs meeting all the subjective quality expectations of the user. Instead, we put the user at the center of the process by providing a flexible, interactive approach to quadrangulation design. By combining scalar field topology and combinatorial connectivity techniques, we present a new framework, following a coarse to fine design philosophy, which allows for explicit control of the subjective quality criteria on the output quad mesh, at interactive rates. Our quadrangulation framework uses the new notion of Reeb atlas editing, to define with a small amount of interactions a coarse quadrangulation of the model, capturing the main features of the shape, with user prescribed extraordinary vertices and alignment. Fine grain tuning is easily achieved with the notion of connectivity texturing, which allows for additional extraordinary vertices specification and explicit feature alignment, to capture the high-frequency geometries. Experiments demonstrate the interactivity and flexibility of our approach, as well as its ability to generate quad meshes of arbitrary resolution with high-quality statistics, while meeting the user's own subjective requirements.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - A Triangulation-Invariant Method for Anisotropic Geodesic Map Computation on Surface Meshes
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 10
+SN  - 1077-2626
+VO  - 18
+SP  - 1664
+EP  - 1677
+AU  - Yoo, Sang Wook
+AU  - Joon-Kyung Seong
+AU  - Min-Hyuk Sung
+AU  - Sung-Yong Shin
+AU  - Cohen, E.
+Y1  - Oct. 2012
+PY  - 2012
+KW  - Approximation algorithms
+KW  - Equations
+KW  - Least squares approximation
+KW  - Measurement
+KW  - Surface treatment
+KW  - Geodesic
+KW  - Hamilton-Jacobi-Bellman
+KW  - anisotropy
+KW  - curvature minimization
+KW  - curvature variation minimization
+KW  - shape analysis.
+KW  - surface mesh
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2012.29
+AB  - This paper addresses the problem of computing the geodesic distance map from a given set of source vertices to all other vertices on a surface mesh using an anisotropic distance metric. Formulating this problem as an equivalent control theoretic problem with Hamilton-Jacobi-Bellman partial differential equations, we present a framework for computing an anisotropic geodesic map using a curvature-based speed function. An ordered upwind method (OUM)-based solver for these equations is available for unstructured planar meshes. We adopt this OUM-based solver for surface meshes and present a triangulation-invariant method for the solver. Our basic idea is to explore proximity among the vertices on a surface while locally following the characteristic direction at each vertex. We also propose two speed functions based on classical curvature tensors and show that the resulting anisotropic geodesic maps reflect surface geometry well through several experiments, including isocontour generation, offset curve computation, medial axis extraction, and ridge/valley curve extraction. Our approach facilitates surface analysis and processing by defining speed functions in an application-dependent manner.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Efficient Optimization of Common Base Domains for Cross Parameterization
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 10
+SN  - 1077-2626
+VO  - 18
+SP  - 1678
+EP  - 1692
+AU  - Kwok, Tsz-Ho
+AU  - Zhang, Yunbo
+AU  - Wang, Charlie C L
+Y1  - Oct. 2012
+PY  - 2012
+KW  - Computational modeling
+KW  - Layout
+KW  - Optimization
+KW  - Shape analysis
+KW  - Topology
+KW  - Complex domain
+KW  - cross parameterization
+KW  - optimization
+KW  - stretch
+KW  - surface parameterization.
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.115
+AB  - Given a set of corresponding user-specified anchor points on a pair of models having similar features and topologies, the cross parameterization technique can establish a bijective mapping constrained by the anchor points. In this paper, we present an efficient algorithm to optimize the complexes and the shape of common base domains in cross parameterization for reducing the distortion of the bijective mapping. The optimization is also constrained by the anchor points. We investigate a new signature, Length-Preserved Base Domain (LPBD), for measuring the level of stretch between surface patches in cross parameterization. This new signature well balances the accuracy of measurement and the computational speed. Based on LPBD, a set of metrics are studied and compared. The best ones are employed in our domain optimization algorithm that consists of two major operators, boundary swapping and patch merging. Experimental results show that our optimization algorithm can reduce the distortion in cross parameterization efficiently.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Point-Based Manifold Harmonics
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 10
+SN  - 1077-2626
+VO  - 18
+SP  - 1693
+EP  - 1703
+AU  - Liu, Yang
+AU  - Prabhakaran, Balakrishnan
+AU  - Guo, Xiaohu
+Y1  - Oct. 2012
+PY  - 2012
+KW  - Approximation methods
+KW  - Convergence
+KW  - Eigenvalues and eigenfunctions
+KW  - Harmonic analysis
+KW  - Laplace equations
+KW  - Manifolds
+KW  - Symmetric matrices
+KW  - Laplace-Beltrami operator
+KW  - Point-sampled surface
+KW  - eigenfunction.
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.152
+AB  - This paper proposes an algorithm to build a set of orthogonal Point-Based Manifold Harmonic Bases (PB-MHB) for spectral analysis over point-sampled manifold surfaces. To ensure that PB-MHB are orthogonal to each other, it is necessary to have symmetrizable discrete Laplace-Beltrami Operator (LBO) over the surfaces. Existing converging discrete LBO for point clouds, as proposed by Belkin et al. [CHECK END OF SENTENCE], is not guaranteed to be symmetrizable. We build a new point-wisely discrete LBO over the point-sampled surface that is guaranteed to be symmetrizable, and prove its convergence. By solving the eigen problem related to the new operator, we define a set of orthogonal bases over the point cloud. Experiments show that the new operator is converging better than other symmetrizable discrete Laplacian operators (such as graph Laplacian) defined on point-sampled surfaces, and can provide orthogonal bases for further spectral geometric analysis and processing tasks.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Enhancing the Symmetry and Proportion of 3D Face Geometry
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 10
+SN  - 1077-2626
+VO  - 18
+SP  - 1704
+EP  - 1716
+AU  - Liao, Qiqi
+AU  - Jin, Xiaogang
+AU  - Zeng, Wenting
+Y1  - Oct. 2012
+PY  - 2012
+KW  - Face recognition
+KW  - Facial features
+KW  - Geometry
+KW  - Solid modeling
+KW  - Three dimensional displays
+KW  - Facial attractiveness
+KW  - facial geometry.
+KW  - facial profile
+KW  - facial proportion
+KW  - facial symmetrization
+KW  - Adolescent
+KW  - Adult
+KW  - Algorithms
+KW  - Databases, Factual
+KW  - Esthetics
+KW  - Face
+KW  - Female
+KW  - Humans
+KW  - Imaging, Three-Dimensional
+KW  - Least-Squares Analysis
+KW  - Male
+KW  - Models, Anatomic
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2012.26
+AB  - We present an engine for enhancing the geometry of a 3D face mesh model while making the enhanced version share close similarity with the original. After obtaining the feature points of a given scanned 3D face model, we first perform a local and global symmetrization on the key facial features. We then apply an overall proportion optimization to the frontal face based on Neoclassical Canons and golden ratios. A nonlinear least-squares solution is adopted to adjust the feature points so that the face profile complies with the aesthetic criteria, which are derived from the profile cosmetology. Through the above processes, we obtain the optimized feature points, which will lead to a more attractive face. According to the original feature points and the optimized ones, we perform Laplacian deformation to adjust the remaining points of the face in order to preserve the geometric details. The analysis of user study in this paper validates the effectiveness of our 3D face geometry enhancement engine.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Design of 2D Time-Varying Vector Fields
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 10
+SN  - 1077-2626
+VO  - 18
+SP  - 1717
+EP  - 1730
+AU  - Guoning Chen
+AU  - Kwatra, V.
+AU  - Wei, Li-Yi
+AU  - Hansen, C.D.
+AU  - Zhang, E.
+Y1  - Oct. 2012
+PY  - 2012
+KW  - Aerodynamics
+KW  - Animation
+KW  - Bifurcation
+KW  - Time varying systems
+KW  - Topology
+KW  - 2D vector fields
+KW  - Time-varying vector fields
+KW  - dynamic effects for surfaces.
+KW  - vector field design
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.290
+AB  - Design of time-varying vector fields, i.e., vector fields that can change over time, has a wide variety of important applications in computer graphics. Existing vector field design techniques do not address time-varying vector fields. In this paper, we present a framework for the design of time-varying vector fields, both for planar domains as well as manifold surfaces. Our system supports the creation and modification of various time-varying vector fields with desired spatial and temporal characteristics through several design metaphors, including streamlines, pathlines, singularity paths, and bifurcations. These design metaphors are integrated into an element-based design to generate the time-varying vector fields via a sequence of basis field summations or spatial constrained optimizations at the sampled times. The key-frame design and field deformation are also introduced to support other user design scenarios. Accordingly, a spatial-temporal constrained optimization and the time-varying transformation are employed to generate the desired fields for these two design scenarios, respectively. We apply the time-varying vector fields generated using our design system to a number of important computer graphics applications that require controllable dynamic effects, such as evolving surface appearance, dynamic scene design, steerable crowd movement, and painterly animation. Many of these are difficult or impossible to achieve via prior simulation-based methods. In these applications, the time-varying vector fields have been applied as either orientation fields or advection fields to control the instantaneous appearance or evolving trajectories of the dynamic effects.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Feature-Driven Data Exploration for Volumetric Rendering
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 10
+SN  - 1077-2626
+VO  - 18
+SP  - 1731
+EP  - 1743
+AU  - Woo, Insoo
+AU  - Maciejewski, Ross
+AU  - Gaither, Kelly P.
+AU  - Ebert, David S.
+Y1  - Oct. 2012
+PY  - 2012
+KW  - Data visualization
+KW  - Feature extraction
+KW  - Histograms
+KW  - Image color analysis
+KW  - Noise measurement
+KW  - Rendering (computer graphics)
+KW  - Transfer functions
+KW  - Direct volume rendering
+KW  - focus+context visualization.
+KW  - transfer function
+KW  - Algorithms
+KW  - Computer Graphics
+KW  - Computer Simulation
+KW  - Diagnostic Imaging
+KW  - Humans
+KW  - Image Processing, Computer-Assisted
+KW  - Tornadoes
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2012.24
+AB  - We have developed an intuitive method to semiautomatically explore volumetric data in a focus-region-guided or value-driven way using a user-defined ray through the 3D volume and contour lines in the region of interest. After selecting a point of interest from a 2D perspective, which defines a ray through the 3D volume, our method provides analytical tools to assist in narrowing the region of interest to a desired set of features. Feature layers are identified in a 1D scalar value profile with the ray and are used to define default rendering parameters, such as color and opacity mappings, and locate the center of the region of interest. Contour lines are generated based on the feature layer level sets within interactively selected slices of the focus region. Finally, we utilize feature-preserving filters and demonstrate the applicability of our scheme to noisy data.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Interest Driven Navigation in Visualization
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 10
+SN  - 1077-2626
+VO  - 18
+SP  - 1744
+EP  - 1756
+AU  - Healey, Christopher G.
+AU  - Dennis, Brent M.
+Y1  - Oct. 2012
+PY  - 2012
+KW  - Bayesian methods
+KW  - Cameras
+KW  - Context awareness
+KW  - Data models
+KW  - Data visualization
+KW  - Navigation
+KW  - Bayesian network
+KW  - classification
+KW  - navigation
+KW  - preferences
+KW  - visualization.
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2012.23
+AB  - This paper describes a new method to explore and discover within a large data set. We apply techniques from preference elicitation to automatically identify data elements that are of potential interest to the viewer. These &#x0022;elements of interest (EOI)&amp;#x201D; are bundled into spatially local clusters, and connected together to form a graph. The graph is used to build camera paths that allow viewers to &#x0022;tour&amp;#x201D; areas of interest (AOI) within their data. It is also visualized to provide wayfinding cues. Our preference model uses Bayesian classification to tag elements in a data set as interesting or not interesting to the viewer. The model responds in real time, updating the elements of interest based on a viewer's actions. This allows us to track a viewer's interests as they change during exploration and analysis. Viewers can also interact directly with interest rules the preference model defines. We demonstrate our theoretical results by visualizing historical climatology data collected at locations throughout the world.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Parallel Computation of 2D Morse-Smale Complexes
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 10
+SN  - 1077-2626
+VO  - 18
+SP  - 1757
+EP  - 1770
+AU  - Shivashankar, Nithin
+AU  - M, Senthilnathan
+AU  - Natarajan, V.
+Y1  - Oct. 2012
+PY  - 2012
+KW  - Algorithm design and analysis
+KW  - Data visualization
+KW  - Geometry
+KW  - Manifolds
+KW  - Parallel algorithms
+KW  - Vectors
+KW  - 2D scalar functions.
+KW  - Topology-based methods
+KW  - discrete Morse theory
+KW  - gradient pairs
+KW  - large datasets
+KW  - multicore
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.284
+AB  - The Morse-Smale complex is a useful topological data structure for the analysis and visualization of scalar data. This paper describes an algorithm that processes all mesh elements of the domain in parallel to compute the Morse-Smale complex of large 2D datasets at interactive speeds. We employ a reformulation of the Morse-Smale complex using Forman's Discrete Morse Theory and achieve scalability by computing the discrete gradient using local accesses only. We also introduce a novel approach to merge gradient paths that ensures accurate geometry of the computed complex. We demonstrate that our algorithm performs well on both multicore environments and on massively parallel architectures such as the GPU.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Fisheye Video Correction
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 10
+SN  - 1077-2626
+VO  - 18
+SP  - 1771
+EP  - 1783
+AU  - Wei, Jin
+AU  - Li, Chen-Feng
+AU  - Hu, Shi-Min
+AU  - Martin, Ralph R.
+AU  - Tai, Chiew-Lan
+Y1  - Oct. 2012
+PY  - 2012
+KW  - Cameras
+KW  - Lenses
+KW  - Optical distortion
+KW  - Optimization
+KW  - Shape analysis
+KW  - Streaming media
+KW  - Fisheye lens
+KW  - distortion
+KW  - least-squares minimization.
+KW  - mesh
+KW  - optimization
+KW  - video correction
+KW  - wide-angle lens
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.130
+AB  - Various types of video can be captured with fisheye lenses; their wide field of view is particularly suited to surveillance video. However, fisheye lenses introduce distortion, and this changes as objects in the scene move, making fisheye video difficult to interpret. Current still fisheye image correction methods are either limited to small angles of view, or are strongly content dependent, and therefore unsuitable for processing video streams. We present an efficient and robust scheme for fisheye video correction, which minimizes time-varying distortion and preserves salient content in a coherent manner. Our optimization process is controlled by user annotation, and takes into account a wide set of measures addressing different aspects of natural scene appearance. Each is represented as a quadratic term in an energy minimization problem, leading to a closed-form solution via a sparse linear system. We illustrate our method with a range of examples, demonstrating coherent natural-looking video output. The visual quality of individual frames is comparable to those produced by state-of-the-art methods for fisheye still photograph correction.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Variational Blue Noise Sampling
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 10
+SN  - 1077-2626
+VO  - 18
+SP  - 1784
+EP  - 1796
+AU  - Chen, Zhonggui
+AU  - Yuan, Zhan
+AU  - Choi, Yi-King
+AU  - Liu, Ligang
+AU  - Wang, Wenping
+Y1  - Oct. 2012
+PY  - 2012
+KW  - Computer graphics
+KW  - Density functional theory
+KW  - Noise measurement
+KW  - Optimization
+KW  - Point sampling
+KW  - blue noise
+KW  - capacity-constrained
+KW  - centroidal Voronoi tessellation
+KW  - quasi-Newton method.
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2012.94
+AB  - Blue noise point sampling is one of the core algorithms in computer graphics. In this paper, we present a new and versatile variational framework for generating point distributions with high-quality blue noise characteristics while precisely adapting to given density functions. Different from previous approaches based on discrete settings of capacity-constrained Voronoi tessellation, we cast the blue noise sampling generation as a variational problem with continuous settings. Based on an accurate evaluation of the gradient of an energy function, an efficient optimization is developed which delivers significantly faster performance than the previous optimization-based methods. Our framework can easily be extended to generating blue noise point samples on manifold surfaces and for multi-class sampling. The optimization formulation also allows us to naturally deal with dynamic domains, such as deformable surfaces, and to yield blue noise samplings with temporal coherence. We present experimental results to validate the efficacy of our variational framework. Finally, we show a variety of applications of the proposed methods, including nonphotorealistic image stippling, color stippling, and blue noise sampling on deformable surfaces.
+ER  - 
+
+

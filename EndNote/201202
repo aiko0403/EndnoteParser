@@ -1,0 +1,698 @@
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Restoration of Brick and Stone Relief from Single Rubbing Images
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 2
+SN  - 1077-2626
+VO  - 18
+SP  - 177
+EP  - 187
+AU  - Zhuwen Li
+AU  - Song Wang
+AU  - Jinhui Yu
+AU  - Kwan-Liu Ma
+Y1  - Feb. 2012
+PY  - 2012
+KW  - image restoration
+KW  - least squares approximations
+KW  - mesh generation
+KW  - partial differential equations
+KW  - base relief
+KW  - boundary normals
+KW  - brick and stone relief restoration
+KW  - erosion-based contour map
+KW  - height map estimation
+KW  - high frequency detail
+KW  - least-squares error functional minimization
+KW  - object boundary vertices
+KW  - partial differential equation based mesh deformation scheme
+KW  - single rubbing images
+KW  - Frequency estimation
+KW  - Image restoration
+KW  - Pixel
+KW  - Shape
+KW  - Skeleton
+KW  - Surface reconstruction
+KW  - Three dimensional displays
+KW  - 3D modeling
+KW  - cultural heritage.
+KW  - geometric constraints
+KW  - relief
+KW  - restoration
+KW  - rubbing images
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.26
+AB  - We present a two-level approach for height map estimation from single images, aiming at restoring brick and stone relief (BSR) from their rubbing images in a visually plausible manner. In our approach, the base relief of the low frequency component is estimated automatically with a partial differential equation (PDE)-based mesh deformation scheme. A few vertices near the central area of the object region are selected and assigned with heights estimated by an erosion-based contour map. These vertices together with object boundary vertices, boundary normals as well as the partial differential properties of the mesh are taken as constraints to deform the mesh by minimizing a least-squares error functional. The high frequency detail is estimated directly from rubbing images automatically or optionally with minimal interactive processing. The final height map for a restored BSR is obtained by blending height maps of the base relief and high frequency detail. We demonstrate that our method can not only successfully restore several BSR maps from their rubbing images, but also restore some relief-like surfaces from photographic images.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Visualizing Nonmanifold and Singular Implicit Surfaces with Point Clouds
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 2
+SN  - 1077-2626
+VO  - 18
+SP  - 188
+EP  - 201
+AU  - Balsys, R.J.
+AU  - Harbinson, D.J.
+AU  - Suffern, K.G.
+Y1  - Feb. 2012
+PY  - 2012
+KW  - curve fitting
+KW  - data visualisation
+KW  - octrees
+KW  - rendering (computer graphics)
+KW  - CPU version
+KW  - GPU version
+KW  - Gaussian curvature surface
+KW  - complex implicit surface
+KW  - complex nonmanifold implicit surface
+KW  - curvature contour
+KW  - high order polynomial surface
+KW  - image quality
+KW  - image space
+KW  - interactive visualization
+KW  - interval exclusion test
+KW  - nonmanifold feature
+KW  - object space
+KW  - octree spatial subdivision
+KW  - plotting node
+KW  - point cloud
+KW  - point sampling
+KW  - pruning algorithm
+KW  - rendering
+KW  - spatial subdivision scheme
+KW  - Casting
+KW  - Graphics processing unit
+KW  - Image edge detection
+KW  - Octrees
+KW  - Rendering (computer graphics)
+KW  - Surface treatment
+KW  - Visualization
+KW  - Implicit surfaces
+KW  - curvature surfaces
+KW  - cusp
+KW  - intersection curves.
+KW  - intervals
+KW  - nonmanifold surfaces
+KW  - octree
+KW  - point clouds
+KW  - ray
+KW  - ridge
+KW  - singular surfaces
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.79
+AB  - We use octree spatial subdivision to generate point clouds on complex nonmanifold implicit surfaces in order to visualize them. The new spatial subdivision scheme only uses point sampling and an interval exclusion test. The algorithm includes a test for pruning the resulting plotting nodes so that only points in the closest nodes to the surface are used in rendering. This algorithm results in improved image quality compared to the naive use of intervals or affine arithmetic when rendering implicit surfaces, particularly in regions of high curvature. We discuss and compare CPU and GPU versions of the algorithm. We can now render nonmanifold features such as rays, ray-like tubes, cusps, ridges, thin sections that are at arbitrary angles to the octree node edges, and singular points located within plot nodes, all without artifacts. Our previous algorithm could not render these without severe aliasing. The algorithm can render the self-intersection curves of implicit surfaces by exploiting the fact that surfaces are singular where they self-intersect. It can also render the intersection curves of two implicit surfaces. We present new image space and object space algorithms for rendering these intersection curves as contours on one of the surfaces. These algorithms are better at rendering high curvature contours than our previous algorithms. To demonstrate the robustness of the node pruning algorithm we render a number of complex implicit surfaces such as high order polynomial surfaces and Gaussian curvature surfaces. We also compare the algorithm with ray casting in terms of speed and image quality. For the surfaces presented here, the point clouds can be computed in seconds to minutes on a typical Intel based PC. Once this is done, the surfaces can be rendered at much higher frame rates to allow some degree of interactive visualization.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Interactive Image Segmentation Based on Level Sets of Probabilities
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 2
+SN  - 1077-2626
+VO  - 18
+SP  - 202
+EP  - 213
+AU  - Yugang Liu
+AU  - Yizhou Yu
+Y1  - Feb. 2012
+PY  - 2012
+KW  - approximation theory
+KW  - image classification
+KW  - image segmentation
+KW  - interactive systems
+KW  - probability
+KW  - set theory
+KW  - complex topology
+KW  - curvature force
+KW  - edge field force
+KW  - final object segmentation
+KW  - fragmented appearance
+KW  - image classification model
+KW  - image object boundary
+KW  - interactive image segmentation
+KW  - level set function approximation
+KW  - level set method
+KW  - pixelwise posterior probability
+KW  - probabilistic classifier
+KW  - salient edge
+KW  - target object
+KW  - unsigned distance transform
+KW  - user interaction
+KW  - Histograms
+KW  - Image color analysis
+KW  - Image edge detection
+KW  - Image segmentation
+KW  - Level set
+KW  - Pixel
+KW  - Probabilistic logic
+KW  - Image segmentation
+KW  - curvature.
+KW  - distance transform
+KW  - level set method
+KW  - statistical classification
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.77
+AB  - In this paper, we present a robust and accurate algorithm for interactive image segmentation. The level set method is clearly advantageous for image objects with a complex topology and fragmented appearance. Our method integrates discriminative classification models and distance transforms with the level set method to avoid local minima and better snap to true object boundaries. The level set function approximates a transformed version of pixelwise posterior probabilities of being part of a target object. The evolution of its zero level set is driven by three force terms, region force, edge field force, and curvature force. These forces are based on a probabilistic classifier and an unsigned distance transform of salient edges. We further propose a technique that improves the performance of both the probabilistic classifier and the level set method over multiple passes. It makes the final object segmentation less sensitive to user interactions. Experiments and comparisons demonstrate the effectiveness of our method.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - A Neuron Membrane Mesh Representation for Visualization of Electrophysiological Simulations
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 2
+SN  - 1077-2626
+VO  - 18
+SP  - 214
+EP  - 227
+AU  - Lasserre, S.
+AU  - Hernando, J.
+AU  - Hill, S.
+AU  - Schuermann, F.
+AU  - de Miguel Anasagasti, P.
+AU  - Jaoude, G.A.
+AU  - Markram, H.
+Y1  - Feb. 2012
+PY  - 2012
+KW  - bioelectric phenomena
+KW  - biology computing
+KW  - brain
+KW  - data visualisation
+KW  - digital simulation
+KW  - mesh generation
+KW  - complex arborized cell membrane surface
+KW  - cortical neurons
+KW  - electrophysiological simulation visualization
+KW  - morphological points
+KW  - neuron membrane mesh representation
+KW  - polygonal mesh representation
+KW  - three-dimensional mesh representation generation
+KW  - Biomembranes
+KW  - Face
+KW  - Morphology
+KW  - Neurons
+KW  - Shape
+KW  - Surface morphology
+KW  - Three dimensional displays
+KW  - Visualization techniques and methodologies
+KW  - and object representation
+KW  - curve
+KW  - data mapping
+KW  - neuronal network visualization.
+KW  - solid
+KW  - surface
+KW  - Algorithms
+KW  - Animals
+KW  - Brain
+KW  - Computer Simulation
+KW  - Electrophysiological Phenomena
+KW  - Humans
+KW  - Image Processing, Computer-Assisted
+KW  - Models, Neurological
+KW  - Nerve Net
+KW  - Neuroimaging
+KW  - Neurons
+KW  - Reproducibility of Results
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.55
+AB  - We present a process to automatically generate three-dimensional mesh representations of the complex, arborized cell membrane surface of cortical neurons (the principal information processing cells of the brain) from nonuniform morphological measurements. Starting from manually sampled morphological points (3D points and diameters) from neurons in a brain slice preparation, we construct a polygonal mesh representation that realistically represents the continuous membrane surface, closely matching the original experimental data. A mapping between the original morphological points and the newly generated mesh enables simulations of electrophysiolgical activity to be visualized on this new membrane representation. We compare the new mesh representation with the state of the art and present a series of use cases and applications of this technique to visualize simulations of single neurons and networks of multiple neurons.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Cubical Mass-Spring Model Design Based on a Tensile Deformation Test and Nonlinear Material Model
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 2
+SN  - 1077-2626
+VO  - 18
+SP  - 228
+EP  - 241
+AU  - San-Vicente, G.
+AU  - Aguinaga, Iker
+AU  - Celigueta, J.T.
+Y1  - Feb. 2012
+PY  - 2012
+KW  - deformation
+KW  - elasticity
+KW  - finite element analysis
+KW  - springs (mechanical)
+KW  - stress-strain relations
+KW  - tensile testing
+KW  - compressibility curves
+KW  - cubical mass-spring model design
+KW  - deformable bodies mechanical behavior
+KW  - hyperelastic material models
+KW  - nonlinear finite element method
+KW  - nonlinear material model
+KW  - soft-tissue simulations
+KW  - spring stiffness estimation
+KW  - stress-strain
+KW  - tensile deformation test
+KW  - topology identification
+KW  - Computational modeling
+KW  - Deformable models
+KW  - Finite element methods
+KW  - Materials
+KW  - Mathematical model
+KW  - Solid modeling
+KW  - Springs
+KW  - Animation
+KW  - model development
+KW  - physically based modeling
+KW  - virtual reality.
+KW  - Biomechanics
+KW  - Brain
+KW  - Computer Graphics
+KW  - Computer Simulation
+KW  - Elasticity
+KW  - Finite Element Analysis
+KW  - Humans
+KW  - Linear Models
+KW  - Models, Biological
+KW  - Nonlinear Dynamics
+KW  - Stress, Mechanical
+KW  - User-Computer Interface
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.32
+AB  - Mass-Spring Models (MSMs) are used to simulate the mechanical behavior of deformable bodies such as soft tissues in medical applications. Although they are fast to compute, they lack accuracy and their design remains still a great challenge. The major difficulties in building realistic MSMs lie on the spring stiffness estimation and the topology identification. In this work, the mechanical behavior of MSMs under tensile loads is analyzed before studying the spring stiffness estimation. In particular, the performed qualitative and quantitative analysis of the behavior of cubical MSMs shows that they have a nonlinear response similar to hyperelastic material models. According to this behavior, a new method for spring stiffness estimation valid for linear and nonlinear material models is proposed. This method adjusts the stress-strain and compressibility curves to a given reference behavior. The accuracy of the MSMs designed with this method is tested taking as reference some soft-tissue simulations based on nonlinear Finite Element Method (FEM). The obtained results show that MSMs can be designed to realistically model the behavior of hyperelastic materials such as soft tissues and can become an interesting alternative to other approaches such as nonlinear FEM.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - A Survey of Nonlinear Prefiltering Methods for Efficient and Accurate Surface Shading
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 2
+SN  - 1077-2626
+VO  - 18
+SP  - 242
+EP  - 260
+AU  - Bruneton, E.
+AU  - Neyret, F.
+Y1  - Feb. 2012
+PY  - 2012
+KW  - computational geometry
+KW  - rendering (computer graphics)
+KW  - color maps
+KW  - fine scale surface geometry
+KW  - horizon maps
+KW  - illumination properties
+KW  - incident radiance
+KW  - local illumination equation
+KW  - nonlinear prefiltering method
+KW  - nonlinear reflectance functions
+KW  - normal maps
+KW  - real-time rendering
+KW  - self-occlusions
+KW  - self-shadowing
+KW  - shadow maps
+KW  - surface properties
+KW  - surface shading
+KW  - Approximation methods
+KW  - Color
+KW  - Equations
+KW  - Lighting
+KW  - Mathematical model
+KW  - Pixel
+KW  - Rendering (computer graphics)
+KW  - Rendering
+KW  - antialiasing
+KW  - prefiltering
+KW  - reflectance
+KW  - surface.
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.81
+AB  - Rendering a complex surface accurately and without aliasing requires the evaluation of an integral for each pixel, namely, a weighted average of the outgoing radiance over the pixel footprint on the surface. The outgoing radiance is itself given by a local illumination equation as a function of the incident radiance and of the surface properties. Computing all this numerically during rendering can be extremely costly. For efficiency, especially for real-time rendering, it is necessary to use precomputations. When the fine scale surface geometry, reflectance, and illumination properties are specified with maps on a coarse mesh (such as color maps, normal maps, horizon maps, or shadow maps), a frequently used simple idea is to prefilter each map linearly and separately. The averaged outgoing radiance, i.e., the average of the values given by the local illumination equation is then estimated by applying this equation to the averaged surface parameters. But this is really not accurate because this equation is nonlinear, due to self-occlusions, self-shadowing, nonlinear reflectance functions, etc. Some methods use more complex prefiltering algorithms to cope with these nonlinear effects. This paper is a survey of these methods. We start with a general presentation of the problem of prefiltering complex surfaces. We then present and classify the existing methods according to the approximations they make to tackle this difficult problem. Finally, an analysis of these methods allows us to highlight some generic tools to prefilter maps used in nonlinear functions, and to identify open issues to address the general problem.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Direct-to-Indirect Acoustic Radiance Transfer
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 2
+SN  - 1077-2626
+VO  - 18
+SP  - 261
+EP  - 269
+AU  - Antani, L.
+AU  - Chandak, A.
+AU  - Taylor, M.
+AU  - Manocha, D.
+Y1  - Feb. 2012
+PY  - 2012
+KW  - acoustic radiators
+KW  - acoustic signal processing
+KW  - acoustic wave propagation
+KW  - rendering (computer graphics)
+KW  - virtual reality
+KW  - acoustic radiance transfer technique
+KW  - acoustic response
+KW  - diffuse reflection
+KW  - direct-to-lndirect acoustic radiance transfer operator
+KW  - impulse response
+KW  - multibounce diffuse indirect sound
+KW  - precomputed light transport technique
+KW  - static scene
+KW  - visual rendering
+KW  - Acoustics
+KW  - Computational modeling
+KW  - Delay
+KW  - Equations
+KW  - Mathematical model
+KW  - Rendering (computer graphics)
+KW  - Solid modeling
+KW  - Sound propagation
+KW  - precomputed transport.
+KW  - radiosity
+KW  - virtual reality
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.76
+AB  - We present an efficient algorithm for simulating diffuse reflections of sound in a static scene. Our approach is built on recent advances in precomputed light transport techniques for visual rendering and uses them to develop an improved acoustic radiance transfer technique. We precompute a direct-to-indirect acoustic transfer operator for a scene, and use it to map direct sound incident on the surfaces of the scene to multibounce diffuse indirect sound, which is gathered at the listener to compute the final impulse response. Our algorithm decouples the transfer operator from the source position so we can efficiently update the acoustic response at the listener when the source moves. We highlight its performance on various benchmarks and observe significant speedups over prior methods based on acoustic radiance transfer.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - On Mesh-Free Valley Surface Extraction with Application to Low Frequency Sound Simulation
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 2
+SN  - 1077-2626
+VO  - 18
+SP  - 270
+EP  - 282
+AU  - Obermaier, H.
+AU  - Mohring, J.
+AU  - Deines, E.
+AU  - Hering-Bertram, M.
+AU  - Hagen, H.
+Y1  - Feb. 2012
+PY  - 2012
+KW  - acoustic noise
+KW  - data visualisation
+KW  - feature extraction
+KW  - mesh generation
+KW  - 3D scalar fields
+KW  - acoustic simulation
+KW  - adaptive nonmanifold valley
+KW  - crease surface
+KW  - decoupling point seeding
+KW  - meshless extraction
+KW  - region growing based approach
+KW  - ridge surfaces
+KW  - sound cancellation
+KW  - triangulation
+KW  - valley surface construction approach
+KW  - valley surface extraction
+KW  - visualization
+KW  - Acoustics
+KW  - Data visualization
+KW  - Linear approximation
+KW  - Polynomials
+KW  - Surface reconstruction
+KW  - Surface treatment
+KW  - Valley
+KW  - acoustics
+KW  - adaptive surface
+KW  - complex-valued scalar field.
+KW  - crease
+KW  - meshing
+KW  - ridge
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.98
+AB  - Crease surfaces describe extremal structures of 3D scalar fields. We present a new region-growing-based approach to the meshless extraction of adaptive nonmanifold valley and ridge surfaces that overcomes limitations of previous approaches by decoupling point seeding and triangulation of the surface. Our method is capable of extracting valley surface skeletons as connected minimum structures. As our algorithm is inherently mesh-free and curvature adaptive, it is suitable for surface construction in fields with an arbitrary neighborhood structure. As an application for insightful visualization with valley surfaces, we choose a low frequency acoustics simulation. We use our valley surface construction approach to visualize the resulting complex-valued scalar pressure field for arbitrary frequencies to identify regions of sound cancellation. This provides an expressive visualization of the topology of wave node and antinode structures in simulated acoustics.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Mesh-Driven Vector Field Clustering and Visualization: An Image-Based Approach
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 2
+SN  - 1077-2626
+VO  - 18
+SP  - 283
+EP  - 298
+AU  - ZhenMin Peng
+AU  - Grundy, E.
+AU  - Laramee, R.S.
+AU  - Guoning Chen
+AU  - Croft, N.
+Y1  - Feb. 2012
+PY  - 2012
+KW  - computational fluid dynamics
+KW  - data visualisation
+KW  - mesh generation
+KW  - pattern clustering
+KW  - statistical analysis
+KW  - adaptive resolution boundary mesh
+KW  - clustering distance measure parameters
+KW  - computational flow dynamics
+KW  - data structures
+KW  - error-driven representation
+KW  - flow field visualization techniques
+KW  - image-based approach
+KW  - mesh-driven vector field clustering
+KW  - mesh-driven vector field visualization technique
+KW  - statistical methods
+KW  - Adaptation model
+KW  - Clustering algorithms
+KW  - Computational fluid dynamics
+KW  - Computational modeling
+KW  - Data visualization
+KW  - Image resolution
+KW  - Visualization
+KW  - Vector field visualization
+KW  - clustering
+KW  - feature based
+KW  - surfaces.
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.25
+AB  - Vector field visualization techniques have evolved very rapidly over the last two decades, however, visualizing vector fields on complex boundary surfaces from computational flow dynamics (CFD) still remains a challenging task. In part, this is due to the large, unstructured, adaptive resolution characteristics of the meshes used in the modeling and simulation process. Out of the wide variety of existing flow field visualization techniques, vector field clustering algorithms offer the advantage of capturing a detailed picture of important areas of the domain while presenting a simplified view of areas of less importance. This paper presents a novel, robust, automatic vector field clustering algorithm that produces intuitive and insightful images of vector fields on large, unstructured, adaptive resolution boundary meshes from CFD. Our bottom-up, hierarchical approach is the first to combine the properties of the underlying vector field and mesh into a unified error-driven representation. The motivation behind the approach is the fact that CFD engineers may increase the resolution of model meshes according to importance. The algorithm has several advantages. Clusters are generated automatically, no surface parameterization is required, and large meshes are processed efficiently. The most suggestive and important information contained in the meshes and vector fields is preserved while less important areas are simplified in the visualization. Users can interactively control the level of detail by adjusting a range of clustering distance measure parameters. We describe two data structures to accelerate the clustering process. We also introduce novel visualizations of clusters inspired by statistical methods. We apply our method to a series of synthetic and complex, real-world CFD meshes to demonstrate the clustering algorithm results.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Interactive Curvilinear Reformatting in Native Space
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 2
+SN  - 1077-2626
+VO  - 18
+SP  - 299
+EP  - 308
+AU  - Wu Shin-Ting
+AU  - Yasuda, C.L.
+AU  - Cendes, F.
+Y1  - Feb. 2012
+PY  - 2012
+KW  - biomedical MRI
+KW  - brain
+KW  - computer animation
+KW  - medical image processing
+KW  - 2D slices
+KW  - 3D magnetic resonance imaging data
+KW  - 3D painting metaphor
+KW  - automatic brain segmentation procedures
+KW  - cerebral anatomy
+KW  - equidistant curvilinear slices
+KW  - interactive curvilinear reformatting
+KW  - intracranial electroencephalography
+KW  - lesion localization
+KW  - native space
+KW  - neurosurgery
+KW  - reference surface
+KW  - reformatting process animation
+KW  - subtle structural abnormality identification
+KW  - volume tagging algorithm
+KW  - Geometry
+KW  - Painting
+KW  - Scalp
+KW  - Skull
+KW  - Tagging
+KW  - Three dimensional displays
+KW  - 3D interaction.
+KW  - Curvilinear reformatting
+KW  - neurological diagnosis and surgical planning
+KW  - volume clipping and tagging
+KW  - Brain
+KW  - Brain Diseases
+KW  - Electroencephalography
+KW  - Head
+KW  - Humans
+KW  - Image Interpretation, Computer-Assisted
+KW  - Imaging, Three-Dimensional
+KW  - Magnetic Resonance Imaging
+KW  - Models, Biological
+KW  - Neuroimaging
+KW  - Signal Processing, Computer-Assisted
+KW  - Surgery, Computer-Assisted
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.40
+AB  - Curvilinear reformatting of 3D magnetic resonance imaging data has been recognized by the medical community as a helpful noninvasive tool for displaying the cerebral anatomy. It consists of automatically creating, with respect to a reference surface, a series of equidistant curvilinear slices at progressively deeper cuts. In comparison with planar slices, it allows more precise localization of lesions and identification of subtle structural abnormalities. However, current curvilinear reformatting tools either rely on the time-consuming manual delineation of guiding curves on 2D slices, or require costly automatic brain segmentation procedures. In addition, they extract the skin and skull, impeding a precise topographic correlation between the location of the brain lesion and skin surface. This impairs planning of craniotomy for neurosurgery, and of the appropriate implantation of electrodes for intracranial electroencephalography in presurgical evaluation. In this work, we present a novel approach based on direct manipulation of the visualized volume data. By using a 3D painting metaphor, the reference surface can be defined incrementally, according to the principle that the user interacts with what she/he sees. As a response, an animation of the reformatting process is displayed. The focus of this paper is a new volume tagging algorithm behind user interactions. It works at an interactive frame rate on current graphics hardware.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Data Visualization Optimization via Computational Modeling of Perception
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 2
+SN  - 1077-2626
+VO  - 18
+SP  - 309
+EP  - 320
+AU  - Pineo, D.
+AU  - Ware, C.
+Y1  - Feb. 2012
+PY  - 2012
+KW  - biology computing
+KW  - data visualisation
+KW  - digital simulation
+KW  - eye
+KW  - neural nets
+KW  - visual perception
+KW  - 2D flow visualizations
+KW  - LIC-like result
+KW  - data visualization optimization
+KW  - head-to-tail streaklet alignment
+KW  - hill-climbing algorithm
+KW  - human vision computational model
+KW  - neural network simulation
+KW  - perception computational modeling
+KW  - pixel-based parameterization
+KW  - primary visual cortex
+KW  - retina
+KW  - streaklet-based optimization
+KW  - Computational modeling
+KW  - Data models
+KW  - Data visualization
+KW  - Image color analysis
+KW  - Neurons
+KW  - Retina
+KW  - Visualization
+KW  - Information visualization
+KW  - human information processing
+KW  - neural nets
+KW  - optimization.
+KW  - perception
+KW  - Computer Graphics
+KW  - Computer Simulation
+KW  - Humans
+KW  - Models, Neurological
+KW  - Nerve Net
+KW  - Retina
+KW  - Visual Cortex
+KW  - Visual Perception
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.52
+AB  - We present a method for automatically evaluating and optimizing visualizations using a computational model of human vision. The method relies on a neural network simulation of early perceptual processing in the retina and primary visual cortex. The neural activity resulting from viewing flow visualizations is simulated and evaluated to produce a metric of visualization effectiveness. Visualization optimization is achieved by applying this effectiveness metric as the utility function in a hill-climbing algorithm. We apply this method to the evaluation and optimization of 2D flow visualizations, using two visualization parameterizations: streaklet-based and pixel-based. An emergent property of the streaklet-based optimization is head-to-tail streaklet alignment. It had been previously hypothesized the effectiveness of head-to-tail alignment results from the perceptual processing of the visual system, but this theory had not been computationally modeled. A second optimization using a pixel-based parameterization resulted in a LIC-like result. The implications in terms of the selection of primitives is discussed. We argue that computational models can be used for optimizing complex visualizations. In addition, we argue that they can provide a means of computationally evaluating perceptual theories of visualization, and as a method for quality control of display methods.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Exact and Approximate Area-Proportional Circular Venn and Euler Diagrams
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 2
+SN  - 1077-2626
+VO  - 18
+SP  - 321
+EP  - 331
+AU  - Wilkinson, L.
+Y1  - Feb. 2012
+PY  - 2012
+KW  - computational geometry
+KW  - diagrams
+KW  - statistical analysis
+KW  - CRAN
+KW  - Euler diagrams
+KW  - Java program
+KW  - R function venneuler
+KW  - area-proportional circular Venn diagrams
+KW  - minimization procedure
+KW  - null hypothesis
+KW  - statistical loss function
+KW  - statistical model
+KW  - Approximation methods
+KW  - Computational modeling
+KW  - Data models
+KW  - Equations
+KW  - Layout
+KW  - Mathematical model
+KW  - Stress
+KW  - Visualization
+KW  - bioinformatics
+KW  - statistical graphics.
+KW  - Algorithms
+KW  - Computational Biology
+KW  - Computer Graphics
+KW  - Internet
+KW  - Models, Statistical
+KW  - Software
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.56
+AB  - Scientists conducting microarray and other experiments use circular Venn and Euler diagrams to analyze and illustrate their results. As one solution to this problem, this paper introduces a statistical model for fitting area-proportional Venn and Euler diagrams to observed data. The statistical model outlined in this paper includes a statistical loss function and a minimization procedure that enables formal estimation of the Venn/Euler area-proportional model for the first time. A significance test of the null hypothesis is computed for the solution. Residuals from the model are available for inspection. As a result, this algorithm can be used for both exploration and inference on real data sets. A Java program implementing this algorithm is available under the Mozilla Public License. An R function venneuler () is available as a package in CRAN and a plugin is available in Cytoscape.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - DVV: A Taxonomy for Mixed Reality Visualization in Image Guided Surgery
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 2
+SN  - 1077-2626
+VO  - 18
+SP  - 332
+EP  - 352
+AU  - Kersten-Oertel, M.
+AU  - Jannin, P.
+AU  - Collins, D.L.
+Y1  - Feb. 2012
+PY  - 2012
+KW  - augmented reality
+KW  - data visualisation
+KW  - medical computing
+KW  - surgery
+KW  - DVV
+KW  - IGS visualization systems
+KW  - data-visualization processing-view taxonomy
+KW  - image guided surgery system
+KW  - mixed reality visualization
+KW  - operating room
+KW  - Brain
+KW  - Data models
+KW  - Data visualization
+KW  - Surgery
+KW  - Taxonomy
+KW  - Virtual reality
+KW  - Visualization
+KW  - Taxonomy
+KW  - augmented reality
+KW  - augmented virtuality
+KW  - image guided surgery.
+KW  - mixed reality
+KW  - visualization
+KW  - Classification
+KW  - Computer Graphics
+KW  - Humans
+KW  - Image Processing, Computer-Assisted
+KW  - Models, Theoretical
+KW  - Programming Languages
+KW  - Reproducibility of Results
+KW  - Surgery, Computer-Assisted
+KW  - Terminology as Topic
+KW  - User-Computer Interface
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.50
+AB  - Mixed reality visualizations are increasingly studied for use in image guided surgery (IGS) systems, yet few mixed reality systems have been introduced for daily use into the operating room (OR). This may be the result of several factors: the systems are developed from a technical perspective, are rarely evaluated in the field, and/or lack consideration of the end user and the constraints of the OR. We introduce the Data, Visualization processing, View (DVV) taxonomy which defines each of the major components required to implement a mixed reality IGS system. We propose that these components be considered and used as validation criteria for introducing a mixed reality IGS system into the OR. A taxonomy of IGS visualization systems is a step toward developing a common language that will help developers and end users discuss and understand the constituents of a mixed reality visualization system, facilitating a greater presence of future systems in the OR. We evaluate the DVV taxonomy based on its goodness of fit and completeness. We demonstrate the utility of the DVV taxonomy by classifying 17 state-of-the-art research papers in the domain of mixed reality visualization IGS systems. Our classification shows that few IGS visualization systems' components have been validated and even fewer are evaluated.
+ER  - 
+
+

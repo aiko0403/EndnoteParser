@@ -1,0 +1,763 @@
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - ISP: An Optimal Out-of-Core Image-Set Processing Streaming Architecture for Parallel Heterogeneous Systems
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 6
+SN  - 1077-2626
+VO  - 18
+SP  - 838
+EP  - 851
+AU  - Ha, L.K.
+AU  - Kruger, J.
+AU  - Comba, J.L.D.
+AU  - Silva, C.T.
+AU  - Joshi, S.
+Y1  - June 2012
+PY  - 2012
+KW  - graphics processing units
+KW  - image processing
+KW  - parallel processing
+KW  - pipeline processing
+KW  - statistical analysis
+KW  - CPU-GPU systems
+KW  - ISP framework
+KW  - asynchronous execution mechanism
+KW  - computational efficiency
+KW  - data structures
+KW  - image population analysis
+KW  - memory usage
+KW  - optimal out-of-core image-set processing streaming architecture
+KW  - out-of-core approach pipeline processing
+KW  - parallel heterogeneous systems
+KW  - statistical methods
+KW  - streaming algorithms
+KW  - supercomputing power
+KW  - Computational modeling
+KW  - Data models
+KW  - Graphics processing unit
+KW  - Hardware
+KW  - MIMO
+KW  - Parallel processing
+KW  - Streaming media
+KW  - GPUs
+KW  - atlas construction
+KW  - diffeomorphism
+KW  - multiimage processing framework.
+KW  - out-of-core processing
+KW  - Algorithms
+KW  - Brain
+KW  - Computer Graphics
+KW  - Databases, Factual
+KW  - Diagnostic Imaging
+KW  - Humans
+KW  - Image Processing, Computer-Assisted
+KW  - Models, Theoretical
+KW  - Regression Analysis
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2012.32
+AB  - Image population analysis is the class of statistical methods that plays a central role in understanding the development, evolution, and disease of a population. However, these techniques often require excessive computational power and memory that are compounded with a large number of volumetric inputs. Restricted access to supercomputing power limits its influence in general research and practical applications. In this paper we introduce ISP, an Image-Set Processing streaming framework that harnesses the processing power of commodity heterogeneous CPU/GPU systems and attempts to solve this computational problem. In ISP, we introduce specially designed streaming algorithms and data structures that provide an optimal solution for out-of-core multiimage processing problems both in terms of memory usage and computational efficiency. ISP makes use of the asynchronous execution mechanism supported by parallel heterogeneous systems to efficiently hide the inherent latency of the processing pipeline of out-of-core approaches. Consequently, with computationally intensive problems, the ISP out-of-core solution can achieve the same performance as the in-core solution. We demonstrate the efficiency of the ISP framework on synthetic and real datasets.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Parallel Computational Steering for HPC Applications Using HDF5 Files in Distributed Shared Memory
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 6
+SN  - 1077-2626
+VO  - 18
+SP  - 852
+EP  - 864
+AU  - Biddiscombe, J.
+AU  - Soumagne, J.
+AU  - Oger, G.
+AU  - Guibert, D.
+AU  - Piccinali, J.-G.
+Y1  - June 2012
+PY  - 2012
+KW  - XML
+KW  - application program interfaces
+KW  - data analysis
+KW  - data visualisation
+KW  - device drivers
+KW  - distributed shared memory systems
+KW  - graphical user interfaces
+KW  - interactive systems
+KW  - mesh generation
+KW  - parallel processing
+KW  - pipeline processing
+KW  - GUI client
+KW  - GUI driven visualization-analysis package
+KW  - HDF5 files
+KW  - HDF5 library
+KW  - HPC application
+KW  - IO layer
+KW  - MPI job
+KW  - ParaView pipelines
+KW  - XML templates
+KW  - concurrent parallel analysis
+KW  - custom driver
+KW  - distributed shared memory file
+KW  - grid remeshing
+KW  - hardware configurations
+KW  - interactive instrument
+KW  - parallel computational steering
+KW  - parallel simulation
+KW  - supercomputer
+KW  - Analytical models
+KW  - Computational modeling
+KW  - Data models
+KW  - Graphical user interfaces
+KW  - Libraries
+KW  - Servers
+KW  - Synchronization
+KW  - Parallel I/O
+KW  - distributed/network graphics
+KW  - software libraries.
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2012.63
+AB  - Interfacing a GUI driven visualization/analysis package to an HPC application enables a supercomputer to be used as an interactive instrument. We achieve this by replacing the IO layer in the HDF5 library with a custom driver which transfers data in parallel between simulation and analysis. Our implementation using ParaView as the interface, allows a flexible combination of parallel simulation, concurrent parallel analysis, and GUI client, either on the same or separate machines. Each MPI job may use different core counts or hardware configurations, allowing fine tuning of the amount of resources dedicated to each part of the workload. By making use of a distributed shared memory file, one may read data from the simulation, modify it using ParaView pipelines, write it back, to be reused by the simulation (or vice versa). This allows not only simple parameter changes, but complete remeshing of grids, or operations involving regeneration of field values over the entire domain. To avoid the problem of manually customizing the GUI for each application that is to be steered, we make use of XML templates that describe outputs from the simulation (and inputs back to it) to automatically generate GUI controls for manipulation of the simulation.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Hexagonal Global Parameterization of Arbitrary Surfaces
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 6
+SN  - 1077-2626
+VO  - 18
+SP  - 865
+EP  - 878
+AU  - Nieser, M.
+AU  - Palacios, J.
+AU  - Polthier, K.
+AU  - Zhang, E.
+Y1  - June 2012
+PY  - 2012
+KW  - computational geometry
+KW  - image texture
+KW  - mesh generation
+KW  - solid modelling
+KW  - HEXCOVER
+KW  - QUADCOVER algorithm
+KW  - arbitrary surfaces
+KW  - geometry patterns
+KW  - geometry-aware global parameterization
+KW  - hexagonal global parameterization
+KW  - hexagonal remeshing
+KW  - parameter lines
+KW  - regular textures
+KW  - sixfold rotational symmetries
+KW  - surface parameterization
+KW  - triangular remeshing
+KW  - Clustering algorithms
+KW  - Electronic mail
+KW  - Geometry
+KW  - Indexes
+KW  - Pipelines
+KW  - Surface texture
+KW  - Tensile stress
+KW  - Surface parameterization
+KW  - geometry synthesis
+KW  - hexagonal global parameterization
+KW  - pattern synthesis on surfaces
+KW  - regular patterns.
+KW  - rotational symmetry
+KW  - texture synthesis
+KW  - triangular remeshing
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.118
+AB  - We introduce hexagonal global parameterization, a new type of surface parameterization in which parameter lines respect sixfold rotational symmetries (6-RoSy). Such parameterizations enable the tiling of surfaces with nearly regular hexagonal or triangular patterns, and can be used for triangular remeshing. Our framework to construct a hexagonal parameterization, referred to as HEXCOVER, extends the QUADCOVER algorithm and formulates necessary conditions for hexagonal parameterization. We also provide an algorithm to automatically generate a 6-RoSy field that respects directional and singularity features in the surface. We demonstrate the usefulness of our geometry-aware global parameterization with applications such as surface tiling with nearly regular textures and geometry patterns, as well as triangular and hexagonal remeshing.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Efficiently Computing Exact Geodesic Loops within Finite Steps
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 6
+SN  - 1077-2626
+VO  - 18
+SP  - 879
+EP  - 889
+AU  - Shi-Qing Xin
+AU  - Ying He
+AU  - Chi-Wing Fu
+Y1  - June 2012
+PY  - 2012
+KW  - computational complexity
+KW  - computational geometry
+KW  - differential geometry
+KW  - image segmentation
+KW  - mesh generation
+KW  - closed face sequence
+KW  - closed path
+KW  - differential geometry
+KW  - differential topology
+KW  - edge sequences
+KW  - exact geodesic loop
+KW  - finite steps
+KW  - geodesic curvature flow method
+KW  - geometric shape
+KW  - interactive shape segmentation
+KW  - interactive speed
+KW  - mathematics community
+KW  - polygonal surfaces
+KW  - space complexity
+KW  - time complexity
+KW  - triangular mesh edge
+KW  - Approximation algorithms
+KW  - Approximation methods
+KW  - Complexity theory
+KW  - Face
+KW  - Image edge detection
+KW  - Measurement
+KW  - Shape
+KW  - Discrete geodesic
+KW  - geodesic loop
+KW  - triangular mesh.
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.119
+AB  - Closed geodesics, or geodesic loops, are crucial to the study of differential topology and differential geometry. Although the existence and properties of closed geodesics on smooth surfaces have been widely studied in mathematics community, relatively little progress has been made on how to compute them on polygonal surfaces. Most existing algorithms simply consider the mesh as a graph and so the resultant loops are restricted only on mesh edges, which are far from the actual geodesics. This paper is the first to prove the existence and uniqueness of geodesic loop restricted on a closed face sequence; it contributes also with an efficient algorithm to iteratively evolve an initial closed path on a given mesh into an exact geodesic loop within finite steps. Our proposed algorithm takes only an O(k) space complexity and an O(mk) time complexity (experimentally), where m is the number of vertices in the region bounded by the initial loop and the resultant geodesic loop, and k is the average number of edges in the edge sequences that the evolving loop passes through. In contrast to the existing geodesic curvature flow methods which compute an approximate geodesic loop within a predefined threshold, our method is exact and can apply directly to triangular meshes without needing to solve any differential equation with a numerical solver; it can run at interactive speed, e.g., in the order of milliseconds, for a mesh with around 50K vertices, and hence, significantly outperforms existing algorithms. Actually, our algorithm could run at interactive speed even for larger meshes. Besides the complexity of the input mesh, the geometric shape could also affect the number of evolving steps, i.e., the performance. We motivate our algorithm with an interactive shape segmentation example shown later in the paper.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Transforming GIS Data into Functional Road Models for Large-Scale Traffic Simulation
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 6
+SN  - 1077-2626
+VO  - 18
+SP  - 890
+EP  - 901
+AU  - Wilkie, D.
+AU  - Sewall, J.
+AU  - Lin, M.C.
+Y1  - June 2012
+PY  - 2012
+KW  - computational geometry
+KW  - data visualisation
+KW  - digital simulation
+KW  - geographic information systems
+KW  - interactive systems
+KW  - solid modelling
+KW  - traffic engineering computing
+KW  - virtual reality
+KW  - 3D visualization
+KW  - GIS database
+KW  - arbitrary states
+KW  - autonomous vehicle navigation
+KW  - functional road models
+KW  - geographic information system data
+KW  - geometrically consistent 3D model
+KW  - highways
+KW  - interactive visualization
+KW  - intersections
+KW  - large-scale traffic simulation
+KW  - legal merge zones
+KW  - macroscopic techniques
+KW  - microscopic techniques
+KW  - overpasses
+KW  - polylines
+KW  - ramps
+KW  - sensor data
+KW  - topologically consistent 3D model
+KW  - virtual worlds
+KW  - Computational modeling
+KW  - Data models
+KW  - Data visualization
+KW  - Geographic information systems
+KW  - Geometry
+KW  - Roads
+KW  - Virtual world
+KW  - geometric modeling.
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.116
+AB  - There exists a vast amount of geographic information system (GIS) data that model road networks around the world as polylines with attributes. In this form, the data are insufficient for applications such as simulation and 3D visualization-tools which will grow in power and demand as sensor data become more pervasive and as governments try to optimize their existing physical infrastructure. In this paper, we propose an efficient method for enhancing a road map from a GIS database to create a geometrically and topologically consistent 3D model to be used in real-time traffic simulation, interactive visualization of virtual worlds, and autonomous vehicle navigation. The resulting representation provides important road features for traffic simulations, including ramps, highways, overpasses, legal merge zones, and intersections with arbitrary states, and it is independent of the simulation methodologies. We test the 3D models of road networks generated by our algorithm on real-time traffic simulation using both macroscopic and microscopic techniques.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Region-Based Line Field Design Using Harmonic Functions
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 6
+SN  - 1077-2626
+VO  - 18
+SP  - 902
+EP  - 913
+AU  - Chih-Yuan Yao
+AU  - Ming-Te Chi
+AU  - Tong-Yee Lee
+AU  - Tao Ju
+Y1  - June 2012
+PY  - 2012
+KW  - data visualisation
+KW  - harmonic analysis
+KW  - topology
+KW  - continuous fields
+KW  - design paradigm
+KW  - flow patterns
+KW  - graphics
+KW  - harmonic functions
+KW  - image stylization
+KW  - intuitive control
+KW  - region-based line field design
+KW  - robust topology management
+KW  - topology control
+KW  - visualization
+KW  - Algorithm design and analysis
+KW  - Harmonic analysis
+KW  - Indexes
+KW  - Robustness
+KW  - Skeleton
+KW  - Surface treatment
+KW  - Topology
+KW  - Field design
+KW  - harmonic functions.
+KW  - line field
+KW  - singularity
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.112
+AB  - Field design has wide applications in graphics and visualization. One of the main challenges in field design has been how to provide users with both intuitive control over the directions in the field on one hand and robust management of its topology on the other hand. In this paper, we present a design paradigm for line fields that addresses this challenge. Rather than asking users to input all singularities as in most methods that offer topology control, we let the user provide a partitioning of the domain and specify simple flow patterns within the partitions. Represented by a selected set of harmonic functions, the elementary fields within the partitions are then combined to form continuous fields with rich appearances and well-determined topology. Our method allows a user to conveniently design the flow patterns while having precise and robust control over the topological structure. Based on the method, we developed an interactive tool for designing line fields from images, and demonstrated the utility of the fields in image stylization.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Efficient and Flexible Sampling with Blue Noise Properties of Triangular Meshes
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 6
+SN  - 1077-2626
+VO  - 18
+SP  - 914
+EP  - 924
+AU  - Corsini, M.
+AU  - Cignoni, P.
+AU  - Scopigno, R.
+Y1  - June 2012
+PY  - 2012
+KW  - Monte Carlo methods
+KW  - Poisson distribution
+KW  - computational geometry
+KW  - mesh generation
+KW  - sampling methods
+KW  - solid modelling
+KW  - 3D mesh surface
+KW  - Monte Carlo distribution
+KW  - blue noise properties
+KW  - constrained Poisson-disk sampling scheme
+KW  - flexible sampling
+KW  - frequency characterization
+KW  - generic geometric constraints
+KW  - importance sampling
+KW  - in-depth analysis
+KW  - polygonal meshes
+KW  - triangular meshes
+KW  - Algorithm design and analysis
+KW  - Complexity theory
+KW  - Context
+KW  - Monte Carlo methods
+KW  - Noise
+KW  - Three dimensional displays
+KW  - Tiles
+KW  - Geometry processing
+KW  - Monte Carlo methods.
+KW  - Poisson-disk sampling
+KW  - computational geometry
+KW  - sampling
+KW  - three-dimensional graphics and realism
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2012.34
+AB  - This paper deals with the problem of taking random samples over the surface of a 3D mesh describing and evaluating efficient algorithms for generating different distributions. We discuss first the problem of generating a Monte Carlo distribution in an efficient and practical way avoiding common pitfalls. Then, we propose Constrained Poisson-disk sampling, a new Poisson-disk sampling scheme for polygonal meshes which can be easily tweaked in order to generate customized set of points such as importance sampling or distributions with generic geometric constraints. In particular, two algorithms based on this approach are presented. An in-depth analysis of the frequency characterization and performance of the proposed algorithms are also presented and discussed.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - A Versatile Optical Model for Hybrid Rendering of Volume Data
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 6
+SN  - 1077-2626
+VO  - 18
+SP  - 925
+EP  - 937
+AU  - Fei Yang
+AU  - Qingde Li
+AU  - Dehui Xiang
+AU  - Yong Cao
+AU  - Tian, Jie
+Y1  - June 2012
+PY  - 2012
+KW  - computational geometry
+KW  - rendering (computer graphics)
+KW  - dense objects
+KW  - hybrid volume data rendering
+KW  - isosurfaces
+KW  - light rays
+KW  - normal-based shading
+KW  - numerical estimation methods
+KW  - particle elements
+KW  - particle macro behavior
+KW  - particle-based optical model
+KW  - preintegration
+KW  - surface elements
+KW  - transparent particle clouds
+KW  - versatile optical model
+KW  - volumetric object
+KW  - Equations
+KW  - Isosurfaces
+KW  - Mathematical model
+KW  - Numerical models
+KW  - Rendering (computer graphics)
+KW  - Solid modeling
+KW  - Transfer functions
+KW  - Direct volume rendering
+KW  - isosurfaces
+KW  - optical models
+KW  - preintegration
+KW  - ray casting
+KW  - transfer function.
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.113
+AB  - In volume rendering, most optical models currently in use are based on the assumptions that a volumetric object is a collection of particles and that the macro behavior of particles, when they interact with light rays, can be predicted based on the behavior of each individual particle. However, such models are not capable of characterizing the collective optical effect of a collection of particles which dominates the appearance of the boundaries of dense objects. In this paper, we propose a generalized optical model that combines particle elements and surface elements together to characterize both the behavior of individual particles and the collective effect of particles. The framework based on a new model provides a more powerful and flexible tool for hybrid rendering of isosurfaces and transparent clouds of particles in a single scene. It also provides a more rational basis for shading, so the problem of normal-based shading in homogeneous regions encountered in conventional volume rendering can be easily avoided. The model can be seen as an extension to the classical model. It can be implemented easily, and most of the advanced numerical estimation methods previously developed specifically for the particle-based optical model, such as preintegration, can be applied to the new model to achieve high-quality rendering results.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Robust Morse Decompositions of Piecewise Constant Vector Fields
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 6
+SN  - 1077-2626
+VO  - 18
+SP  - 938
+EP  - 951
+AU  - Szymczak, A.
+AU  - Zhang, E.
+Y1  - June 2012
+PY  - 2012
+KW  - computational geometry
+KW  - data visualisation
+KW  - mesh generation
+KW  - pattern classification
+KW  - differential inclusions
+KW  - geometric rules
+KW  - mesh discontinuity
+KW  - morse set classification framework
+KW  - piecewise constant vector field
+KW  - robust morse decompositions
+KW  - simulation data sets
+KW  - subtriangle precision
+KW  - triangulated manifold surface
+KW  - visualization enhancement
+KW  - Indexes
+KW  - Orbits
+KW  - Spirals
+KW  - Support vector machine classification
+KW  - Topology
+KW  - Trajectory
+KW  - Vectors
+KW  - Morse decomposition
+KW  - vector field topology.
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.88
+AB  - In this paper, we introduce a new approach to computing a Morse decomposition of a vector field on a triangulated manifold surface. The basic idea is to convert the input vector field to a piecewise constant (PC) vector field, whose trajectories can be computed using simple geometric rules. To overcome the intrinsic difficulty in PC vector fields (in particular, discontinuity along mesh edges), we borrow results from the theory of differential inclusions. The input vector field and its PC variant have similar Morse decompositions. We introduce a robust and efficient algorithm to compute Morse decompositions of a PC vector field. Our approach provides subtriangle precision for Morse sets. In addition, we describe a Morse set classification framework which we use to color code the Morse sets in order to enhance the visualization. We demonstrate the benefits of our approach with three well-known simulation data sets, for which our method has produced Morse decompositions that are similar to or finer than those obtained using existing techniques, and is over an order of magnitude faster.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Topology Verification for Isosurface Extraction
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 6
+SN  - 1077-2626
+VO  - 18
+SP  - 952
+EP  - 965
+AU  - Etiene, T.
+AU  - Nonato, L.G.
+AU  - Scheidegger, C.
+AU  - Tienry, J.
+AU  - Peters, T.J.
+AU  - Pascucci, V.
+AU  - Kirby, R.M.
+AU  - Silva, C.T.
+Y1  - June 2012
+PY  - 2012
+KW  - computational geometry
+KW  - data visualisation
+KW  - topology
+KW  - algorithmic implementations
+KW  - digital topology
+KW  - isosurface coding mistakes
+KW  - isosurface extraction
+KW  - stratified Morse theory
+KW  - topological invariant verification
+KW  - topology verification
+KW  - verifiable visualization
+KW  - Face
+KW  - Interpolation
+KW  - Isosurfaces
+KW  - Level set
+KW  - Manifolds
+KW  - Software
+KW  - Topology
+KW  - Verifiable visualization
+KW  - isosurface
+KW  - topology.
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.109
+AB  - The broad goals of verifiable visualization rely on correct algorithmic implementations. We extend a framework for verification of isosurfacing implementations to check topological properties. Specifically, we use stratified Morse theory and digital topology to design algorithms which verify topological invariants. Our extended framework reveals unexpected behavior and coding mistakes in popular publicly available isosurface codes.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Analysis of Time-Dependent Flow-Sensitive PC-MRI Data
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 6
+SN  - 1077-2626
+VO  - 18
+SP  - 966
+EP  - 977
+AU  - Krishnan, H.
+AU  - Garth, C.
+AU  - Guhring, J.
+AU  - Gulsun, M.A.
+AU  - Greiser, A.
+AU  - Joy, K.I.
+Y1  - June 2012
+PY  - 2012
+KW  - biomedical MRI
+KW  - blood vessels
+KW  - data visualisation
+KW  - flow visualisation
+KW  - haemodynamics
+KW  - integration
+KW  - medical computing
+KW  - MRI
+KW  - advection length
+KW  - anatomic information
+KW  - blood flow visualization techniques
+KW  - blood vessel boundary identification
+KW  - data resolution
+KW  - finite-time Lyapunov exponents
+KW  - flow line extraction
+KW  - flow-sensitive phase-contrast magnetic resonance imaging data sets
+KW  - integration-based visualization methods
+KW  - surface extraction
+KW  - time-varying flow information
+KW  - Biomedical imaging
+KW  - Blood
+KW  - Data visualization
+KW  - Magnetic resonance imaging
+KW  - Trajectory
+KW  - Visualization
+KW  - Flow analysis
+KW  - flow-sensitive MRI
+KW  - medical visualization.
+KW  - surface extraction
+KW  - time-varying and time-series visualization
+KW  - Algorithms
+KW  - Blood Flow Velocity
+KW  - Computer Graphics
+KW  - Humans
+KW  - Image Processing, Computer-Assisted
+KW  - Magnetic Resonance Angiography
+KW  - Models, Cardiovascular
+KW  - Thorax
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.80
+AB  - Many flow visualization techniques, especially integration-based methods, are problematic when the measured data exhibit noise and discretization issues. Particularly, this is the case for flow-sensitive phase-contrast magnetic resonance imaging (PC-MRI) data sets which not only record anatomic information, but also time-varying flow information. We propose a novel approach for the visualization of such data sets using integration-based methods. Our ideas are based upon finite-time Lyapunov exponents (FTLE) and enable identification of vessel boundaries in the data as high regions of separation. This allows us to correctly restrict integration-based visualization to blood vessels. We validate our technique by comparing our approach to existing anatomy-based methods as well as addressing the benefits and limitations of using FTLE to restrict flow. We also discuss the importance of parameters, i.e., advection length and data resolution, in establishing a well-defined vessel boundary. We extract appropriate flow lines and surfaces that enable the visualization of blood flow within the vessels. We further enhance the visualization by analyzing flow behavior in the seeded region and generating simplified depictions.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Exploring Brain Connectivity with Two-Dimensional Neural Maps
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 6
+SN  - 1077-2626
+VO  - 18
+SP  - 978
+EP  - 987
+AU  - Jianu, R.
+AU  - Demiralp, C.
+AU  - Laidlaw, D.H.
+Y1  - June 2012
+PY  - 2012
+KW  - Internet
+KW  - biodiffusion
+KW  - biomedical MRI
+KW  - brain models
+KW  - brain-computer interfaces
+KW  - data visualisation
+KW  - interactive systems
+KW  - medical computing
+KW  - neural nets
+KW  - neurophysiology
+KW  - 3D brain models
+KW  - Web interface
+KW  - anecdotal study
+KW  - brain connectivity
+KW  - diffusion weighted brain imaging data sets
+KW  - geographical digital maps framework
+KW  - lightweight Web accessible system
+KW  - low-dimensional representations
+KW  - planar neural maps
+KW  - planar sectional views
+KW  - quantitative study
+KW  - stand-alone interactive application
+KW  - standard streamtube models
+KW  - tract-of-interest selection
+KW  - two-dimensional neural maps
+KW  - visual clarity
+KW  - visualization
+KW  - Computational modeling
+KW  - Data visualization
+KW  - Diffusion tensor imaging
+KW  - Rendering (computer graphics)
+KW  - Splines (mathematics)
+KW  - Three dimensional displays
+KW  - Visualization
+KW  - DTI fiber tracts
+KW  - abstraction
+KW  - coloring.
+KW  - filtration
+KW  - interaction
+KW  - path immersion
+KW  - Algorithms
+KW  - Brain
+KW  - Brain Mapping
+KW  - Cluster Analysis
+KW  - Computer Graphics
+KW  - Diffusion Tensor Imaging
+KW  - Female
+KW  - Humans
+KW  - Image Processing, Computer-Assisted
+KW  - Male
+KW  - Nerve Fibers
+KW  - Neural Pathways
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.82
+AB  - We introduce two-dimensional neural maps for exploring connectivity in the brain. For this, we create standard streamtube models from diffusion-weighted brain imaging data sets along with neural paths hierarchically projected into the plane. These planar neural maps combine desirable properties of low-dimensional representations, such as visual clarity and ease of tract-of-interest selection, with the anatomical familiarity of 3D brain models and planar sectional views. We distribute this type of visualization both in a traditional stand-alone interactive application and as a novel, lightweight web-accessible system. The web interface integrates precomputed neural-path representations into a geographical digital-maps framework with associated labels, metrics, statistics, and linkouts. Anecdotal and quantitative comparisons of the present method with a recently proposed 2D point representation suggest that our representation is more intuitive and easier to use and learn. Similarly, users are faster and more accurate in selecting bundles using the 2D path representation than the 2D point representation. Finally, expert feedback on the web interface suggests that it can be useful for collaboration as well as quick exploration of data.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Conceptual Recurrence Plots: Revealing Patterns in Human Discourse
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 6
+SN  - 1077-2626
+VO  - 18
+SP  - 988
+EP  - 997
+AU  - Angus, D.
+AU  - Smith, A.
+AU  - Wiles, J.
+Y1  - June 2012
+PY  - 2012
+KW  - data visualisation
+KW  - text analysis
+KW  - time series
+KW  - complex time series data
+KW  - conceptual information
+KW  - conceptual recurrence plot technique
+KW  - conversation transcripts
+KW  - data stream
+KW  - global-local pattern visualization
+KW  - human discourse
+KW  - information visualization technique
+KW  - interaction pattern discovery
+KW  - language modelling
+KW  - pattern revealing
+KW  - point similarity measurement
+KW  - term-based similarity
+KW  - text utterances
+KW  - Data visualization
+KW  - Humans
+KW  - Image color analysis
+KW  - Pain
+KW  - Semantics
+KW  - Surgery
+KW  - Time series analysis
+KW  - Concept map
+KW  - concept
+KW  - conversation analysis
+KW  - plotting
+KW  - recurrence
+KW  - text analysis.
+KW  - Communication
+KW  - Computer Graphics
+KW  - Databases, Factual
+KW  - Humans
+KW  - Narration
+KW  - Natural Language Processing
+KW  - Pattern Recognition, Automated
+KW  - Speech
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.100
+AB  - Human discourse contains a rich mixture of conceptual information. Visualization of the global and local patterns within this data stream is a complex and challenging problem. Recurrence plots are an information visualization technique that can reveal trends and features in complex time series data. The recurrence plot technique works by measuring the similarity of points in a time series to all other points in the same time series and plotting the results in two dimensions. Previous studies have applied recurrence plotting techniques to textual data; however, these approaches plot recurrence using term-based similarity rather than conceptual similarity of the text. We introduce conceptual recurrence plots, which use a model of language to measure similarity between pairs of text utterances, and the similarity of all utterances is measured and displayed. In this paper, we explore how the descriptive power of the recurrence plotting technique can be used to discover patterns of interaction across a series of conversation transcripts. The results suggest that the conceptual recurrence plotting technique is a useful tool for exploring the structure of human discourse.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Model-Driven Design for the Visual Analysis of Heterogeneous Data
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 6
+SN  - 1077-2626
+VO  - 18
+SP  - 998
+EP  - 1010
+AU  - Streit, M.
+AU  - Schulz, H.
+AU  - Lex, A.
+AU  - Schmalstieg, D.
+AU  - Schumann, H.
+Y1  - June 2012
+PY  - 2012
+KW  - cancer
+KW  - data visualisation
+KW  - medical computing
+KW  - patient treatment
+KW  - Stacknflip
+KW  - analysis task workflow
+KW  - analytical process
+KW  - biomedical use case
+KW  - cancer patient treatment plan
+KW  - data trajectory
+KW  - data visualization
+KW  - heterogeneous clinical data pool visual analysis
+KW  - interactive views
+KW  - model-driven design process
+KW  - Analytical models
+KW  - Biological system modeling
+KW  - Computational modeling
+KW  - Concrete
+KW  - Data models
+KW  - Data visualization
+KW  - Visualization
+KW  - Visual analytics
+KW  - analysis guidance
+KW  - model-driven design
+KW  - multiple data sets.
+KW  - Cluster Analysis
+KW  - Computational Biology
+KW  - Computer Graphics
+KW  - Databases, Factual
+KW  - Humans
+KW  - Medical Informatics Applications
+KW  - Models, Theoretical
+KW  - Neoplasms
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.108
+AB  - As heterogeneous data from different sources are being increasingly linked, it becomes difficult for users to understand how the data are connected, to identify what means are suitable to analyze a given data set, or to find out how to proceed for a given analysis task. We target this challenge with a new model-driven design process that effectively codesigns aspects of data, view, analytics, and tasks. We achieve this by using the workflow of the analysis task as a trajectory through data, interactive views, and analytical processes. The benefits for the analysis session go well beyond the pure selection of appropriate data sets and range from providing orientation or even guidance along a preferred analysis path to a potential overall speedup, allowing data to be fetched ahead of time. We illustrate the design process for a biomedical use case that aims at determining a treatment plan for cancer patients from the visual analysis of a large, heterogeneous clinical data pool. As an example for how to apply the comprehensive design approach, we present Stack'n'flip, a sample implementation which tightly integrates visualizations of the actual data with a map of available data sets, views, and tasks, thus capturing and communicating the analytical workflow through the required data sets.
+ER  - 
+
+

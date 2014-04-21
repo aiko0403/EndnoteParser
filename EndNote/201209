@@ -1,0 +1,786 @@
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Flow Visualization with Quantified Spatial and Temporal Errors Using Edge Maps
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 9
+SN  - 1077-2626
+VO  - 18
+SP  - 1383
+EP  - 1396
+AU  - Bhatia, H.
+AU  - Jadhav, S.
+AU  - Bremer, P.
+AU  - Guoning Chen
+AU  - Levine, J.A.
+AU  - Nonato, L.G.
+AU  - Pascucci, V.
+Y1  - Sept. 2012
+PY  - 2012
+KW  - error analysis
+KW  - feature extraction
+KW  - flow visualisation
+KW  - topology
+KW  - vectors
+KW  - complex systems
+KW  - edge maps
+KW  - error quantification
+KW  - error streamlines
+KW  - error threshold
+KW  - explicit storage
+KW  - feature extraction
+KW  - floating point precision
+KW  - flow behaviors
+KW  - flow visualization unreliability
+KW  - numerical errors
+KW  - quantified spatial error
+KW  - quantified temporal error
+KW  - refinement procedure
+KW  - robust analysis
+KW  - topological skeleton
+KW  - triangle boundaries
+KW  - user-defined error bound
+KW  - vector fields
+KW  - Data visualization
+KW  - Image edge detection
+KW  - Linear approximation
+KW  - Skeleton
+KW  - Uncertainty
+KW  - Visualization
+KW  - Vector fields
+KW  - edge maps.
+KW  - error quantification
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.265
+AB  - Robust analysis of vector fields has been established as an important tool for deriving insights from the complex systems these fields model. Traditional analysis and visualization techniques rely primarily on computing streamlines through numerical integration. The inherent numerical errors of such approaches are usually ignored, leading to inconsistencies that cause unreliable visualizations and can ultimately prevent in-depth analysis. We propose a new representation for vector fields on surfaces that replaces numerical integration through triangles with maps from the triangle boundaries to themselves. This representation, called edge maps, permits a concise description of flow behaviors and is equivalent to computing all possible streamlines at a user defined error threshold. Independent of this error streamlines computed using edge maps are guaranteed to be consistent up to floating point precision, enabling the stable extraction of features such as the topological skeleton. Furthermore, our representation explicitly stores spatial and temporal errors which we use to produce more informative visualizations. This work describes the construction of edge maps, the error quantification, and a refinement procedure to adhere to a user defined error bound. Finally, we introduce new visualizations using the additional information provided by edge maps to indicate the uncertainty involved in computing streamlines and topological structures.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Scalable Multivariate Volume Visualization and Analysis Based on Dimension Projection and Parallel Coordinates
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 9
+SN  - 1077-2626
+VO  - 18
+SP  - 1397
+EP  - 1410
+AU  - Hanqi Guo
+AU  - He Xiao
+AU  - Xiaoru Yuan
+Y1  - Sept. 2012
+PY  - 2012
+KW  - data visualisation
+KW  - pattern classification
+KW  - rendering (computer graphics)
+KW  - MDS plots
+KW  - MDS-based dimension projection plots
+KW  - PCP plots
+KW  - context switching
+KW  - data presentations
+KW  - dimension projection
+KW  - direct sketching
+KW  - flexible feature classification
+KW  - lassos
+KW  - magic wand
+KW  - multivariate volume data visualization
+KW  - multivariate volumetric data sets
+KW  - optical properties
+KW  - parallel adaptive continuous PCP rendering
+KW  - parallel coordinates
+KW  - parallel coordinates plots
+KW  - scalable multivariate volume visualization
+KW  - scalable pivot MDS
+KW  - transfer function interface design
+KW  - user interaction
+KW  - volume rendered images
+KW  - Algorithm design and analysis
+KW  - Correlation
+KW  - Data visualization
+KW  - Rendering (computer graphics)
+KW  - Transfer functions
+KW  - Vegetation
+KW  - Multivariate volume
+KW  - dimension projection
+KW  - parallel coordinates
+KW  - parallel visualization.
+KW  - transfer function
+KW  - user-interface design
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2012.80
+AB  - In this paper, we present an effective and scalable system for multivariate volume data visualization and analysis with a novel transfer function interface design that tightly couples parallel coordinates plots (PCP) and MDS-based dimension projection plots. In our system, the PCP visualizes the data distribution of each variate (dimension) and the MDS plots project features. They are integrated seamlessly to provide flexible feature classification without context switching between different data presentations during the user interaction. The proposed interface enables users to identify relevant correlation clusters and assign optical properties with lassos, magic wand, and other tools. Furthermore, direct sketching on the volume rendered images has been implemented to probe and edit features. With our system, users can interactively analyze multivariate volumetric data sets by navigating and exploring feature spaces in unified PCP and MDS plots. To further support large-scale multivariate volume data visualization and analysis, Scalable Pivot MDS (SPMDS), parallel adaptive continuous PCP rendering, as well as parallel rendering techniques are developed and integrated into our visualization system. Our experiments show that the system is effective in multivariate volume data visualization and its performance is highly scalable for data sets with different sizes and number of variates.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - WORDGRAPH: Keyword-in-Context Visualization for NETSPEAK's Wildcard Search
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 9
+SN  - 1077-2626
+VO  - 18
+SP  - 1411
+EP  - 1423
+AU  - Riehmann, P.
+AU  - Gruendl, H.
+AU  - Potthast, M.
+AU  - Trenkmann, M.
+AU  - Stein, B.
+AU  - Froehlich, B.
+Y1  - Sept. 2012
+PY  - 2012
+KW  - data visualisation
+KW  - information retrieval
+KW  - probability
+KW  - NETSPEAK wildcard search
+KW  - WORDGRAPH
+KW  - filter techniques
+KW  - graphical interface
+KW  - interactive exploration
+KW  - keyword-in-context visualization
+KW  - phrase context
+KW  - probabilistic retrieval strategy
+KW  - query expansion
+KW  - query navigation
+KW  - scalable retrieval engine
+KW  - underlying corpus
+KW  - visually choosing phrases
+KW  - wildcard queries
+KW  - Engines
+KW  - Google
+KW  - Indexes
+KW  - Layout
+KW  - Navigation
+KW  - Visualization
+KW  - Information visualization
+KW  - Web n-grams
+KW  - information retrieval
+KW  - text visualization
+KW  - visual queries
+KW  - wildcard search.
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2012.96
+AB  - The WORDGRAPH helps writers in visually choosing phrases while writing a text. It checks for the commonness of phrases and allows for the retrieval of alternatives by means of wildcard queries. To support such queries, we implement a scalable retrieval engine, which returns high-quality results within milliseconds using a probabilistic retrieval strategy. The results are displayed as WORDGRAPH visualization or as a textual list. The graphical interface provides an effective means for interactive exploration of search results using filter techniques, query expansion, and navigation. Our observations indicate that, of three investigated retrieval tasks, the textual interface is sufficient for the phrase verification task, wherein both interfaces support context-sensitive word choice, and the WORDGRAPH best supports the exploration of a phrase's context or the underlying corpus. Our user study confirms these observations and shows that WORDGRAPH is generally the preferred interface over the textual result list for queries containing multiple wildcards.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Visualizing Dynamic Data with Maps
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 9
+SN  - 1077-2626
+VO  - 18
+SP  - 1424
+EP  - 1437
+AU  - Mashima, D.
+AU  - Kobourov, S.G.
+AU  - Yifan Hu
+Y1  - Sept. 2012
+PY  - 2012
+KW  - data visualisation
+KW  - dynamic programming
+KW  - geographic information systems
+KW  - IPTV service
+KW  - Internet radio station
+KW  - TV-viewing patterns
+KW  - dynamic data visualisation
+KW  - geographic data
+KW  - geographic map metaphor
+KW  - heat map overlays
+KW  - large scale dynamic relational data
+KW  - map based visualization system
+KW  - maps
+KW  - Animation
+KW  - Clustering algorithms
+KW  - Data mining
+KW  - Data visualization
+KW  - Heuristic algorithms
+KW  - Layout
+KW  - Measurement
+KW  - Information interface and presentation
+KW  - dynamic visualization
+KW  - graph drawing
+KW  - map-based visualization.
+KW  - multimedia information systems
+KW  - spatialization
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.288
+AB  - Maps offer a familiar way to present geographic data (continents, countries), and additional information (topography, geology), can be displayed with the help of contours and heat-map overlays. In this paper, we consider visualizing large-scale dynamic relational data by taking advantage of the geographic map metaphor. We describe a map-based visualization system which uses animation to convey dynamics in large data sets, and which aims to preserve the viewer's mental map while also offering readable views at all times. Our system is fully functional and has been used to visualize user traffic on the Internet radio station last.fm, as well as TV-viewing patterns from an IPTV service. All map images in this paper are available in high-resolution at [CHECK END OF SENTENCE] as are several movies illustrating the dynamic visualization.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Combining Single and Packet-Ray Tracing for Arbitrary Ray Distributions on the Intel MIC Architecture
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 9
+SN  - 1077-2626
+VO  - 18
+SP  - 1438
+EP  - 1448
+AU  - Benthin, C.
+AU  - Wald, I.
+AU  - Woop, S.
+AU  - Ernst, M.
+AU  - Mark, W.R.
+Y1  - Sept. 2012
+PY  - 2012
+KW  - multiprocessing systems
+KW  - parallel architectures
+KW  - ray tracing
+KW  - 16-wide SIMD hardware
+KW  - Intel MIC architecture
+KW  - Intel many integrated core architecture
+KW  - SIMD lane
+KW  - SIMD utilization
+KW  - arbitrary ray distributions
+KW  - bounding-volume hierarchy
+KW  - branching factor
+KW  - hybrid tracing scheme
+KW  - memory accesses
+KW  - multiple incoherent streams
+KW  - packet-ray tracing
+KW  - primitive intersection test
+KW  - single-ray tracing scheme
+KW  - traversal stack
+KW  - Hardware
+KW  - Kernel
+KW  - Memory management
+KW  - Ray tracing
+KW  - Registers
+KW  - Vectors
+KW  - Ray tracing
+KW  - SIMD processors.
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.277
+AB  - Wide-SIMD hardware is power and area efficient, but it is challenging to efficiently map ray tracing algorithms to such hardware especially when the rays are incoherent. The two most commonly used schemes are either packet tracing, or relying on a separate traversal stack for each SIMD lane. Both work great for coherent rays, but suffer when rays are incoherent: The former experiences a dramatic loss of SIMD utilization once rays diverge; the latter requires a large local storage, and generates multiple incoherent streams of memory accesses that present challenges for the memory system. In this paper, we introduce a single-ray tracing scheme for incoherent rays that uses just one traversal stack on 16-wide SIMD hardware. It uses a bounding-volume hierarchy with a branching factor of four as the acceleration structure, exploits four-wide SIMD in each box and primitive intersection test, and uses 16-wide SIMD by always performing four such node or primitive tests in parallel. We then extend this scheme to a hybrid tracing scheme that automatically adapts to varying ray coherence by starting out with a 16-wide packet scheme and switching to the new single-ray scheme as soon as rays diverge. We show that on the Intel Many Integrated Core architecture this hybrid scheme consistently, and over a wide range of scenes and ray distributions, outperforms both packet and single-ray tracing.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Handling Motion-Blur in 3D Tracking and Rendering for Augmented Reality
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 9
+SN  - 1077-2626
+VO  - 18
+SP  - 1449
+EP  - 1459
+AU  - Youngmin Park
+AU  - Lepetit, V.
+AU  - Woontack Woo
+Y1  - Sept. 2012
+PY  - 2012
+KW  - augmented reality
+KW  - image matching
+KW  - image motion analysis
+KW  - image restoration
+KW  - object tracking
+KW  - rendering (computer graphics)
+KW  - solid modelling
+KW  - 3D object tracking
+KW  - 3D rendering
+KW  - ESM algorithm
+KW  - augmented reality
+KW  - image formation model
+KW  - image fusion
+KW  - intermediate images
+KW  - motion-blur
+KW  - template matching-based tracking
+KW  - virtual objects
+KW  - Cameras
+KW  - Computational modeling
+KW  - Jacobian matrices
+KW  - Rendering (computer graphics)
+KW  - Robustness
+KW  - Three dimensional displays
+KW  - Tracking
+KW  - Augmented reality
+KW  - computer vision
+KW  - efficient second-order minimization.
+KW  - motion-blur
+KW  - object detection
+KW  - object tracking
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.158
+AB  - The contribution of this paper is two-fold. First, we show how to extend the ESM algorithm to handle motion blur in 3D object tracking. ESM is a powerful algorithm for template matching-based tracking, but it can fail under motion blur. We introduce an image formation model that explicitly consider the possibility of blur, and shows its results in a generalization of the original ESM algorithm. This allows to converge faster, more accurately and more robustly even under large amount of blur. Our second contribution is an efficient method for rendering the virtual objects under the estimated motion blur. It renders two images of the object under 3D perspective, and warps them to create many intermediate images. By fusing these images we obtain a final image for the virtual objects blurred consistently with the captured image. Because warping is much faster than 3D rendering, we can create realistically blurred images at a very low computational cost.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - A Curvature-Adaptive Implicit Surface Reconstruction for Irregularly Spaced Points
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 9
+SN  - 1077-2626
+VO  - 18
+SP  - 1460
+EP  - 1473
+AU  - Zagorchev, L.G.
+AU  - Goshtasby, A.A.
+Y1  - Sept. 2012
+PY  - 2012
+KW  - Gaussian processes
+KW  - smoothing methods
+KW  - solid modelling
+KW  - 3D surface reconstruction
+KW  - computer graphics
+KW  - curvature-adaptive implicit surface reconstruction
+KW  - first-derivative anisotropic Gaussians
+KW  - irregularly spaced points
+KW  - local data
+KW  - noise smoothing
+KW  - noisy spaced points
+KW  - shape details preservation
+KW  - signed field zero crossings
+KW  - standard deviations
+KW  - surface curvatures
+KW  - Image reconstruction
+KW  - Rough surfaces
+KW  - Shape
+KW  - Smoothing methods
+KW  - Surface reconstruction
+KW  - Surface roughness
+KW  - Surface treatment
+KW  - Computer graphics
+KW  - implicit surface
+KW  - point cloud
+KW  - smoothness parameter.
+KW  - surface reconstruction
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.276
+AB  - A curvature-adaptive implicit surface reconstruction for noisy and irregularly spaced points in 3D is introduced. The reconstructed surface traces the zero crossings of a signed field obtained from the sum of first-derivative anisotropic Gaussians centered at the points. The standard deviations of the anisotropic Gaussians are adapted to surface curvatures estimated from local data. A key characteristic of the formulation is its ability to smooth more along edges than across them, thereby preserving shape details while smoothing noise. The behavior of the proposed method under various density and organization of points is investigated and surface reconstruction results are compared with those obtained by well-known methods in the literature.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Uniform B-Spline Curve Interpolation with Prescribed Tangent and Curvature Vectors
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 9
+SN  - 1077-2626
+VO  - 18
+SP  - 1474
+EP  - 1487
+AU  - Okaniwa, S.
+AU  - Nasri, A.
+AU  - Hongwei Lin
+AU  - Abbas, A.
+AU  - Kineri, Y.
+AU  - Maekawa, T.
+Y1  - Sept. 2012
+PY  - 2012
+KW  - computational geometry
+KW  - interpolation
+KW  - splines (mathematics)
+KW  - NC machining
+KW  - curvature vectors
+KW  - curvature vectors constraints
+KW  - data point sequence
+KW  - geometric algorithm
+KW  - handling plane
+KW  - knot insertion
+KW  - linear system
+KW  - prescribed tangent
+KW  - shape design
+KW  - space curves
+KW  - uniform B-spline curve interpolation
+KW  - Aerospace electronics
+KW  - Educational institutions
+KW  - Electronic mail
+KW  - Equations
+KW  - Interpolation
+KW  - Spline
+KW  - Vectors
+KW  - B-spline curve
+KW  - curvature vector
+KW  - interpolation
+KW  - parametric curve.
+KW  - tangent
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.262
+AB  - This paper presents a geometric algorithm for the generation of uniform cubic B-spline curves interpolating a sequence of data points under tangent and curvature vectors constraints. To satisfy these constraints, knot insertion is used to generate additional control points which are progressively repositioned using corresponding geometric rules. Compared to existing schemes, our approach is capable of handling plane as well as space curves, has local control, and avoids the solution of the typical linear system. The effectiveness of the proposed algorithm is illustrated through several comparative examples. Applications of the method in NC machining and shape design are also outlined.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Baroclinic Turbulence with Varying Density and Temperature
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 9
+SN  - 1077-2626
+VO  - 18
+SP  - 1488
+EP  - 1495
+AU  - Doyub Kim
+AU  - Seung Woo Lee
+AU  - Oh-young Song
+AU  - Hyeong-Seok Ko
+Y1  - Sept. 2012
+PY  - 2012
+KW  - computational fluid dynamics
+KW  - computer animation
+KW  - flow instability
+KW  - turbulence
+KW  - vortices
+KW  - baroclinic turbulence
+KW  - baroclinity term
+KW  - complex motion
+KW  - complex turbulent flow
+KW  - fluid dynamical instability
+KW  - high-resolution dynamics
+KW  - inhomogeneous fluid
+KW  - motion pictures
+KW  - turbulent effects
+KW  - varying density
+KW  - varying temperature
+KW  - volcanic scenes
+KW  - vortex particle
+KW  - vortex particles
+KW  - Computational modeling
+KW  - Computer graphics
+KW  - Equations
+KW  - Force
+KW  - Heating
+KW  - Mathematical model
+KW  - Nonhomogeneous media
+KW  - Fluid animation
+KW  - turbulent flow
+KW  - variable density
+KW  - vortex particle method.
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.264
+AB  - The explosive or volcanic scenes in motion pictures involve complex turbulent flow as its temperature and density vary in space. To simulate this turbulent flow of an inhomogeneous fluid, we propose a simple and efficient framework. Instead of explicitly computing the complex motion of this fluid dynamical instability, we first approximate the average motion of the fluid. Then, the high-resolution dynamics is computed using our new extended version of the vortex particle method with baroclinity. This baroclinity term makes turbulent effects by generating new vortex particles according to temperature/density distributions. Using our method, we efficiently simulated a complex scene with varying density and temperature.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Social-Event-Driven Camera Control for Multicharacter Animations
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 9
+SN  - 1077-2626
+VO  - 18
+SP  - 1496
+EP  - 1510
+AU  - I-Cheng Yeh
+AU  - Wen-Chieh Lin
+AU  - Tong-Yee Lee
+AU  - Hsin-Ju Han
+AU  - Jehee Lee
+AU  - Manmyung Kim
+Y1  - Sept. 2012
+PY  - 2012
+KW  - cameras
+KW  - computer animation
+KW  - virtual reality
+KW  - Proxemics
+KW  - group activities
+KW  - motion clip
+KW  - multicharacter animations
+KW  - mutual interactions
+KW  - simulated annealing optimization method
+KW  - smooth camera motion
+KW  - social event driven camera control
+KW  - social events
+KW  - social force
+KW  - social network analysis
+KW  - spatiotemporal correlation
+KW  - virtual characters
+KW  - virtual world
+KW  - Animation
+KW  - Atmospheric measurements
+KW  - Cameras
+KW  - Force
+KW  - Particle measurements
+KW  - Social network services
+KW  - Trajectory
+KW  - MOCAP
+KW  - event analysis
+KW  - multicharacter animation
+KW  - social network analysis.
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.273
+AB  - In a virtual world, a group of virtual characters can interact with each other, and these characters may leave a group to join another. The interaction among individuals and groups often produces interesting events in a sequence of animation. The goal of this paper is to discover social events involving mutual interactions or group activities in multicharacter animations and automatically plan a smooth camera motion to view interesting events suggested by our system or relevant events specified by a user. Inspired by sociology studies, we borrow the knowledge in Proxemics, social force, and social network analysis to model the dynamic relation among social events and the relation among the participants within each event. By analyzing the variation of relation strength among participants and spatiotemporal correlation among events, we discover salient social events in a motion clip and generate an overview video of these events with smooth camera motion using a simulated annealing optimization method. We tested our approach on different motions performed by multiple characters. Our user study shows that our results are preferred in 66.19 percent of the comparisons with those by the camera control approach without event analysis and are comparable (51.79 percent) to professional results by an artist.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Facial Performance Transfer via Deformable Models and Parametric Correspondence
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 9
+SN  - 1077-2626
+VO  - 18
+SP  - 1511
+EP  - 1519
+AU  - Asthana, A.
+AU  - de la Hunty, M.
+AU  - Dhall, A.
+AU  - Goecke, R.
+Y1  - Sept. 2012
+PY  - 2012
+KW  - cinematography
+KW  - image texture
+KW  - regression analysis
+KW  - solid modelling
+KW  - active appearance model
+KW  - computer graphics community
+KW  - computer vision
+KW  - cross-language facial performance transfer
+KW  - deformable face model-based approaches
+KW  - movie dubbing industry
+KW  - nonrigid shape
+KW  - nonrigid texture
+KW  - parametric correspondence
+KW  - sparse linear regression method
+KW  - Active appearance model
+KW  - Computational modeling
+KW  - Deformable models
+KW  - Face
+KW  - Shape
+KW  - Solid modeling
+KW  - Training
+KW  - Active appearance models
+KW  - face modeling and animation.
+KW  - facial performance transfer
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.157
+AB  - The issue of transferring facial performance from one person's face to another's has been an area of interest for the movie industry and the computer graphics community for quite some time. In recent years, deformable face models, such as the Active Appearance Model (AAM), have made it possible to track and synthesize faces in real time. Not surprisingly, deformable face model-based approaches for facial performance transfer have gained tremendous interest in the computer vision and graphics community. In this paper, we focus on the problem of real-time facial performance transfer using the AAM framework. We propose a novel approach of learning the mapping between the parameters of two completely independent AAMs, using them to facilitate the facial performance transfer in a more realistic manner than previous approaches. The main advantage of modeling this parametric correspondence is that it allows a "meaningful&#x201D; transfer of both the nonrigid shape and texture across faces irrespective of the speakers' gender, shape, and size of the faces, and illumination conditions. We explore linear and nonlinear methods for modeling the parametric correspondence between the AAMs and show that the sparse linear regression method performs the best. Moreover, we show the utility of the proposed framework for a cross-language facial performance transfer that is an area of interest for the movie dubbing industry.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Empirical Studies in Information Visualization: Seven Scenarios
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 9
+SN  - 1077-2626
+VO  - 18
+SP  - 1520
+EP  - 1536
+AU  - Lam, H.
+AU  - Bertini, E.
+AU  - Isenberg, P.
+AU  - Plaisant, C.
+AU  - Carpendale, S.
+Y1  - Sept. 2012
+PY  - 2012
+KW  - data visualisation
+KW  - empirical studies
+KW  - evaluating collaborative data analysis
+KW  - evaluating communication
+KW  - evaluating environments
+KW  - evaluating user experience
+KW  - evaluating visualization algorithms
+KW  - information visualization
+KW  - seven scenarios
+KW  - user performance evaluation
+KW  - visual data analysis
+KW  - visual data reasoning
+KW  - visualization publications
+KW  - Data analysis
+KW  - Data visualization
+KW  - Electronic mail
+KW  - Encoding
+KW  - Systematics
+KW  - Taxonomy
+KW  - Visualization
+KW  - Information visualization
+KW  - evaluation.
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.279
+AB  - We take a new, scenario-based look at evaluation in information visualization. Our seven scenarios, evaluating visual data analysis and reasoning, evaluating user performance, evaluating user experience, evaluating environments and work practices, evaluating communication through visualization, evaluating visualization algorithms, and evaluating collaborative data analysis were derived through an extensive literature review of over 800 visualization publications. These scenarios distinguish different study goals and types of research questions and are illustrated through example studies. Through this broad survey and the distillation of these scenarios, we make two contributions. One, we encapsulate the current practices in the information visualization research community and, two, we provide a different approach to reaching decisions about what might be the most effective evaluation of a given information visualization. Scenarios can be used to choose appropriate research questions and goals and the provided examples can be consulted for guidance on how to design one's own study.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Simplification of Node Position Data ;for Interactive Visualization of Dynamic Data Sets
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 9
+SN  - 1077-2626
+VO  - 18
+SP  - 1537
+EP  - 1548
+AU  - Rosen, P.
+AU  - Popescu, V.
+Y1  - Sept. 2012
+PY  - 2012
+KW  - approximation theory
+KW  - data visualisation
+KW  - finite element analysis
+KW  - interactive systems
+KW  - data set simplification techniques
+KW  - dynamic data sets
+KW  - finite element analysis data
+KW  - good compression factors
+KW  - interactive visualization
+KW  - maximum node position approximation error
+KW  - node data redundancy
+KW  - node position data
+KW  - time-varying spatial data sets
+KW  - Approximation methods
+KW  - Clustering algorithms
+KW  - Computational modeling
+KW  - Data models
+KW  - Data visualization
+KW  - Encoding
+KW  - Trajectory
+KW  - Simplification of node positions
+KW  - interactive visualization
+KW  - rigid body decomposition
+KW  - simulation data compression.
+KW  - trajectory clustering
+KW  - trajectory simplification
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.268
+AB  - We propose to aid the interactive visualization of time-varying spatial data sets by simplifying node position data over the entire simulation as opposed to over individual states. Our approach is based on two observations. The first observation is that the trajectory of some nodes can be approximated well without recording the position of the node for every state. The second observation is that there are groups of nodes whose motion from one state to the next can be approximated well with a single transformation. We present data set simplification techniques that take advantage of this node data redundancy. Our techniques are general, supporting many types of simulations, they achieve good compression factors, and they allow rigorous control of the maximum node position approximation error. We demonstrate our approach in the context of finite element analysis data, of liquid flow simulation data, and of fusion simulation data.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Direct Feature Visualization Using Morse-Smale Complexes
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 9
+SN  - 1077-2626
+VO  - 18
+SP  - 1549
+EP  - 1562
+AU  - Gyulassy, A.
+AU  - Kotava, N.
+AU  - Kim, M.
+AU  - Hansen, C.D.
+AU  - Hagen, H.
+AU  - Pascucci, V.
+Y1  - Sept. 2012
+PY  - 2012
+KW  - data visualisation
+KW  - dictionaries
+KW  - query languages
+KW  - rendering (computer graphics)
+KW  - MS complex
+KW  - Morse-Smale complexes
+KW  - direct feature visualization
+KW  - rendering attributes
+KW  - topology-rich visualization pipeline
+KW  - traditional volume visualization
+KW  - unified query language
+KW  - visual dictionary
+KW  - Data structures
+KW  - Data visualization
+KW  - Feature extraction
+KW  - Geometry
+KW  - Manifolds
+KW  - Vectors
+KW  - Visualization
+KW  - Volume visualization
+KW  - applications
+KW  - feature detection
+KW  - topology.
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.272
+AB  - In this paper, we characterize the range of features that can be extracted from an Morse-Smale complex and describe a unified query language to extract them. We provide a visual dictionary to guide users when defining features in terms of these queries. We demonstrate our topology-rich visualization pipeline in a tool that interactively queries the MS complex to extract features at multiple resolutions, assigns rendering attributes, and combines traditional volume visualization with the extracted features. The flexibility and power of this approach is illustrated with examples showing novel features.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Efficient Computation of Combinatorial Feature Flow Fields
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 9
+SN  - 1077-2626
+VO  - 18
+SP  - 1563
+EP  - 1573
+AU  - Reininghaus, J.
+AU  - Kasten, J.
+AU  - Weinkauf, T.
+AU  - Hotz, I.
+Y1  - Sept. 2012
+PY  - 2012
+KW  - combinatorial mathematics
+KW  - computational fluid dynamics
+KW  - flow visualisation
+KW  - numerical analysis
+KW  - 2D time-dependent scalar fields
+KW  - combinatorial algorithm
+KW  - combinatorial feature flow field computation
+KW  - computational fluid dynamics
+KW  - computational parameters
+KW  - critical points tracking
+KW  - flow visualization
+KW  - importance measure
+KW  - noise robustness
+KW  - numerical schemes
+KW  - spatial persistence
+KW  - temporal evolution
+KW  - time-aware feature hierarchy
+KW  - tracking algorithms
+KW  - Algorithm design and analysis
+KW  - Feature extraction
+KW  - Jacobian matrices
+KW  - Joining processes
+KW  - Manifolds
+KW  - Noise
+KW  - Noise measurement
+KW  - Flow visualization
+KW  - graph algorithms.
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.269
+AB  - We propose a combinatorial algorithm to track critical points of 2D time-dependent scalar fields. Existing tracking algorithms such as Feature Flow Fields apply numerical schemes utilizing derivatives of the data, which makes them prone to noise and involve a large number of computational parameters. In contrast, our method is robust against noise since it does not require derivatives, interpolation, and numerical integration. Furthermore, we propose an importance measure that combines the spatial persistence of a critical point with its temporal evolution. This leads to a time-aware feature hierarchy, which allows us to discriminate important from spurious features. Our method requires only a single, easy-to-tune computational parameter and is naturally formulated in an out-of-core fashion, which enables the analysis of large data sets. We apply our method to synthetic data and data sets from computational fluid dynamics and compare it to the stabilized continuous Feature Flow Field tracking algorithm.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Multimodal Data Fusion Based on Mutual Information
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 9
+SN  - 1077-2626
+VO  - 18
+SP  - 1574
+EP  - 1587
+AU  - Bramon, R.
+AU  - Boada, I.
+AU  - Bardera, A.
+AU  - Rodriguez, J.
+AU  - Feixas, M.
+AU  - Puig, J.
+AU  - Sbert, M.
+Y1  - Sept. 2012
+PY  - 2012
+KW  - content management
+KW  - data visualisation
+KW  - medical computing
+KW  - sensor fusion
+KW  - assessment criterion
+KW  - information channel
+KW  - information content
+KW  - information-theoretic approach
+KW  - informative voxels
+KW  - intensity value
+KW  - medical data sets
+KW  - multimodal data visualization
+KW  - mutual information decomposition
+KW  - mutual information-based multimodal data fusion
+KW  - volumetric data models exploration
+KW  - Biomedical imaging
+KW  - Data models
+KW  - Data visualization
+KW  - Image color analysis
+KW  - Mutual information
+KW  - Rendering (computer graphics)
+KW  - Transfer functions
+KW  - Multimodal visualization
+KW  - image fusion
+KW  - information theory
+KW  - mutual information.
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.280
+AB  - Multimodal visualization aims at fusing different data sets so that the resulting combination provides more information and understanding to the user. To achieve this aim, we propose a new information-theoretic approach that automatically selects the most informative voxels from two volume data sets. Our fusion criteria are based on the information channel created between the two input data sets that permit us to quantify the information associated with each intensity value. This specific information is obtained from three different ways of decomposing the mutual information of the channel. In addition, an assessment criterion based on the information content of the fused data set can be used to analyze and modify the initial selection of the voxels by weighting the contribution of each data set to the final result. The proposed approach has been integrated in a general framework that allows for the exploration of volumetric data models and the interactive change of some parameters of the fused data set. The proposed approach has been evaluated on different medical data sets with very promising results.
+ER  - 
+
+

@@ -1,0 +1,228 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf190
+{\fonttbl\f0\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720
+
+\f0\fs24 \cf0 @ARTICLE\{6143937, \
+author=\{Taylor, M. and Chandak, A. and Qi Mo and Lauterbach, C. and Schissler, C. and Manocha, D.\}, \
+journal=\{Visualization and Computer Graphics, IEEE Transactions on\}, \
+title=\{Guided Multiview Ray Tracing for Fast Auralization\}, \
+year=\{2012\}, \
+month=\{Nov\}, \
+volume=\{18\}, \
+number=\{11\}, \
+pages=\{1797-1810\}, \
+abstract=\{We present a novel method for tuning geometric acoustic simulations based on ray tracing. Our formulation computes sound propagation paths from source to receiver and exploits the independence of visibility tests and validation tests to dynamically guide the simulation to high accuracy and performance. Our method makes no assumptions of scene layout and can account for moving sources, receivers, and geometry. We combine our guidance algorithm with a fast GPU sound propagation system for interactive simulation. Our implementation efficiently computes early specular paths and first order diffraction with a multiview tracing algorithm. We couple our propagation simulation with an audio output system supporting a high order interpolation scheme that accounts for attenuation, cross fading, and delay. The resulting system can render acoustic spaces composed of thousands of triangles interactively.\}, \
+keywords=\{acoustic wave propagation;audio signal processing;geometry;graphics processing units;interactive systems;interpolation;ray tracing;audio output system;fast GPU sound propagation system;fast auralization;geometric acoustic simulations;guidance algorithm;guided multiview ray tracing algorithm;high order interpolation scheme;interactive simulation;scene layout;validation tests;visibility tests;Accuracy;Acoustics;Computational modeling;Diffraction;Graphics processing unit;Ray tracing;Receivers;Sound propagation;parallelization;ray tracing\}, \
+doi=\{10.1109/TVCG.2012.27\}, \
+ISSN=\{1077-2626\},\}\
+@ARTICLE\{6095656, \
+author=\{Baboud, L. and Eisemann, E. and Seidel, H. -P\}, \
+journal=\{Visualization and Computer Graphics, IEEE Transactions on\}, \
+title=\{Precomputed Safety Shapes for Efficient and Accurate Height-Field Rendering\}, \
+year=\{2012\}, \
+month=\{Nov\}, \
+volume=\{18\}, \
+number=\{11\}, \
+pages=\{1811-1823\}, \
+abstract=\{Height fields have become an important element of realistic real-time image synthesis to represent surface details. In this paper, we focus on the frequent case of static height-field data, for which we can precompute acceleration structures. While many rendering algorithms exist that impose tradeoffs between speed and accuracy, we show that even accurate rendering can be combined with high performance. A careful analysis of the surface defined by the height values, leads to an efficient and accurate precomputation method. As a result, each texel stores a safety shape inside which a ray cannot cross the surface twice. This property ensures that no intersections are missed during the efficient marching method. Our analysis is general and can even consider visibility constraints that are robustly integrated into the precomputation. Further, we propose a particular instance of safety shapes with little memory overhead, which results in a rendering algorithm that outperforms existing methods, both in terms of accuracy and performance.\}, \
+keywords=\{image texture;realistic images;rendering (computer graphics);3D graphics;acceleration structures;height-field rendering;image texture;marching method;precomputation method;precomputed safety shapes;realistic real-time image synthesis;rendering algorithm;static height-field data;surface details representation;visibility constraints;Acceleration;Accuracy;Interpolation;Rendering (computer graphics);Safety;Shape;Three dimensional displays;3D graphics;Computer graphics;color;raytracing;realism;shading;shadowing;texture\}, \
+doi=\{10.1109/TVCG.2011.281\}, \
+ISSN=\{1077-2626\},\}\
+@ARTICLE\{6165276, \
+author=\{Pacanowski, R. and Salazar Celis, O. and Schlick, C. and Granier, X. and Poulin, P. and Cuyt, A.\}, \
+journal=\{Visualization and Computer Graphics, IEEE Transactions on\}, \
+title=\{Rational BRDF\}, \
+year=\{2012\}, \
+month=\{Nov\}, \
+volume=\{18\}, \
+number=\{11\}, \
+pages=\{1824-1835\}, \
+abstract=\{Over the last two decades, much effort has been devoted to accurately measuring Bidirectional Reflectance Distribution Functions (BRDFs) of real-world materials and to use efficiently the resulting data for rendering. Because of their large size, it is difficult to use directly measured BRDFs for real-time applications, and fitting the most sophisticated analytical BRDF models is still a complex task. In this paper, we introduce Rational BRDF, a general-purpose and efficient representation for arbitrary BRDFs, based on Rational Functions (RFs). Using an adapted parametrization, we demonstrate how Rational BRDFs offer 1) a more compact and efficient representation using low-degree RFs, 2) an accurate fitting of measured materials with guaranteed control of the residual error, and 3) efficient importance sampling by applying the same fitting process to determine the inverse of the Cumulative Distribution Function (CDF) generated from the BRDF for use in Monte-Carlo rendering.\}, \
+keywords=\{Monte Carlo methods;rendering (computer graphics);sampling methods;CDF;Monte-Carlo rendering;adapted parametrization;bidirectional reflectance distribution functions;cumulative distribution function;fitting process;importance sampling;low-degree RF;rational BRDF;rational functions;residual error;Materials;Mathematical model;Monte Carlo methods;Polynomials;Quadratic programming;Rendering (computer graphics);BRDF;Monte-Carlo rendering;fitting;importance sampling\}, \
+doi=\{10.1109/TVCG.2012.73\}, \
+ISSN=\{1077-2626\},\}\
+@ARTICLE\{6165278, \
+author=\{Xiaopei Liu and Lei Jiang and Tien-Tsin Wong and Chi-Wing Fu\}, \
+journal=\{Visualization and Computer Graphics, IEEE Transactions on\}, \
+title=\{Statistical Invariance for Texture Synthesis\}, \
+year=\{2012\}, \
+month=\{Nov\}, \
+volume=\{18\}, \
+number=\{11\}, \
+pages=\{1836-1848\}, \
+abstract=\{Estimating illumination and deformation fields on textures is essential for both analysis and application purposes. Traditional methods for such estimation usually require complicated and sometimes labor-intensive processing. In this paper, we propose a new perspective for this problem and suggest a novel statistical approach which is much simpler and more efficient. Our experiments show that many textures in daily life are statistically invariant in terms of colors and gradients. Variations of such statistics can be assumed to be influenced by illumination and deformation. This implies that we can inversely estimate the spatially varying illumination and deformation according to the variation of the texture statistics. This enables us to decompose a texture photo into an illumination field, a deformation field, and an implicit texture which are illumination- and deformation-free, within a short period of time, and with minimal user input. By processing and recombining these components, a variety of synthesis effects, such as exemplar preparation, texture replacement, surface relighting, as well as geometry modification, can be well achieved. Finally, convincing results are shown to demonstrate the effectiveness of the proposed method.\}, \
+keywords=\{image texture;statistical analysis;deformation;exemplar preparation;geometry modification;illumination;labor-intensive processing;novel statistical approach;statistical invariance;surface relighting;texture photo;texture replacement;texture statistics;texture synthesis;Estimation;Geometry;Image color analysis;Lighting;Surface reconstruction;Surface texture;Tensile stress;Texture synthesis;illumination and deformation estimation;statistical invariance\}, \
+doi=\{10.1109/TVCG.2012.75\}, \
+ISSN=\{1077-2626\},\}\
+@ARTICLE\{6155719, \
+author=\{Fang-Lue Zhang and Ming-Ming Cheng and Jiaya Jia and Shi-Min Hu\}, \
+journal=\{Visualization and Computer Graphics, IEEE Transactions on\}, \
+title=\{ImageAdmixture: Putting Together Dissimilar Objects from Groups\}, \
+year=\{2012\}, \
+month=\{Nov\}, \
+volume=\{18\}, \
+number=\{11\}, \
+pages=\{1849-1857\}, \
+abstract=\{We present a semiautomatic image editing framework dedicated to individual structured object replacement from groups. The major technical difficulty is element separation with irregular spatial distribution, hampering previous texture, and image synthesis methods from easily producing visually compelling results. Our method uses the object-level operations and finds grouped elements based on appearance similarity and curvilinear features. This framework enables a number of image editing applications, including natural image mixing, structure preserving appearance transfer, and texture mixing.\}, \
+keywords=\{feature extraction;image texture;ImageAdmixture;appearance similarity;curvilinear features;dissimilar objects;element separation;image synthesis methods;irregular spatial distribution;natural image mixing;object-level operations;semiautomatic image editing framework;structure preserving appearance transfer;structured object replacement;texture mixing;visually compelling results;Active contours;Feature extraction;Image color analysis;Image segmentation;Shape;Vectors;Visualization;Natural image;image processing;structure analysis;texture\}, \
+doi=\{10.1109/TVCG.2012.68\}, \
+ISSN=\{1077-2626\},\}\
+@ARTICLE\{6165279, \
+author=\{Zicheng Liao and Hoppe, H. and Forsyth, D. and Yizhou Yu\}, \
+journal=\{Visualization and Computer Graphics, IEEE Transactions on\}, \
+title=\{A Subdivision-Based Representation for Vector Image Editing\}, \
+year=\{2012\}, \
+month=\{Nov\}, \
+volume=\{18\}, \
+number=\{11\}, \
+pages=\{1858-1867\}, \
+abstract=\{Vector graphics has been employed in a wide variety of applications due to its scalability and editability. Editability is a high priority for artists and designers who wish to produce vector-based graphical content with user interaction. In this paper, we introduce a new vector image representation based on piecewise smooth subdivision surfaces, which is a simple, unified and flexible framework that supports a variety of operations, including shape editing, color editing, image stylization, and vector image processing. These operations effectively create novel vector graphics by reusing and altering existing image vectorization results. Because image vectorization yields an abstraction of the original raster image, controlling the level of detail of this abstraction is highly desirable. To this end, we design a feature-oriented vector image pyramid that offers multiple levels of abstraction simultaneously. Our new vector image representation can be rasterized efficiently using GPU-accelerated subdivision. Experiments indicate that our vector image representation achieves high visual quality and better supports editing operations than existing representations.\}, \
+keywords=\{computer graphics;feature extraction;graphics processing units;image colour analysis;image representation;user interfaces;GPU-accelerated subdivision;color editing;feature-oriented vector image pyramid;flexible framework;high visual quality;image stylization;image vectorization;original raster image abstraction;piecewise smooth subdivision surfaces;shape editing;subdivision-based image representation;unified framework;user interaction;vector graphics;vector image editing;vector image processing;vector image representation;vector-based graphical content;Image color analysis;Image edge detection;Image representation;Image resolution;Shape;Vectors;Vector graphics;multiresolution representation;subdivision surfaces;vector image editing\}, \
+doi=\{10.1109/TVCG.2012.76\}, \
+ISSN=\{1077-2626\},\}\
+@ARTICLE\{6165275, \
+author=\{Sunkavalli, K. and Joshi, N. and Sing Bing Kang and Cohen, M.F. and Pfister, H.\}, \
+journal=\{Visualization and Computer Graphics, IEEE Transactions on\}, \
+title=\{Video Snapshots: Creating High-Quality Images from Video Clips\}, \
+year=\{2012\}, \
+month=\{Nov\}, \
+volume=\{18\}, \
+number=\{11\}, \
+pages=\{1868-1879\}, \
+abstract=\{We describe a unified framework for generating a single high-quality still image ("snapshot\'94) from a short video clip. Our system allows the user to specify the desired operations for creating the output image, such as super resolution, noise and blur reduction, and selection of best focus. It also provides a visual summary of activity in the video by incorporating saliency-based objectives in the snapshot formation process. We show examples on a number of different video clips to illustrate the utility and flexibility of our system.\}, \
+keywords=\{image enhancement;image fusion;image resolution;video signal processing;activity visual summary;high-quality images;output image;saliency-based objectives incorporation;short video clip;single high-quality still image generating;snapshot formation process;video snapshots;Cameras;Image fusion;Image restoration;Noise;Noise reduction;Spatial resolution;Image fusion;deblurring;image enhancement;photomontage;saliency;sharpening;super resolution\}, \
+doi=\{10.1109/TVCG.2012.72\}, \
+ISSN=\{1077-2626\},\}\
+@ARTICLE\{6143938, \
+author=\{Lin Lu and Feng Sun and Hao Pan and Wenping Wang\}, \
+journal=\{Visualization and Computer Graphics, IEEE Transactions on\}, \
+title=\{Global Optimization of Centroidal Voronoi Tessellation with Monte Carlo Approach\}, \
+year=\{2012\}, \
+month=\{Nov\}, \
+volume=\{18\}, \
+number=\{11\}, \
+pages=\{1880-1890\}, \
+abstract=\{Centroidal Voronoi Tessellation (CVT) is a widely used geometric structure in applications including mesh generation, vector quantization and image processing. Global optimization of the CVT function is important in these applications. With numerical evidences, we show that the CVT function is highly nonconvex and has many local minima and therefore the global optimization of the CVT function is nontrivial. We apply the method of Monte Carlo with Minimization (MCM) to optimizing the CVT function globally and demonstrate its efficacy in producing much improved results compared with two other global optimization methods.\}, \
+keywords=\{Monte Carlo methods;computational geometry;mesh generation;optimisation;vector quantisation;CVT function;MCM;Monte Carlo approach;Monte Carlo with minimization;centroidal Voronoi tessellation;geometric structure;global optimization;image processing;local minima;mesh generation;vector quantization;Density functional theory;Mesh generation;Minimization;Monte Carlo methods;Optimization methods;Vectors;Centroidal Voronoi tessellation;Monte Carlo with minimization;global optimization\}, \
+doi=\{10.1109/TVCG.2012.28\}, \
+ISSN=\{1077-2626\},\}\
+@ARTICLE\{6165274, \
+author=\{Livesu, M. and Guggeri, F. and Scateni, R.\}, \
+journal=\{Visualization and Computer Graphics, IEEE Transactions on\}, \
+title=\{Reconstructing the Curve-Skeletons of 3D Shapes Using the Visual Hull\}, \
+year=\{2012\}, \
+month=\{Nov\}, \
+volume=\{18\}, \
+number=\{11\}, \
+pages=\{1891-1901\}, \
+abstract=\{Curve-skeletons are the most important descriptors for shapes, capable of capturing in a synthetic manner the most relevant features. They are useful for many different applications: from shape matching and retrieval, to medical imaging, to animation. This has led, over the years, to the development of several different techniques for extraction, each trying to comply with specific goals. We propose a novel technique which stems from the intuition of reproducing what a human being does to deduce the shape of an object holding it in his or her hand and rotating. To accomplish this, we use the formal definitions of epipolar geometry and visual hull. We show how it is possible to infer the curve-skeleton of a broad class of 3D shapes, along with an estimation of the radii of the maximal inscribed balls, by gathering information about the medial axes of their projections on the image planes of the stereographic vision. It is definitely worth to point out that our method works indifferently on (even unoriented) polygonal meshes, voxel models, and point clouds. Moreover, it is insensitive to noise, pose-invariant, resolution-invariant, and robust when applied to incomplete data sets.\}, \
+keywords=\{computational geometry;image reconstruction;mesh generation;shape recognition;stereo image processing;3D shapes;animation;curve-skeleton reconstruction;epipolar geometry;maximal inscribed balls;medial projections axes;medical imaging;point clouds;polygonal meshes;shape matching;shape retrieval;stereographic vision;visual hull;voxel models;Approximation methods;Cameras;Humans;Shape;Skeleton;Three dimensional displays;Visualization;Curve-skeleton;stereoscopic vision;visual hull\}, \
+doi=\{10.1109/TVCG.2012.71\}, \
+ISSN=\{1077-2626\},\}\
+@ARTICLE\{6165277, \
+author=\{Le, B.H. and Xiaohan Ma and Zhigang Deng\}, \
+journal=\{Visualization and Computer Graphics, IEEE Transactions on\}, \
+title=\{Live Speech Driven Head-and-Eye Motion Generators\}, \
+year=\{2012\}, \
+month=\{Nov\}, \
+volume=\{18\}, \
+number=\{11\}, \
+pages=\{1902-1914\}, \
+abstract=\{This paper describes a fully automated framework to generate realistic head motion, eye gaze, and eyelid motion simultaneously based on live (or recorded) speech input. Its central idea is to learn separate yet interrelated statistical models for each component (head motion, gaze, or eyelid motion) from a prerecorded facial motion data set: 1) Gaussian Mixture Models and gradient descent optimization algorithm are employed to generate head motion from speech features; 2) Nonlinear Dynamic Canonical Correlation Analysis model is used to synthesize eye gaze from head motion and speech features, and 3) nonnegative linear regression is used to model voluntary eye lid motion and log-normal distribution is used to describe involuntary eye blinks. Several user studies are conducted to evaluate the effectiveness of the proposed speech-driven head and eye motion generator using the well-established paired comparison methodology. Our evaluation results clearly show that this approach can significantly outperform the state-of-the-art head and eye motion generation algorithms. In addition, a novel mocap+video hybrid data acquisition technique is introduced to record high-fidelity head movement, eye gaze, and eyelid motion simultaneously.\}, \
+keywords=\{Gaussian processes;computer animation;data acquisition;eye;face recognition;gradient methods;image motion analysis;log normal distribution;optimisation;realistic images;statistical analysis;video signal processing;Gaussian mixture models;eye gaze generation;eye gaze recording;eye gaze synthesis;eyelid motion generation;eyelid motion recording;facial animation;facial motion data set;fully automated framework;gradient descent optimization algorithm;high-fidelity head movement recording;live speech driven head-and-eye motion generators;live speech input;log-normal distribution;mocap+video hybrid data acquisition technique;nonlinear dynamic canonical correlation analysis model;nonnegative linear regression;realistic head motion generation;speech features;statistical models;voluntary eye lid motion model;Data acquisition;Hidden Markov models;Humans;Magnetic heads;Speech;Synchronization;Facial animation;and live speech driven;blinking model;gaze synthesis;head and eye motion coupling;head motion synthesis\}, \
+doi=\{10.1109/TVCG.2012.74\}, \
+ISSN=\{1077-2626\},\}\
+@ARTICLE\{6155718, \
+author=\{Xiaohan Ma and Zhigang Deng\}, \
+journal=\{Visualization and Computer Graphics, IEEE Transactions on\}, \
+title=\{A Statistical Quality Model for Data-Driven Speech Animation\}, \
+year=\{2012\}, \
+month=\{Nov\}, \
+volume=\{18\}, \
+number=\{11\}, \
+pages=\{1915-1927\}, \
+abstract=\{In recent years, data-driven speech animation approaches have achieved significant successes in terms of animation quality. However, how to automatically evaluate the realism of novel synthesized speech animations has been an important yet unsolved research problem. In this paper, we propose a novel statistical model (called SAQP) to automatically predict the quality of on-the-fly synthesized speech animations by various data-driven techniques. Its essential idea is to construct a phoneme-based, Speech Animation Trajectory Fitting (SATF) metric to describe speech animation synthesis errors and then build a statistical regression model to learn the association between the obtained SATF metric and the objective speech animation synthesis quality. Through delicately designed user studies, we evaluate the effectiveness and robustness of the proposed SAQP model. To the best of our knowledge, this work is the first-of-its-kind, quantitative quality model for data-driven speech animation. We believe it is the important first step to remove a critical technical barrier for applying data-driven speech animation techniques to numerous online or interactive talking avatar applications.\}, \
+keywords=\{computer animation;regression analysis;speech processing;speech synthesis;SAQP;SATF;animation quality;data-driven speech animation approach;data-driven techniques;interactive talking avatar applications;novel statistical model;on-the-fly synthesized speech animations;speech animation trajectory fitting metric;statistical quality model;statistical regression model;Animation;Face;Measurement;Predictive models;Principal component analysis;Speech;Trajectory;Facial animation;data-driven;lip-sync;quality prediction;statistical models;visual speech animation\}, \
+doi=\{10.1109/TVCG.2012.67\}, \
+ISSN=\{1077-2626\},\}\
+@ARTICLE\{6165273, \
+author=\{Xin Zhao and Wei Zeng and Gu, X.D. and Kaufman, A.E. and Wei Xu and Mueller, K.\}, \
+journal=\{Visualization and Computer Graphics, IEEE Transactions on\}, \
+title=\{Conformal Magnifier: A Focus+Context Technique with Local Shape Preservation\}, \
+year=\{2012\}, \
+month=\{Nov\}, \
+volume=\{18\}, \
+number=\{11\}, \
+pages=\{1928-1941\}, \
+abstract=\{We present the conformal magnifier, a novel interactive focus+context visualization technique that magnifies a region of interest (ROI) using conformal mapping. Our framework supports the arbitrary shape design of magnifiers for the user to enlarge the ROI while globally deforming the context region without any cropping. By using the mathematically well-defined conformal mapping theory and algorithm, the ROI is magnified with local shape preservation (angle distortion minimization), while the transition area between the focus and context regions is deformed smoothly and continuously. After the selection of a specified magnifier shape, our system can automatically magnify the ROI in real time with full resolution even for large volumetric data sets. These properties are important for many visualization applications, especially for the computer aided detection and diagnosis (CAD). Our framework is suitable for diverse applications, including the map visualization, and volumetric visualization. Experimental results demonstrate the effectiveness, robustness, and efficiency of our framework.\}, \
+keywords=\{CAD;conformal mapping;data visualisation;deformation;CAD;ROI;arbitrary shape magnifiers design;computer aided detection;computer aided diagnosis;conformal magnifier;interactive focus-context visualization technique;large volumetric data sets;local shape preservation;map visualization;mathematically well-defined conformal mapping theory;region of interest;specified magnifier shape;volumetric visualization;Conformal mapping;Context;Lenses;Mathematical model;Measurement;Shape;Three dimensional displays;Conformal mapping;focus+contex visualization;local shape preservation;magnifier shape;smooth deformation\}, \
+doi=\{10.1109/TVCG.2012.70\}, \
+ISSN=\{1077-2626\},\}\
+@ARTICLE\{6104040, \
+author=\{Ropinski, T. and Diepenbrock, S. and Bruckner, S. and Hinrichs, K. and Groller, E.\}, \
+journal=\{Visualization and Computer Graphics, IEEE Transactions on\}, \
+title=\{Unified Boundary-Aware Texturing for Interactive Volume Rendering\}, \
+year=\{2012\}, \
+month=\{Nov\}, \
+volume=\{18\}, \
+number=\{11\}, \
+pages=\{1942-1955\}, \
+abstract=\{In this paper, we describe a novel approach for applying texture mapping to volumetric data sets. In contrast to previous approaches, the presented technique enables a unified integration of 2D and 3D textures and thus allows to emphasize material boundaries as well as volumetric regions within a volumetric data set at the same time. One key contribution of this paper is a parametrization technique for volumetric data sets, which takes into account material boundaries and volumetric regions. Using this technique, the resulting parametrizations of volumetric data sets enable texturing effects which create a higher degree of realism in volume rendered images. We evaluate the quality of the parametrization and demonstrate the usefulness of the proposed concepts by combining volumetric texturing with volumetric lighting models to generate photorealistic volume renderings. Furthermore, we show the applicability in the area of illustrative visualization.\}, \
+keywords=\{data visualisation;image texture;rendering (computer graphics);2D textures;3D textures;interactive volume rendering;material boundaries;parametrization technique;photorealistic volume renderings;texture mapping;unified boundary-aware texturing;volume rendered images;volumetric data sets parametrizations;volumetric lighting models;volumetric regions;volumetric texturing;Force;Image color analysis;Materials;Rendering (computer graphics);Skeleton;Surface texture;Three dimensional displays;Volumetric texturing;interactive volume rendering\}, \
+doi=\{10.1109/TVCG.2011.285\}, \
+ISSN=\{1077-2626\},\}\
+@ARTICLE\{6165280, \
+author=\{Bowman, B. and Elmqvist, N. and Jankun-Kelly, T. J.\}, \
+journal=\{Visualization and Computer Graphics, IEEE Transactions on\}, \
+title=\{Toward Visualization for Games: Theory, Design Space, and Patterns\}, \
+year=\{2012\}, \
+month=\{Nov\}, \
+volume=\{18\}, \
+number=\{11\}, \
+pages=\{1956-1968\}, \
+abstract=\{Electronic games are starting to incorporate in-game telemetry that collects data about player, team, and community performance on a massive scale, and as data begins to accumulate, so does the demand for effectively analyzing this data. In this paper, we use examples from both old and new games of different genres to explore the theory and design space of visualization for games. Drawing on these examples, we define a design space for this novel research topic and use it to formulate design patterns for how to best apply visualization technology to games. We then discuss the implications that this new framework will potentially have on the design and development of game and visualization technology in the future.\}, \
+keywords=\{computer games;data visualisation;community performance;data analysis;design patterns;design space;electronic games;in-game telemetry;visualization technology;Communities;Data visualization;Games;Real time systems;Telemetry;Three dimensional displays;Visualization;Computer games;entertainment;game analytics;interactive entertainment;video games;visualization\}, \
+doi=\{10.1109/TVCG.2012.77\}, \
+ISSN=\{1077-2626\},\}\
+@ARTICLE\{6143944, \
+author=\{Sanftmann, H. and Weiskopf, D.\}, \
+journal=\{Visualization and Computer Graphics, IEEE Transactions on\}, \
+title=\{3D Scatterplot Navigation\}, \
+year=\{2012\}, \
+month=\{Nov\}, \
+volume=\{18\}, \
+number=\{11\}, \
+pages=\{1969-1978\}, \
+abstract=\{For 3D scatterplots, we present an interpolation and projection technique that supports the smooth exchange of one or two data dimensions at a time. Even though this exchange can be considered as a rotation in 4D or 5D data domains, we guarantee that the projection to image space is perceived as a 3D rigid body rotation-with a consistent motion of the data points. We conducted a controlled user study showing that 3D rigid body rotations outperform direct transition between scatterplots. We further extend our technique to support navigation between 3D scatterplots by introducing 3D scatterplot matrices. The usefulness of our approach is demonstrated by application examples, including a case study with a natural language processing expert.\}, \
+keywords=\{data visualisation;image processing;interpolation;matrix algebra;3D rigid body rotation;3D rigid body rotations;3D scatterplot matrices;3D scatterplot navigation;4D data domains;5D data domains;data dimension exchange;data points;image space;interpolation technique;natural language processing expert;projection technique;Animation;Data analysis;Image color analysis;Interpolation;Navigation;Sorting;Three dimensional displays;Visualization;coordinated and multiple views;multidimensional data;scatterplot\}, \
+doi=\{10.1109/TVCG.2012.35\}, \
+ISSN=\{1077-2626\},\}\
+@ARTICLE\{6152100, \
+author=\{Juncong Lin and Igarashi, T. and Mitani, J. and Minghong Liao and Ying He\}, \
+journal=\{Visualization and Computer Graphics, IEEE Transactions on\}, \
+title=\{A Sketching Interface for Sitting Pose Design in the Virtual Environment\}, \
+year=\{2012\}, \
+month=\{Nov\}, \
+volume=\{18\}, \
+number=\{11\}, \
+pages=\{1979-1991\}, \
+abstract=\{Character pose design is one of the most fundamental processes in computer graphics authoring. Although there are many research efforts in this field, most existing design tools consider only character body structure, rather than its interaction with the environment. This paper presents an intuitive sketching interface that allows the user to interactively place a 3D human character in a sitting position on a chair. Within our framework, the user sketches the target pose as a 2D stick figure and attaches the selected joints to the environment (e.g., the feet on the ground) with a pin tool. As reconstructing the 3D pose from a 2D stick figure is an ill-posed problem due to many possible solutions, the key idea in our paper is to reduce solution space by considering the interaction between the character and environment and adding physics constraints, such as balance and collision. Further, we formulated this reconstruction into a nonlinear optimization problem and solved it via the genetic algorithm (GA) and the quasi-Newton solver. With the GPU implementation, our system is able to generate the physically correct and visually pleasing pose at an interactive speed. The promising experimental results and user study demonstrates the efficacy of our method.\}, \
+keywords=\{genetic algorithms;graphical user interfaces;graphics processing units;image reconstruction;nonlinear programming;pose estimation;virtual reality;2D stick figure;3D human character;3D pose reconstruction;GPU implementation;character body structure;character pose design;computer graphics authoring;genetic algorithm;graphics processing unit;nonlinear optimization problem;quasi-Newton solver;sitting pose design;sketching interface;virtual environment;Bones;Educational institutions;Equations;Joints;Mathematical model;Switches;Three dimensional displays;GPU;Sketching interface;genetic algorithm;quasi-Newton solver;sitting pose design;virtual environment\}, \
+doi=\{10.1109/TVCG.2012.61\}, \
+ISSN=\{1077-2626\},\}\
+@ARTICLE\{6171184, \
+author=\{Bum chul Kwon and Javed, W. and Ghani, S. and Elmqvist, N. and Ji Soo Yi and Ebert, D.S.\}, \
+journal=\{Visualization and Computer Graphics, IEEE Transactions on\}, \
+title=\{Evaluating the Role of Time in Investigative Analysis of Document Collections\}, \
+year=\{2012\}, \
+month=\{Nov\}, \
+volume=\{18\}, \
+number=\{11\}, \
+pages=\{1992-2004\}, \
+abstract=\{Time is a universal and essential aspect of data in any investigative analysis. It helps analysts establish causality, build storylines from evidence, and reject infeasible hypotheses. For this reason, many investigative analysis tools provide visual representations designed for making sense of temporal data. However, the field of visual analytics still needs more evidence explaining how temporal visualization actually aids the analysis process, as well as design recommendations for how to build these visualizations. To fill this gap, we conducted an insight-based qualitative study to investigate the influence of temporal visualization on investigative analysis. We found that visualizing temporal information helped participants externalize chains of events. Another contribution of our work is the lightweight evaluation approach used to collect, visualize, and analyze insight.\}, \
+keywords=\{data analysis;data visualisation;document handling;document collections;investigative analysis;temporal visualization;visual analytics;visual representations;Atmospheric measurements;Data visualization;Educational institutions;Particle measurements;Recycling;Visual analytics;Qualitative evaluation;insight-based evaluation;investigative analysis;temporal visualization\}, \
+doi=\{10.1109/TVCG.2012.89\}, \
+ISSN=\{1077-2626\},\}}

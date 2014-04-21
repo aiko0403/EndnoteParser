@@ -1,0 +1,757 @@
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Modeling Object Pursuit for Desktop Virtual Reality
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 7
+SN  - 1077-2626
+VO  - 18
+SP  - 1017
+EP  - 1026
+AU  - Lei Liu
+AU  - Van Liere, R.
+Y1  - July 2012
+PY  - 2012
+KW  - user interfaces
+KW  - virtual reality
+KW  - 3D object-pursuit interaction task
+KW  - Accot
+KW  - Fitts law
+KW  - Zhai steering law
+KW  - correction phase
+KW  - desktop virtual reality
+KW  - human temporal performance
+KW  - input devices
+KW  - moving objects
+KW  - path curvature
+KW  - path length
+KW  - path steering task
+KW  - pointing task
+KW  - quantitatively evaluate interaction techniques
+KW  - spatial characteristics
+KW  - target velocity
+KW  - target width
+KW  - tracking phase
+KW  - two-step modeling methodology
+KW  - user interfaces
+KW  - Computational modeling
+KW  - Equations
+KW  - Mathematical model
+KW  - Solid modeling
+KW  - Target tracking
+KW  - Virtual environments
+KW  - 3D interaction
+KW  - interaction modeling
+KW  - object pursuit.
+KW  - Adult
+KW  - Analysis of Variance
+KW  - Computer Graphics
+KW  - Computers
+KW  - Feedback, Sensory
+KW  - Female
+KW  - Humans
+KW  - Male
+KW  - Models, Theoretical
+KW  - Psychomotor Performance
+KW  - Regression Analysis
+KW  - Statistics, Nonparametric
+KW  - User-Computer Interface
+KW  - Video Games
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2012.31
+AB  - Models of interaction tasks are quantitative descriptions of relationships between human temporal performance and the spatial characteristics of the interactive tasks. Examples include Fitts' law for modeling the pointing task and Accot and Zhai's steering law for the path steering task. Interaction models can be used as guidelines to design efficient user interfaces and quantitatively evaluate interaction techniques and input devices. In this paper, we introduce and experimentally verify an interaction model for a 3D object-pursuit interaction task. Object pursuit requires that a user continuously tracks an object that moves with constant velocities in a desktop virtual environment. For modeling purposes, we divide the total object-pursuit movement into a tracking phase and a correction phase. Following a two-step modeling methodology that is originally proposed in this paper, the time for the correction phase is modeled as a function of path length, path curvature, target width, and target velocity. The object-pursuit model can be used to quantitatively evaluate the efficiency of user interfaces that involve 3D interaction with moving objects.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Interactive Visibility Retargeting in VR Using Conformal Visualization
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 7
+SN  - 1077-2626
+VO  - 18
+SP  - 1027
+EP  - 1040
+AU  - Petkov, K.
+AU  - Papadopoulos, C.
+AU  - Min Zhang
+AU  - Kaufman, A.E.
+AU  - Xianfeng Gu
+Y1  - July 2012
+PY  - 2012
+KW  - conformal mapping
+KW  - data visualisation
+KW  - user interfaces
+KW  - virtual reality
+KW  - backward rendering pipelines
+KW  - conformal mapping
+KW  - conformal visualization technique
+KW  - forward rendering pipelines
+KW  - immersive virtual colonoscopy
+KW  - interactive visibility
+KW  - real-time regeneration
+KW  - shape-based features
+KW  - stereoscopic images
+KW  - user interface
+KW  - virtual reality
+KW  - visual information
+KW  - visual polyp detection task
+KW  - Conformal mapping
+KW  - Data visualization
+KW  - Geometry
+KW  - Measurement
+KW  - Rendering (computer graphics)
+KW  - Shape
+KW  - Visualization
+KW  - CAVE
+KW  - GPU
+KW  - Ricci flow
+KW  - Virtual reality
+KW  - conformal visualization
+KW  - immersive cabin
+KW  - partially immersive.
+KW  - Algorithms
+KW  - Colonic Polyps
+KW  - Colonoscopy
+KW  - Computer Graphics
+KW  - Depth Perception
+KW  - Humans
+KW  - Models, Theoretical
+KW  - Sensitivity and Specificity
+KW  - User-Computer Interface
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.278
+AB  - In Virtual Reality, immersive systems such as the CAVE provide an important tool for the collaborative exploration of large 3D data. Unlike head-mounted displays, these systems are often only partially immersive due to space, access, or cost constraints. The resulting loss of visual information becomes a major obstacle for critical tasks that need to utilize the users' entire field of vision. We have developed a conformal visualization technique that establishes a conformal mapping between the full 360^circ field of view and the display geometry of a given visualization system. The mapping is provably angle-preserving and has the desirable property of preserving shapes locally, which is important for identifying shape-based features in the visual data. We apply the conformal visualization to both forward and backward rendering pipelines in a variety of retargeting scenarios, including CAVEs and angled arrangements of flat panel displays. In contrast to image-based retargeting approaches, our technique constructs accurate stereoscopic images that are free of resampling artifacts. Our user study shows that on the visual polyp detection task in Immersive Virtual Colonoscopy, conformal visualization leads to imprrenderingoved sensitivity at comparable examination times against the traditional rendering approach. We also develop a novel user interface based on the interactive recreation of the conformal mapping and the real-time regeneration of the view direction correspondence.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Velocity-Dependent Dynamic Curvature Gain for Redirected Walking
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 7
+SN  - 1077-2626
+VO  - 18
+SP  - 1041
+EP  - 1052
+AU  - Neth, C.T.
+AU  - Souman, J.L.
+AU  - Engel, D.
+AU  - Kloos, U.
+AU  - Bulthoff, H.H.
+AU  - Mohler, B.J.
+Y1  - July 2012
+PY  - 2012
+KW  - avatars
+KW  - gain control
+KW  - gait analysis
+KW  - psychology
+KW  - avatar controller
+KW  - curved path
+KW  - dynamic gain controller condition
+KW  - human walking sensitivity
+KW  - psychophysical experiment
+KW  - redirected walking techniques
+KW  - reorientation techniques
+KW  - static controller
+KW  - velocity-dependent dynamic curvature gain
+KW  - velocity-dependent dynamic gain controller
+KW  - virtual city model
+KW  - virtual space
+KW  - Atmospheric measurements
+KW  - Games
+KW  - Legged locomotion
+KW  - Particle measurements
+KW  - Sensitivity
+KW  - Trajectory
+KW  - Virtual environments
+KW  - Virtual reality
+KW  - avatars.
+KW  - curvature sensitivity
+KW  - redirected walking
+KW  - virtual locomotion
+KW  - Adult
+KW  - Algorithms
+KW  - Analysis of Variance
+KW  - Computer Graphics
+KW  - Female
+KW  - Humans
+KW  - Male
+KW  - Middle Aged
+KW  - Orientation
+KW  - User-Computer Interface
+KW  - Walking
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.275
+AB  - Redirected walking techniques allow people to walk in a larger virtual space than the physical extents of the laboratory. We describe two experiments conducted to investigate human sensitivity to walking on a curved path and to validate a new redirected walking technique. In a psychophysical experiment, we found that sensitivity to walking on a curved path was significantly lower for slower walking speeds (radius of 10 m versus 22 m). In an applied study, we investigated the influence of a velocity-dependent dynamic gain controller and an avatar controller on the average distance that participants were able to freely walk before needing to be reoriented. The mean walked distance was significantly greater in the dynamic gain controller condition, as compared to the static controller (22 m versus 15 m). Our results demonstrate that perceptually motivated dynamic redirected walking techniques, in combination with reorientation techniques, allow for unaided exploration of a large virtual city model.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - The Design and Evaluation of a Large-Scale Real-Walking Locomotion Interface
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 7
+SN  - 1077-2626
+VO  - 18
+SP  - 1053
+EP  - 1067
+AU  - Peck, T.C.
+AU  - Fuchs, H.
+AU  - Whitton, M.C.
+Y1  - July 2012
+PY  - 2012
+KW  - cognition
+KW  - interactive devices
+KW  - user interfaces
+KW  - virtual reality
+KW  - RFED system
+KW  - joystick interfaces
+KW  - large-scale real-walking locomotion interface
+KW  - navigation measures
+KW  - redirected free exploration with distractors
+KW  - user cognitive performance
+KW  - virtual environments
+KW  - virtual mazes
+KW  - walking-in-place interfaces
+KW  - wayfinding measures
+KW  - Legged locomotion
+KW  - Navigation
+KW  - Prediction algorithms
+KW  - Target tracking
+KW  - Vectors
+KW  - Virtual environments
+KW  - Virtual reality
+KW  - distractors
+KW  - locomotion
+KW  - navigation
+KW  - redirection
+KW  - wayfinding.
+KW  - Algorithms
+KW  - Analysis of Variance
+KW  - Computer Graphics
+KW  - Female
+KW  - Humans
+KW  - Male
+KW  - Psychomotor Performance
+KW  - Statistics, Nonparametric
+KW  - User-Computer Interface
+KW  - Walking
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.289
+AB  - Redirected Free Exploration with Distractors (RFEDs) is a large-scale real-walking locomotion interface developed to enable people to walk freely in Virtual Environments (VEs) that are larger than the tracked space in their facility. This paper describes the RFED system in detail and reports on a user study that evaluated RFED by comparing it to Walking-in-Place (WIP) and Joystick (JS) interfaces. The RFED system is composed of two major components, redirection and distractors. This paper discusses design challenges, implementation details, and lessons learned during the development of two working RFED systems. The evaluation study examined the effect of the locomotion interface on users' cognitive performance on navigation and wayfinding measures. The results suggest that participants using RFED were significantly better at navigating and wayfinding through virtual mazes than participants using walking-in-place and joystick interfaces. Participants traveled shorter distances, made fewer wrong turns, pointed to hidden targets more accurately and more quickly, and were able to place and label targets on maps more accurately, and more accurately estimate the virtual environment size.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Tuning Self-Motion Perception in Virtual Reality with Visual Illusions
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 7
+SN  - 1077-2626
+VO  - 18
+SP  - 1068
+EP  - 1078
+AU  - Bruder, G.
+AU  - Steinicke, F.
+AU  - Wieland, P.
+AU  - Lappe, M.
+Y1  - July 2012
+PY  - 2012
+KW  - image sensors
+KW  - image sequences
+KW  - motion estimation
+KW  - virtual reality
+KW  - visual perception
+KW  - distorted space cognition
+KW  - ground plane vision
+KW  - mapped virtual camera motion
+KW  - optic flow fields
+KW  - peripheral vision
+KW  - self-motion illusions
+KW  - self-motion perception tuning
+KW  - travel distance underestimation
+KW  - underestimation compensation
+KW  - virtual environments
+KW  - virtual reality
+KW  - visual illusions
+KW  - Blindness
+KW  - Cameras
+KW  - Detectors
+KW  - Optical distortion
+KW  - Optical sensors
+KW  - Stimulated emission
+KW  - Visualization
+KW  - Self-motion perception
+KW  - optic flow.
+KW  - virtual environments
+KW  - visual illusions
+KW  - Adult
+KW  - Computer Graphics
+KW  - Female
+KW  - Humans
+KW  - Illusions
+KW  - Male
+KW  - Motion Perception
+KW  - Optic Flow
+KW  - User-Computer Interface
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.274
+AB  - Motion perception in immersive virtual environments significantly differs from the real world. For example, previous work has shown that users tend to underestimate travel distances in virtual environments (VEs). As a solution to this problem, researchers proposed to scale the mapped virtual camera motion relative to the tracked real-world movement of a user until real and virtual motion are perceived as equal, i.e., real-world movements could be mapped with a larger gain to the VE in order to compensate for the underestimation. However, introducing discrepancies between real and virtual motion can become a problem, in particular, due to misalignments of both worlds and distorted space cognition. In this paper, we describe a different approach that introduces apparent self-motion illusions by manipulating optic flow fields during movements in VEs. These manipulations can affect self-motion perception in VEs, but omit a quantitative discrepancy between real and virtual motions. In particular, we consider to which regions of the virtual view these apparent self-motion illusions can be applied, i.e., the ground plane or peripheral vision. Therefore, we introduce four illusions and show in experiments that optic flow manipulation can significantly affect users' self-motion judgments. Furthermore, we show that with such manipulations of optic flow fields the underestimation of travel distances can be compensated.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Video Stereolization: Combining Motion Analysis with User Interaction
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 7
+SN  - 1077-2626
+VO  - 18
+SP  - 1079
+EP  - 1088
+AU  - Miao Liao
+AU  - Jizhou Gao
+AU  - Ruigang Yang
+AU  - Minglun Gong
+Y1  - July 2012
+PY  - 2012
+KW  - image motion analysis
+KW  - image sensors
+KW  - image sequences
+KW  - interactive systems
+KW  - quadratic programming
+KW  - stereo image processing
+KW  - user interfaces
+KW  - video signal processing
+KW  - 3D effect
+KW  - SFM techniques
+KW  - camera movement restriction
+KW  - interactive algorithms
+KW  - mono-to-stereo conversion
+KW  - motion analysis
+KW  - optical flow analysis
+KW  - quadratic programming
+KW  - qualitative depth constraints
+KW  - quantitative depth
+KW  - scene depth estimation
+KW  - semiautomatic system
+KW  - stereoscopic videos
+KW  - structure-from-motion techniques
+KW  - user interaction
+KW  - user labeling task
+KW  - user scribbling
+KW  - video stereolization
+KW  - Cameras
+KW  - Image segmentation
+KW  - Image sequences
+KW  - Labeling
+KW  - Pixel
+KW  - Quadratic programming
+KW  - Three dimensional displays
+KW  - Semiautomatic 2D-3D conversion
+KW  - motion analysis
+KW  - stereo/3D video/movie
+KW  - user labeling.
+KW  - Computer Graphics
+KW  - Depth Perception
+KW  - Humans
+KW  - Imaging, Three-Dimensional
+KW  - Motion
+KW  - Questionnaires
+KW  - Task Performance and Analysis
+KW  - User-Computer Interface
+KW  - Video Recording
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.114
+AB  - We present a semiautomatic system that converts conventional videos into stereoscopic videos by combining motion analysis with user interaction, aiming to transfer as much as possible labeling work from the user to the computer. In addition to the widely used structure from motion (SFM) techniques, we develop two new methods that analyze the optical flow to provide additional qualitative depth constraints. They remove the camera movement restriction imposed by SFM so that general motions can be used in scene depth estimation-the central problem in mono-to-stereo conversion. With these algorithms, the user's labeling task is significantly simplified. We further developed a quadratic programming approach to incorporate both quantitative depth and qualitative depth (such as these from user scribbling) to recover dense depth maps for all frames, from which stereoscopic view can be synthesized. In addition to visual results, we present user study results showing that our approach is more intuitive and less labor intensive, while producing 3D effect comparable to that from current state-of-the-art interactive algorithms.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Wellformedness Properties in Euler Diagrams: Which Should Be Used?
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 7
+SN  - 1077-2626
+VO  - 18
+SP  - 1089
+EP  - 1100
+AU  - Rodgers, P.
+AU  - Leishi Zhang
+AU  - Purchase, H.
+Y1  - July 2012
+PY  - 2012
+KW  - data visualisation
+KW  - Euler diagrams
+KW  - automated drawing systems
+KW  - brushing points
+KW  - comprehension
+KW  - computer file systems
+KW  - criminology
+KW  - genetics
+KW  - human diagram designers
+KW  - intersecting data sets visualization
+KW  - medicine
+KW  - student enrollment visualization
+KW  - university modules
+KW  - wellformedness properties
+KW  - Decision support systems
+KW  - Handheld computers
+KW  - Euler diagrams
+KW  - Venn diagrams
+KW  - empirical studies
+KW  - information visualization.
+KW  - Color
+KW  - Computer Graphics
+KW  - Databases, Factual
+KW  - Humans
+KW  - Models, Theoretical
+KW  - Research Design
+KW  - Statistics as Topic
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.143
+AB  - Euler diagrams are often used to visualize intersecting data sets in applications such as criminology; genetics, medicine, and computer file systems. One interesting aspect of these diagrams is that some data sets cannot be drawn without breaking one or more "wellformedness properties,&#x201D; which are considered to reduce the user comprehension of the diagrams. However, it is possible to draw the same data with different diagrams, each of which breaks different wellformedness properties. Hence, some properties are "swappable,&#x201D; so motivating the study of which of the alternatives would be best to use. This paper reports on the two empirical studies to determine how wellformedness properties affect comprehension. One study was with abstract data, the other was with concrete data that visualized students' enrollment on university modules. We have results from both studies that imply that diagrams with concurrency or disconnected zones perform less well than other some other properties. Further, we have no results that imply that diagrams with brushing points adversely affect performance. Our data also indicate that nonsimple curves are preferred less than diagrams with other properties. These results will inform both human diagram designers and the developers of automated drawing systems on the best way to visualize data using Euler diagrams.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Real-Time Evaluation and Visualization of Learner Performance in a Mixed-Reality Environment for Clinical Breast Examination
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 7
+SN  - 1077-2626
+VO  - 18
+SP  - 1101
+EP  - 1114
+AU  - Kotranza, A.
+AU  - Lind, D.S.
+AU  - Lok, Benjamin
+Y1  - July 2012
+PY  - 2012
+KW  - biomedical education
+KW  - computer based training
+KW  - data visualisation
+KW  - medical computing
+KW  - patient diagnosis
+KW  - virtual reality
+KW  - MRE
+KW  - clinical breast examination
+KW  - human patients
+KW  - learner performance visualization
+KW  - mixed-reality environment
+KW  - psychomotor components
+KW  - real-time evaluation
+KW  - real-time user performance feedback
+KW  - real-world cognitive-psychomotor tasks
+KW  - real-world tasks training
+KW  - tightly coupled cognitive components
+KW  - visual feedback
+KW  - Breast
+KW  - Data models
+KW  - Humans
+KW  - Real time systems
+KW  - Sensors
+KW  - Training
+KW  - Visualization
+KW  - Mixed and augmented reality
+KW  - information visualization
+KW  - life and medical sciences.
+KW  - Breast
+KW  - Computer Graphics
+KW  - Computer-Assisted Instruction
+KW  - Feedback, Sensory
+KW  - Female
+KW  - Humans
+KW  - Medical Informatics Applications
+KW  - Models, Anatomic
+KW  - Palpation
+KW  - Pressure
+KW  - User-Computer Interface
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.132
+AB  - We investigate the efficacy of incorporating real-time feedback of user performance within mixed-reality environments (MREs) for training real-world tasks with tightly coupled cognitive and psychomotor components. This paper presents an approach to providing real-time evaluation and visual feedback of learner performance in an MRE for training clinical breast examination (CBE). In a user study of experienced and novice CBE practitioners (n = 69), novices receiving real-time feedback performed equivalently or better than more experienced practitioners in the completeness and correctness of the exam. A second user study (n = 8) followed novices through repeated practice of CBE in the MRE. Results indicate that skills improvement in the MRE transfers to the real-world task of CBE of human patients. This initial case study demonstrates the efficacy of MREs incorporating real-time feedback for training real-world cognitive-psychomotor tasks.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - An RBF-Based Reparameterization Method for Constrained Texture Mapping
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 7
+SN  - 1077-2626
+VO  - 18
+SP  - 1115
+EP  - 1124
+AU  - Hongchuan Yu
+AU  - Tong-Yee Lee
+AU  - I-Cheng Yeh
+AU  - Xiaosong Yang
+AU  - Wenxi Li
+AU  - Zhang, J.J.
+Y1  - July 2012
+PY  - 2012
+KW  - feature extraction
+KW  - image enhancement
+KW  - image matching
+KW  - image texture
+KW  - iterative methods
+KW  - mesh generation
+KW  - radial basis function networks
+KW  - solid modelling
+KW  - 2D embedding
+KW  - 3D model feature point matching
+KW  - 3D surface
+KW  - RBF-based reparameterization method
+KW  - computer graphics
+KW  - constrained texture mapping
+KW  - foldover-free 2D mesh
+KW  - foldover-free parameterization
+KW  - positional constraints
+KW  - radial basis function-based reparameterization
+KW  - smooth texture mapping
+KW  - surface parameterization
+KW  - texture image
+KW  - user specified constraint points
+KW  - virtual scenes
+KW  - Approximation methods
+KW  - Computational modeling
+KW  - Equations
+KW  - Mesh generation
+KW  - Smoothing methods
+KW  - Solid modeling
+KW  - Three dimensional displays
+KW  - Foldover
+KW  - constrained texture mapping
+KW  - reparameterization.
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.117
+AB  - Texture mapping has long been used in computer graphics to enhance the realism of virtual scenes. However, to match the 3D model feature points with the corresponding pixels in a texture image, surface parameterization must satisfy specific positional constraints. However, despite numerous research efforts, the construction of a mathematically robust, foldover-free parameterization that is subject to positional constraints continues to be a challenge. In the present paper, this foldover problem is addressed by developing radial basis function (RBF)-based reparameterization. Given initial 2D embedding of a 3D surface, the proposed method can reparameterize 2D embedding into a foldover-free 2D mesh, satisfying a set of user-specified constraint points. In addition, this approach is mesh free. Therefore, generating smooth texture mapping results is possible without extra smoothing optimization.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Mesh Segmentation with Concavity-Aware Fields
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 7
+SN  - 1077-2626
+VO  - 18
+SP  - 1125
+EP  - 1134
+AU  - Au, O.K.-C.
+AU  - Youyi Zheng
+AU  - Menglin Chen
+AU  - Pengfei Xu
+AU  - Chiew-Lan Tai
+Y1  - July 2012
+PY  - 2012
+KW  - gradient methods
+KW  - greedy algorithms
+KW  - mesh generation
+KW  - solid modelling
+KW  - 3D models
+KW  - Laplacian system
+KW  - automatic mesh segmentation algorithm
+KW  - concave creases
+KW  - concave seams
+KW  - concavity-aware fields
+KW  - concavity-sensitive scalar fields
+KW  - concavity-sensitive weighting scheme
+KW  - cutting boundary candidates
+KW  - field gradient magnitudes
+KW  - isolines
+KW  - score-based greedy algorithm
+KW  - shape concavity information
+KW  - Boundary conditions
+KW  - Computational modeling
+KW  - Extremities
+KW  - Face
+KW  - Laplace equations
+KW  - Shape
+KW  - Solid modeling
+KW  - Concavity-aware field
+KW  - isolines.
+KW  - mesh segmentation
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.131
+AB  - This paper presents a simple and efficient automatic mesh segmentation algorithm that solely exploits the shape concavity information. The method locates concave creases and seams using a set of concavity-sensitive scalar fields. These fields are computed by solving a Laplacian system with a novel concavity-sensitive weighting scheme. Isolines sampled from the concavity-aware fields naturally gather at concave seams, serving as good cutting boundary candidates. In addition, the fields provide sufficient information allowing efficient evaluation of the candidate cuts. We perform a summarization of all field gradient magnitudes to define a score for each isoline and employ a score-based greedy algorithm to select the best cuts. Extensive experiments and quantitative analysis have shown that the quality of our segmentations are better than or comparable with existing state-of-the-art more complex approaches.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Adaptive Synthesis of Distance Fields
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 7
+SN  - 1077-2626
+VO  - 18
+SP  - 1135
+EP  - 1145
+AU  - Sung-Ho Lee
+AU  - Taejung Park
+AU  - Jong-Hyun Kim
+AU  - Chang-Hun Kim
+Y1  - July 2012
+PY  - 2012
+KW  - computer games
+KW  - image matching
+KW  - image texture
+KW  - multiprocessing systems
+KW  - resource allocation
+KW  - trees (mathematics)
+KW  - 3D example-based synthesis
+KW  - SDF
+KW  - computation times
+KW  - computational resource requirements
+KW  - distance fields adaptive synthesis
+KW  - memory requirements
+KW  - multicore CPU
+KW  - neighborhood matching
+KW  - signed-distance field
+KW  - synthesis quality
+KW  - texture synthesis approach
+KW  - tree-based synthesis map
+KW  - Adaptation models
+KW  - Jitter
+KW  - Memory management
+KW  - Octrees
+KW  - Optimization
+KW  - Shape
+KW  - Three dimensional displays
+KW  - 3D shape synthesis
+KW  - example-based synthesis.
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.134
+AB  - We address the computational resource requirements of 3D example-based synthesis with an adaptive synthesis technique that uses a tree-based synthesis map. A signed-distance field (SDF) is determined for the 3D exemplars, and then new models can be synthesized as SDFs by neighborhood matching. Unlike voxel synthesis approach, our input is posed in the real domain to preserve maximum detail. In comparison to straightforward extensions to the existing volume texture synthesis approach, we made several improvements in terms of memory requirements, computation times, and synthesis quality. The inherent parallelism in this method makes it suitable for a multicore CPU. Results show that computation times and memory requirements are very much reduced, and large synthesized scenes exhibit fine details which mimic the exemplars.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Simple Culling Methods for Continuous Collision Detection of Deforming Triangles
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 7
+SN  - 1077-2626
+VO  - 18
+SP  - 1146
+EP  - 1155
+AU  - Xinyu Zhang
+AU  - Kim, Y.J.
+Y1  - July 2012
+PY  - 2012
+KW  - computer graphics
+KW  - CCD algorithm
+KW  - Triangle deformation
+KW  - conservative advancement
+KW  - continuous collision detection
+KW  - simple culling methods
+KW  - Acceleration
+KW  - Charge coupled devices
+KW  - Equations
+KW  - Face
+KW  - Heuristic algorithms
+KW  - Mathematical model
+KW  - Solid modeling
+KW  - Continuous collision detection
+KW  - conservative advancement
+KW  - distance computation.
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.120
+AB  - We present a simple and efficient approach for continuous collision detection of deforming triangles based on conservative advancement. The efficiency of our approach is due to a sequence of simple collision-free conditions for deforming triangles. In our experiment, we show that our CCD algorithm achieves 2-30 times performance improvement over existing algorithms for triangle primitives.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - EXCOL: An EXtract-and-COmplete Layering Approach to Cartoon Animation Reusing
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 7
+SN  - 1077-2626
+VO  - 18
+SP  - 1156
+EP  - 1169
+AU  - Lei Zhang
+AU  - Hua Huang
+AU  - Hongbo Fu
+Y1  - July 2012
+PY  - 2012
+KW  - computer animation
+KW  - EXCOL
+KW  - animated cartoon video
+KW  - cartoon animation processing technique
+KW  - cartoon animation reusing
+KW  - extract-and-complete layering approach
+KW  - shape cues
+KW  - vision based layering techniques
+KW  - Animation
+KW  - Color
+KW  - Feature extraction
+KW  - Image color analysis
+KW  - Image segmentation
+KW  - Pixel
+KW  - Shape
+KW  - Cartoon animation
+KW  - label propagation.
+KW  - layer completion
+KW  - layer extraction
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.111
+AB  - We introduce the EXtract-and-COmplete Layering method (EXCOL)-a novel cartoon animation processing technique to convert a traditional animated cartoon video into multiple semantically meaningful layers. Our technique is inspired by vision-based layering techniques but focuses on shape cues in both the extraction and completion steps to reflect the unique characteristics of cartoon animation. For layer extraction, we define a novel similarity measure incorporating both shape and color of automatically segmented regions within individual frames and propagate a small set of user-specified layer labels among similar regions across frames. By clustering regions with the same labels, each frame is appropriately partitioned into different layers, with each layer containing semantically meaningful content. Then, a warping-based approach is used to fill missing parts caused by occlusion within the extracted layers to achieve a complete representation. EXCOL provides a flexible way to effectively reuse traditional cartoon animations with only a small amount of user interaction. It is demonstrated that our EXCOL method is effective and robust, and the layered representation benefits a variety of applications in cartoon animation processing.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Attention and Visual Memory in Visualization and Computer Graphics
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 7
+SN  - 1077-2626
+VO  - 18
+SP  - 1170
+EP  - 1188
+AU  - Healey, Christopher G.
+AU  - Enns, J.T.
+Y1  - July 2012
+PY  - 2012
+KW  - data analysis
+KW  - data visualisation
+KW  - visual perception
+KW  - attention
+KW  - computer graphics
+KW  - human visual perception
+KW  - psychophysics
+KW  - visual analysis
+KW  - visual analytics
+KW  - visual attention
+KW  - visual memory
+KW  - visualization design
+KW  - Bars
+KW  - Data visualization
+KW  - Feature extraction
+KW  - Humans
+KW  - Visual perception
+KW  - Visualization
+KW  - Attention
+KW  - color
+KW  - motion
+KW  - nonphotorealism
+KW  - texture
+KW  - visual memory
+KW  - visual perception
+KW  - visualization.
+KW  - Attention
+KW  - Computer Graphics
+KW  - Humans
+KW  - Memory
+KW  - Models, Theoretical
+KW  - Pattern Recognition, Visual
+KW  - Psychophysics
+KW  - Research
+KW  - Visual Perception
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.127
+AB  - A fundamental goal of visualization is to produce images of data that support visual analysis, exploration, and discovery of novel insights. An important consideration during visualization design is the role of human visual perception. How we "see&#x201D; details in an image can directly impact a viewer's efficiency and effectiveness. This paper surveys research on attention and visual perception, with a specific focus on results that have direct relevance to visualization and visual analytics. We discuss theories of low-level visual perception, then show how these findings form a foundation for more recent work on visual memory and visual attention. We conclude with a brief overview of how knowledge of visual attention and visual memory is being applied in visualization and graphics. We also discuss how challenges in visualization are motivating research in psychophysics.
+ER  - 
+
+

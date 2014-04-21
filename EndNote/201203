@@ -1,0 +1,697 @@
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Design and Application of Real-Time Visual Attention Model for the Exploration of 3D Virtual Environments
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 3
+SN  - 1077-2626
+VO  - 18
+SP  - 356
+EP  - 368
+AU  - Hillaire, S.
+AU  - Lecuyer, A.
+AU  - Regia-Corte, T.
+AU  - Cozot, R.
+AU  - Royan, J.
+AU  - Breton, G.
+Y1  - March 2012
+PY  - 2012
+KW  - mesh generation
+KW  - real-time systems
+KW  - solid modelling
+KW  - 3D objects
+KW  - 3D virtual environments
+KW  - continuous gaze point position
+KW  - level-of-detail approach
+KW  - mesh-based representation
+KW  - multiple-texture sampling
+KW  - real-time visual attention model
+KW  - Adaptation models
+KW  - Computational modeling
+KW  - Humans
+KW  - Real time systems
+KW  - Solid modeling
+KW  - Three dimensional displays
+KW  - Visualization
+KW  - Visual attention model
+KW  - first-person exploration
+KW  - gaze tracking
+KW  - visual effects.
+KW  - Adult
+KW  - Algorithms
+KW  - Computer Simulation
+KW  - Eye Movements
+KW  - Female
+KW  - Humans
+KW  - Image Processing, Computer-Assisted
+KW  - Male
+KW  - Models, Biological
+KW  - Software
+KW  - Stochastic Processes
+KW  - User-Computer Interface
+KW  - Visual Fields
+KW  - Visual Perception
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.154
+AB  - This paper studies the design and application of a novel visual attention model designed to compute user's gaze position automatically, i.e., without using a gaze-tracking system. The model we propose is specifically designed for real-time first-person exploration of 3D virtual environments. It is the first model adapted to this context which can compute in real time a continuous gaze point position instead of a set of 3D objects potentially observed by the user. To do so, contrary to previous models which use a mesh-based representation of visual objects, we introduce a representation based on surface-elements. Our model also simulates visual reflexes and the cognitive processes which take place in the brain such as the gaze behavior associated to first-person navigation in the virtual environment. Our visual attention model combines both bottom-up and top-down components to compute a continuous gaze point position on screen that hopefully matches the user's one. We conducted an experiment to study and compare the performance of our method with a state-of-the-art approach. Our results are found significantly better with sometimes more than 100 percent of accuracy gained. This suggests that computing a gaze point in a 3D virtual environment in real time is possible and is a valid approach, compared to object-based approaches. Finally, we expose different applications of our model when exploring virtual environments. We present different algorithms which can improve or adapt the visual feedback of virtual environments based on gaze information. We first propose a level-of-detail approach that heavily relies on multiple-texture sampling. We show that it is possible to use the gaze information of our visual attention model to increase visual quality where the user is looking, while maintaining a high-refresh rate. Second, we introduce the use of the visual attention model in three visual effects inspired by the human visual system namely: depth-of-field blur, camera- motions, and dynamic luminance. All these effects are computed based on the simulated gaze of the user, and are meant to improve user's sensations in future virtual reality applications.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Integrality and Separability of Multitouch Interaction Techniques in 3D Manipulation Tasks
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 3
+SN  - 1077-2626
+VO  - 18
+SP  - 369
+EP  - 380
+AU  - Martinet, A.
+AU  - Casiez, G.
+AU  - Grisoni, L.
+Y1  - March 2012
+PY  - 2012
+KW  - human computer interaction
+KW  - three-dimensional displays
+KW  - touch sensitive screens
+KW  - 2D data
+KW  - 3D manipulation tasks
+KW  - 3D manipulation techniques
+KW  - DS3
+KW  - controlled experiment
+KW  - degrees of freedom
+KW  - depth-separated screen-space
+KW  - integrality
+KW  - multitouch displays
+KW  - multitouch interaction techniques
+KW  - separability
+KW  - sticky tools
+KW  - taxonomy
+KW  - Humans
+KW  - Jacobian matrices
+KW  - Measurement
+KW  - Mice
+KW  - Taxonomy
+KW  - Three dimensional displays
+KW  - Visualization
+KW  - 3D manipulation task
+KW  - DOF separation.
+KW  - Multitouch displays
+KW  - direct manipulation
+KW  - Adult
+KW  - Analysis of Variance
+KW  - Computer Graphics
+KW  - Depth Perception
+KW  - Female
+KW  - Humans
+KW  - Imaging, Three-Dimensional
+KW  - Male
+KW  - Rotation
+KW  - Task Performance and Analysis
+KW  - Touch
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.129
+AB  - Multitouch displays represent a promising technology for the display and manipulation of data. While the manipulation of 2D data has been widely explored, 3D manipulation with multitouch displays remains largely unexplored. Based on an analysis of the integration and separation of degrees of freedom, we propose a taxonomy for 3D manipulation techniques with multitouch displays. Using that taxonomy, we introduce Depth-Separated Screen-Space (DS3), a new 3D manipulation technique based on the separation of translation and rotation. In a controlled experiment, we compared DS3 with Sticky Tools and Screen-Space. Results show that separating the control of translation and rotation significantly affects performance for 3D manipulation, with DS3 performing faster than the two other techniques.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Autocalibration of Multiprojector CAVE-Like Immersive Environments
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 3
+SN  - 1077-2626
+VO  - 18
+SP  - 381
+EP  - 393
+AU  - Sajadi, B.
+AU  - Majumder, A.
+Y1  - March 2012
+PY  - 2012
+KW  - calibration
+KW  - cameras
+KW  - computational geometry
+KW  - display devices
+KW  - image registration
+KW  - image resolution
+KW  - optical projectors
+KW  - virtual reality
+KW  - 3D shape
+KW  - 4-wall CAVE
+KW  - 5-wall CAVE
+KW  - CAVE-like immersive display surfaces
+KW  - VR systems
+KW  - arbitrary viewpoint
+KW  - automatic calibration technique
+KW  - calibration purposes
+KW  - compact setups
+KW  - completely arbitrary positioning
+KW  - display resolution
+KW  - general swept surfaces
+KW  - geometric autocalibration
+KW  - head-tracked single-user virtual reality systems
+KW  - multiple pan
+KW  - multiple projectors
+KW  - multiprojector CAVE-like immersive environments
+KW  - multiuser collaborative explorations
+KW  - niche display environments
+KW  - nonlinear distortion
+KW  - physical markers
+KW  - piecewise planar surface
+KW  - short throw lens
+KW  - tilted views
+KW  - truncated domes
+KW  - uncalibrated camera
+KW  - wallpapered registration
+KW  - Calibration
+KW  - Cameras
+KW  - Optimization
+KW  - Shape
+KW  - Surface reconstruction
+KW  - Surface treatment
+KW  - Three dimensional displays
+KW  - CAVEs
+KW  - Geometric registration
+KW  - calibration
+KW  - immersive displays.
+KW  - multiprojector displays
+KW  - tiled displays
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.271
+AB  - In this paper, we present the first method for the geometric autocalibration of multiple projectors on a set of CAVE-like immersive display surfaces including truncated domes and 4 or 5-wall CAVEs (three side walls, floor, and/or ceiling). All such surfaces can be categorized as swept surfaces and multiple projectors can be registered on them using a single uncalibrated camera without using any physical markers on the surface. Our method can also handle nonlinear distortion in the projectors, common in compact setups where a short throw lens is mounted on each projector. Further, when the whole swept surface is not visible from a single camera view, we can register the projectors using multiple pan and tilted views of the same camera. Thus, our method scales well with different size and resolution of the display. Since we recover the 3D shape of the display, we can achieve registration that is correct from any arbitrary viewpoint appropriate for head-tracked single-user virtual reality systems. We can also achieve wallpapered registration, more appropriate for multiuser collaborative explorations. Though much more immersive than common surfaces like planes and cylinders, general swept surfaces are used today only for niche display environments. Even the more popular 4 or 5-wall CAVE is treated as a piecewise planar surface for calibration purposes and hence projectors are not allowed to be overlapped across the corners. Our method opens up the possibility of using such swept surfaces to create more immersive VR systems without compromising the simplicity of having a completely automatic calibration technique. Such calibration allows completely arbitrary positioning of the projectors in a 5-wall CAVE, without respecting the corners.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Simulating and Evaluating the Local Behavior of Small Pedestrian Groups
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 3
+SN  - 1077-2626
+VO  - 18
+SP  - 394
+EP  - 406
+AU  - Karamouzas, I.
+AU  - Overmars, M.
+Y1  - March 2012
+PY  - 2012
+KW  - behavioural sciences computing
+KW  - collision avoidance
+KW  - pedestrians
+KW  - virtual reality
+KW  - collision avoidance
+KW  - local behavior
+KW  - quantitative quality metrics
+KW  - small pedestrian groups
+KW  - virtual characters
+KW  - Collision avoidance
+KW  - Computational modeling
+KW  - Humans
+KW  - Legged locomotion
+KW  - Organizations
+KW  - Path planning
+KW  - Solid modeling
+KW  - Multiagent systems
+KW  - animation
+KW  - kinematics and dynamics.
+KW  - virtual reality
+KW  - Algorithms
+KW  - Computer Graphics
+KW  - Computer Simulation
+KW  - Humans
+KW  - Image Processing, Computer-Assisted
+KW  - Models, Theoretical
+KW  - Pattern Recognition, Automated
+KW  - Reproducibility of Results
+KW  - Walking
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.133
+AB  - Recent advancements in local methods have significantly improved the collision avoidance behavior of virtual characters. However, existing methods fail to take into account that in real life pedestrians tend to walk in small groups, consisting mainly of pairs or triples of individuals. We present a novel approach to simulate the walking behavior of such small groups. Our model describes how group members interact with each other, with other groups and individuals. We highlight the potential of our method through a wide range of test-case scenarios. We evaluate the results from our simulations using a number of quantitative quality metrics, and also provide visual and numerical comparisons with video footages of real crowds.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Streamline Embedding for 3D Vector Field Exploration
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 3
+SN  - 1077-2626
+VO  - 18
+SP  - 407
+EP  - 420
+AU  - Rossl, C.
+AU  - Theisel, H.
+Y1  - March 2012
+PY  - 2012
+KW  - computational geometry
+KW  - data visualisation
+KW  - image segmentation
+KW  - pattern clustering
+KW  - topology
+KW  - vectors
+KW  - 3D vector fields global analysis
+KW  - Hausdorff metric
+KW  - IR
+KW  - clustering methods
+KW  - manifold set
+KW  - map
+KW  - natural parametrization
+KW  - real-world data sets
+KW  - streamline embedding
+KW  - streamline space
+KW  - synthetic data sets
+KW  - topological segmentation
+KW  - vector field image
+KW  - vector field segmentation
+KW  - visual exploration
+KW  - Manifolds
+KW  - Measurement
+KW  - Silicon
+KW  - Streaming media
+KW  - Three dimensional displays
+KW  - Topology
+KW  - Visualization
+KW  - Vector fields
+KW  - clustering.
+KW  - streamline embedding
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.78
+AB  - We propose a new technique for visual exploration of streamlines in 3D vector fields. We construct a map from the space of all streamlines to points in IR<sup>n</sup> based on the preservation of the Hausdorff metric in streamline space. The image of a vector field under this map is a set of 2-manifolds in IR<sup>n</sup> with characteristic geometry and topology. Then standard clustering methods applied to the point sets in IR<sup>n</sup> yield a segmentation of the original vector field. Our approach provides a global analysis of 3D vector fields which incorporates the topological segmentation but yields additional information. In addition to a pure segmentation, the established map provides a natural "parametrization&#x201D; visualized by the manifolds. We test our approach on a number of synthetic and real-world data sets.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Time-Varying Data Visualization Using Functional Representations
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 3
+SN  - 1077-2626
+VO  - 18
+SP  - 421
+EP  - 433
+AU  - Yun Jang
+AU  - Ebert, D.S.
+AU  - Gaither, K.
+Y1  - March 2012
+PY  - 2012
+KW  - data visualisation
+KW  - time series
+KW  - PC graphics boards
+KW  - data storage
+KW  - encoding technique
+KW  - functional representation
+KW  - functional representations
+KW  - scientific simulations
+KW  - temporal variation
+KW  - time complexity
+KW  - time series
+KW  - time varying data visualization
+KW  - visual analysis
+KW  - Data visualization
+KW  - Encoding
+KW  - Equations
+KW  - Feature extraction
+KW  - Octrees
+KW  - Rendering (computer graphics)
+KW  - Time varying systems
+KW  - Basis functions
+KW  - functional representation
+KW  - time-varying data
+KW  - volume rendering.
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.54
+AB  - In many scientific simulations, the temporal variation and analysis of features are important. Visualization and visual analysis of time series data is still a significant challenge because of the large volume of data. Irregular and scattered time series data sets are even more problematic to visualize interactively. Previous work proposed functional representation using basis functions as one solution for interactively visualizing scattered data by harnessing the power of modern PC graphics boards. In this paper, we use the functional representation approach for time-varying data sets and develop an efficient encoding technique utilizing temporal similarity between time steps. Our system utilizes a graduated approach of three methods with increasing time complexity based on the lack of similarity of the evolving data sets. Using this system, we are able to enhance the encoding performance for the time-varying data sets, reduce the data storage by saving only changed or additional basis functions over time, and interactively visualize the time-varying encoding results. Moreover, we present efficient rendering of the functional representations using binary space partitioning tree textures to increase the rendering performance.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Automated Construction of Low-Resolution, Texture-Mapped, Class-Optimal Meshes
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 3
+SN  - 1077-2626
+VO  - 18
+SP  - 434
+EP  - 446
+AU  - Patel, A.
+AU  - Smith, W. A P
+Y1  - March 2012
+PY  - 2012
+KW  - data acquisition
+KW  - differential geometry
+KW  - group theory
+KW  - iterative methods
+KW  - mesh generation
+KW  - pattern clustering
+KW  - solid modelling
+KW  - surface texture
+KW  - topology
+KW  - 3D shape variation modeling
+KW  - class optimal flattening
+KW  - class optimal texture coordinate
+KW  - geodesic based surface flattening
+KW  - groupwise processing
+KW  - groupwise simplification
+KW  - iterative edge collapse algorithm
+KW  - low resolution 3D morphable models
+KW  - low resolution mesh topology
+KW  - mesh processing tools
+KW  - spectral clustering algorithm
+KW  - surface motion tracking
+KW  - symmetric flattening
+KW  - texture mapping
+KW  - topologically symmetric data
+KW  - Clustering algorithms
+KW  - Mesh generation
+KW  - Shape
+KW  - Solid modeling
+KW  - Strain
+KW  - Surface texture
+KW  - Three dimensional displays
+KW  - Groupwise processing
+KW  - dense correspondence
+KW  - simplification
+KW  - surface flattening
+KW  - texture mapping.
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.101
+AB  - In this paper, we present a framework for the groupwise processing of a set of meshes in dense correspondence. Such sets arise when modeling 3D shape variation or tracking surface motion over time. We extend a number of mesh processing tools to operate in a groupwise manner. Specifically, we present a geodesic-based surface flattening and spectral clustering algorithm which estimates a single class-optimal flattening. We also show how to modify an iterative edge collapse algorithm to perform groupwise simplification while retaining the correspondence of the data. Finally, we show how to compute class-optimal texture coordinates for the simplified meshes. We present alternative algorithms for topologically symmetric data which yield a symmetric flattening and low-resolution mesh topology. We present flattening, simplification, and texture mapping results on three different data sets and show that our approach allows the construction of low-resolution 3D morphable models.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Efficient Visibility Encoding for Dynamic Illumination in Direct Volume Rendering
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 3
+SN  - 1077-2626
+VO  - 18
+SP  - 447
+EP  - 462
+AU  - Kronander, J.
+AU  - Jonsson, D.
+AU  - Low, J.
+AU  - Ljung, P.
+AU  - Ynnerman, A.
+AU  - Unger, J.
+Y1  - March 2012
+PY  - 2012
+KW  - approximation theory
+KW  - encoding
+KW  - image coding
+KW  - integration
+KW  - rendering (computer graphics)
+KW  - transfer functions
+KW  - direct volume rendering
+KW  - directional lights
+KW  - dynamic illumination
+KW  - environment maps
+KW  - general lighting
+KW  - isotropic phase functions
+KW  - level of detail selection
+KW  - low-frequency approximation
+KW  - piecewise integration
+KW  - point lights
+KW  - real-time dynamic shading
+KW  - spherical harmonic basis functions
+KW  - transfer function setting
+KW  - visibility encoding
+KW  - Approximation methods
+KW  - Harmonic analysis
+KW  - Light sources
+KW  - Lighting
+KW  - Real time systems
+KW  - Rendering (computer graphics)
+KW  - Scattering
+KW  - Volumetric illumination
+KW  - precomputed radiance transfer
+KW  - volume rendering.
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.35
+AB  - We present an algorithm that enables real-time dynamic shading in direct volume rendering using general lighting, including directional lights, point lights, and environment maps. Real-time performance is achieved by encoding local and global volumetric visibility using spherical harmonic (SH) basis functions stored in an efficient multiresolution grid over the extent of the volume. Our method enables high-frequency shadows in the spatial domain, but is limited to a low-frequency approximation of visibility and illumination in the angular domain. In a first pass, level of detail (LOD) selection in the grid is based on the current transfer function setting. This enables rapid online computation and SH projection of the local spherical distribution of visibility information. Using a piecewise integration of the SH coefficients over the local regions, the global visibility within the volume is then computed. By representing the light sources using their SH projections, the integral over lighting, visibility, and isotropic phase functions can be efficiently computed during rendering. The utility of our method is demonstrated in several examples showing the generality and interactive performance of the approach.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Flow-Based Local Optimization for Image-to-Geometry Projection
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 3
+SN  - 1077-2626
+VO  - 18
+SP  - 463
+EP  - 474
+AU  - Dellepiane, M.
+AU  - Marroquim, R.
+AU  - Callieri, M.
+AU  - Cignoni, P.
+AU  - Scopigno, R.
+Y1  - March 2012
+PY  - 2012
+KW  - cameras
+KW  - feature extraction
+KW  - image colour analysis
+KW  - image registration
+KW  - image sequences
+KW  - optimisation
+KW  - photography
+KW  - solid modelling
+KW  - 3D model
+KW  - camera calibration
+KW  - flow-based local optimization
+KW  - global optimization
+KW  - image-to-geometry projection
+KW  - low level geometric detail
+KW  - manual method
+KW  - mapping strategy
+KW  - multiple camera image
+KW  - object information
+KW  - object surface
+KW  - optical flow
+KW  - overlapping image
+KW  - per-vertex attribute encoding
+KW  - photographic data set
+KW  - pipeline reconstruction
+KW  - Adaptive optics
+KW  - Cameras
+KW  - Geometry
+KW  - Image color analysis
+KW  - Optical imaging
+KW  - Solid modeling
+KW  - Three dimensional displays
+KW  - Computer graphics
+KW  - image color analysis.
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.75
+AB  - The projection of a photographic data set on a 3D model is a robust and widely applicable way to acquire appearance information of an object. The first step of this procedure is the alignment of the images on the 3D model. While any reconstruction pipeline aims at avoiding misregistration by improving camera calibrations and geometry, in practice a perfect alignment cannot always be reached. Depending on the way multiple camera images are fused on the object surface, remaining misregistrations show up either as ghosting or as discontinuities at transitions from one camera view to another. In this paper we propose a method, based on the computation of Optical Flow between overlapping images, to correct the local misalignment by determining the necessary displacement. The goal is to correct the symptoms of misregistration, instead of searching for a globally consistent mapping, which might not exist. The method scales up well with the size of the data set (both photographic and geometric) and is quite independent of the characteristics of the 3D model (topology cleanliness, parametrization, density). The method is robust and can handle real world cases that have different characteristics: low level geometric details and images that lack enough features for global optimization or manual methods. It can be applied to different mapping strategies, such as texture or per-vertex attribute encoding.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - AniPaint: Interactive Painterly Animation from Video
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 3
+SN  - 1077-2626
+VO  - 18
+SP  - 475
+EP  - 487
+AU  - O'Donovan, P.
+AU  - Hertzmann, A.
+Y1  - March 2012
+PY  - 2012
+KW  - computer animation
+KW  - image sequences
+KW  - video signal processing
+KW  - AniPaint
+KW  - automatic stroke synthesis
+KW  - automatic synthesis algorithm
+KW  - interaction spectrum
+KW  - interactive painterly animation
+KW  - keyframed Control Strokes
+KW  - stroke synthesis
+KW  - video sequences
+KW  - Animation
+KW  - Color
+KW  - Image color analysis
+KW  - Integrated optics
+KW  - Painting
+KW  - Rendering (computer graphics)
+KW  - Video sequences
+KW  - Nonphotorealistic rendering
+KW  - interactive video processing.
+KW  - painterly animation
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.51
+AB  - This paper presents an interactive system for creating painterly animation from video sequences. Previous approaches to painterly animation typically emphasize either purely automatic stroke synthesis or purely manual stroke key framing. Our system supports a spectrum of interaction between these two approaches which allows the user more direct control over stroke synthesis. We introduce an approach for controlling the results of painterly animation: keyframed Control Strokes can affect automatic stroke's placement, orientation, movement, and color. Furthermore, we introduce a new automatic synthesis algorithm that traces strokes through a video sequence in a greedy manner, but, instead of a vector field, uses an objective function to guide placement. This allows the method to capture fine details, respect region boundaries, and achieve greater temporal coherence than previous methods. All editing is performed with a WYSIWYG interface where the user can directly refine the animation. We demonstrate a variety of examples using both automatic and user-guided results, with a variety of styles and source videos.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - The Squash-and-Stretch Stylization for Character Motions
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 3
+SN  - 1077-2626
+VO  - 18
+SP  - 488
+EP  - 500
+AU  - Ji-yong Kwon
+AU  - In-Kwon Lee
+Y1  - March 2012
+PY  - 2012
+KW  - computer animation
+KW  - covariance matrices
+KW  - 2D cartoon animation
+KW  - character motions
+KW  - covariance matrix
+KW  - human observers
+KW  - joint positions
+KW  - spatial exaggeration technique
+KW  - squash-and-stretch stylization
+KW  - squashed pose
+KW  - stretched pose
+KW  - temporal exaggeration technique
+KW  - time-warping function
+KW  - user survey
+KW  - Animation
+KW  - Covariance matrix
+KW  - Humans
+KW  - Joints
+KW  - Kinematics
+KW  - Optimization
+KW  - Shape
+KW  - Squash-and-stretch
+KW  - cartoon stylization
+KW  - covariance matrix
+KW  - exaggeration
+KW  - motion capture
+KW  - time warping.
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.48
+AB  - The squash-and-stretch describes the rigidity of the character. This effect is the most important technique in traditional cartoon animation. In this paper, we introduce a method that applies the squash-and-stretch effect to character motion. Our method exaggerates the motion by sequentially applying the spatial exaggeration technique and the temporal exaggeration technique. The spatial exaggeration technique globally deforms the pose in order to make the squashed or stretched pose by modeling it as a covariance matrix of joint positions. Then, the temporal exaggeration technique computes a time-warping function for each joint, and applies it to the position of the joint allowing the character to stretch its links appropriately. The motion stylized by our method is a sequence of squashed and stretched poses with stretching limbs. By performing a user survey, we prove that the motion created using our method is similar to that used in 2D cartoon animation and is funnier than the original motion for human observers who are familiar with 2D cartoon animation.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Example-Based Automatic Music-Driven Conventional Dance Motion Synthesis
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 3
+SN  - 1077-2626
+VO  - 18
+SP  - 501
+EP  - 515
+AU  - Rukun Fan
+AU  - Songhua Xu
+AU  - Weidong Geng
+Y1  - March 2012
+PY  - 2012
+KW  - dynamic programming
+KW  - graphics processing units
+KW  - image matching
+KW  - image motion analysis
+KW  - image sequences
+KW  - learning (artificial intelligence)
+KW  - music
+KW  - Asian dance genres
+KW  - GPU based implementation
+KW  - constraint based dynamic programming
+KW  - dance motion segments
+KW  - example based automatic music driven conventional dance motion synthesis
+KW  - learning based approach
+KW  - motion mapping relationship
+KW  - motion matching quality rating function
+KW  - optimal sequence
+KW  - peer method
+KW  - professional human dance performance
+KW  - resultant dance motion sequence
+KW  - synchronized music
+KW  - two-way evaluation strategy
+KW  - visual smoothness
+KW  - Correlation
+KW  - Feature extraction
+KW  - Humans
+KW  - Joints
+KW  - Motion segmentation
+KW  - Synchronization
+KW  - Training
+KW  - Dance motion and music mapping relationship
+KW  - learning-based dance motion synthesis.
+KW  - music-driven dance motion synthesis
+KW  - Analysis of Variance
+KW  - Dancing
+KW  - Emotions
+KW  - Far East
+KW  - Female
+KW  - Humans
+KW  - Image Processing, Computer-Assisted
+KW  - Male
+KW  - Music
+KW  - Pattern Recognition, Automated
+KW  - Reproducibility of Results
+KW  - Video Recording
+KW  - Young Adult
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.73
+AB  - We introduce a novel method for synthesizing dance motions that follow the emotions and contents of a piece of music. Our method employs a learning-based approach to model the music to motion mapping relationship embodied in example dance motions along with those motions' accompanying background music. A key step in our method is to train a music to motion matching quality rating function through learning the music to motion mapping relationship exhibited in synchronized music and dance motion data, which were captured from professional human dance performance. To generate an optimal sequence of dance motion segments to match with a piece of music, we introduce a constraint-based dynamic programming procedure. This procedure considers both music to motion matching quality and visual smoothness of a resultant dance motion sequence. We also introduce a two-way evaluation strategy, coupled with a GPU-based implementation, through which we can execute the dynamic programming process in parallel, resulting in significant speedup. To evaluate the effectiveness of our method, we quantitatively compare the dance motions synthesized by our method with motion synthesis results by several peer methods using the motions captured from professional human dancers' performance as the gold standard. We also conducted several medium-scale user studies to explore how perceptually our dance motion synthesis method can outperform existing methods in synthesizing dance motions to match with a piece of music. These user studies produced very positive results on our music-driven dance motion synthesis experiments for several Asian dance genres, confirming the advantages of our method.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Constraint Fluids
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 3
+SN  - 1077-2626
+VO  - 18
+SP  - 516
+EP  - 526
+AU  - Bodin, K.
+AU  - Lacoursiere, C.
+AU  - Servin, M.
+Y1  - March 2012
+PY  - 2012
+KW  - computational fluid dynamics
+KW  - computer graphics
+KW  - digital simulation
+KW  - hydrodynamics
+KW  - iterative methods
+KW  - Archimedes principle
+KW  - SPOOK
+KW  - boundary conditions
+KW  - buoyancy
+KW  - computer graphics applications
+KW  - constraint fluids
+KW  - fast iterative method
+KW  - fluid pseudoparticles
+KW  - fluid simulation method
+KW  - holonomic kinematic constraints
+KW  - incompressibility conditions
+KW  - interactive simulations
+KW  - mixed linear complementarity problem
+KW  - smoothed particle hydrodynamics
+KW  - systematic multiphysics integration
+KW  - Approximation methods
+KW  - Computational modeling
+KW  - Computer graphics
+KW  - Equations
+KW  - Force
+KW  - Mathematical model
+KW  - Stability analysis
+KW  - SPH
+KW  - constraints
+KW  - fluid simulation
+KW  - incompressible
+KW  - variational integrator.
+KW  - Algorithms
+KW  - Computer Graphics
+KW  - Computer Simulation
+KW  - Hydrodynamics
+KW  - Models, Theoretical
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2011.29
+AB  - We present a fluid simulation method based on Smoothed Particle Hydrodynamics (SPH) in which incompressibility and boundary conditions are enforced using holonomic kinematic constraints on the density. This formulation enables systematic multiphysics integration in which interactions are modeled via similar constraints between the fluid pseudoparticles and impenetrable surfaces of other bodies. These conditions embody Archimede's principle for solids and thus buoyancy results as a direct consequence. We use a variational time stepping scheme suitable for general constrained multibody systems we call SPOOK. Each step requires the solution of only one Mixed Linear Complementarity Problem (MLCP) with very few inequalities, corresponding to solid boundary conditions. We solve this MLCP with a fast iterative method. Overall stability is vastly improved in comparison to the unconstrained version of SPH, and this allows much larger time steps, and an increase in overall performance by two orders of magnitude. Proof of concept is given for computer graphics applications and interactive simulations.
+ER  - 
+
+

@@ -1,0 +1,916 @@
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - On Delay Adjustment for Dynamic Load Balancing in Distributed Virtual Environments
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 4
+SN  - 1077-2626
+VO  - 18
+SP  - 529
+EP  - 537
+AU  - Yunhua Deng
+AU  - Lau, Rynson W H
+Y1  - April 2012
+PY  - 2012
+KW  - formal specification
+KW  - formal verification
+KW  - resource allocation
+KW  - virtual reality
+KW  - delay adjustment schemes
+KW  - distributed virtual environment
+KW  - dynamic load balancing algorithm
+KW  - formal analysis
+KW  - interactive DVE system
+KW  - load partitioning
+KW  - massive multiplayer online game
+KW  - multiserver architecture
+KW  - network delay effect
+KW  - server load
+KW  - Delay
+KW  - Heating
+KW  - Heuristic algorithms
+KW  - Load management
+KW  - Load modeling
+KW  - Servers
+KW  - Silicon
+KW  - Multi-server architecture
+KW  - delay adjustment
+KW  - distributed virtual environments.
+KW  - dynamic load balancing
+KW  - Computer Communication Networks
+KW  - Computer Graphics
+KW  - Humans
+KW  - Online Systems
+KW  - User-Computer Interface
+KW  - Video Games
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2012.52
+AB  - Distributed virtual environments (DVEs) are becoming very popular in recent years, due to the rapid growing of applications, such as massive multiplayer online games (MMOGs). As the number of concurrent users increases, scalability becomes one of the major challenges in designing an interactive DVE system. One solution to address this scalability problem is to adopt a multi-server architecture. While some methods focus on the quality of partitioning the load among the servers, others focus on the efficiency of the partitioning process itself. However, all these methods neglect the effect of network delay among the servers on the accuracy of the load balancing solutions. As we show in this paper, the change in the load of the servers due to network delay would affect the performance of the load balancing algorithm. In this work, we conduct a formal analysis of this problem and discuss two efficient delay adjustment schemes to address the problem. Our experimental results show that our proposed schemes can significantly improve the performance of the load balancing algorithm with neglectable computation overhead.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Redirecting Walking and Driving for Natural Navigation in Immersive Virtual Environments
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 4
+SN  - 1077-2626
+VO  - 18
+SP  - 538
+EP  - 545
+AU  - Bruder, G.
+AU  - Interrante, V.
+AU  - Phillips, L.
+AU  - Steinicke, F.
+Y1  - April 2012
+PY  - 2012
+KW  - interactive devices
+KW  - user interfaces
+KW  - virtual reality
+KW  - active transportation
+KW  - driving locomotion
+KW  - electric wheelchair
+KW  - immersive virtual environment
+KW  - longer-distance travel
+KW  - natural navigation
+KW  - navigation task
+KW  - passive transportation
+KW  - perceptual detection threshold
+KW  - redirected driving
+KW  - redirected walking
+KW  - redirection technique
+KW  - transportation device
+KW  - vehicle-based self-motion
+KW  - walking interface
+KW  - walking locomotion
+KW  - Laboratories
+KW  - Legged locomotion
+KW  - Navigation
+KW  - Space exploration
+KW  - Vehicles
+KW  - Visualization
+KW  - Wheelchairs
+KW  - Redirected walking
+KW  - motion perception.
+KW  - natural locomotion
+KW  - redirected driving
+KW  - self&amp;#8211
+KW  - Automobile Driving
+KW  - Computer Graphics
+KW  - Humans
+KW  - Psychophysics
+KW  - Space Perception
+KW  - User-Computer Interface
+KW  - Walking
+KW  - Wheelchairs
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2012.55
+AB  - Walking is the most natural form of locomotion for humans, and real walking interfaces have demonstrated their benefits for several navigation tasks. With recently proposed redirection techniques it becomes possible to overcome space limitations as imposed by tracking sensors or laboratory setups, and, theoretically, it is now possible to walk through arbitrarily large virtual environments. However, walking as sole locomotion technique has drawbacks, in particular, for long distances, such that even in the real world we tend to support walking with passive or active transportation for longer-distance travel. In this article we show that concepts from the field of redirected walking can be applied to movements with transportation devices. We conducted psychophysical experiments to determine perceptual detection thresholds for redirected driving, and set these in relation to results from redirected walking. We show that redirected walking-and-driving approaches can easily be realized in immersive virtual reality laboratories, e. g., with electric wheelchairs, and show that such systems can combine advantages of real walking in confined spaces with benefits of using vehiclebased self-motion for longer-distance travel.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Walking in a Cube: Novel Metaphors for Safely Navigating Large Virtual Environments in Restricted Real Workspaces
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 4
+SN  - 1077-2626
+VO  - 18
+SP  - 546
+EP  - 554
+AU  - Cirio, G.
+AU  - Vangorp, P.
+AU  - Chapoulie, E.
+AU  - Marchal, M.
+AU  - Lecuyer, A.
+AU  - Drettakis, G.
+Y1  - April 2012
+PY  - 2012
+KW  - computer displays
+KW  - user interfaces
+KW  - virtual reality
+KW  - 4-sided display
+KW  - constrained wand paradigm
+KW  - controller interface
+KW  - controller-based approach
+KW  - ecological interaction paradigm
+KW  - high-quality tracking
+KW  - immersive space
+KW  - limited rotation
+KW  - limited translation
+KW  - locomotion technique
+KW  - magic barrier tape paradigm
+KW  - path following task
+KW  - rotational boundary
+KW  - stereo viewing
+KW  - translational boundary
+KW  - travel-to-target task
+KW  - user study
+KW  - virtual companion
+KW  - virtual environment navigation
+KW  - virtual experience
+KW  - warning technique
+KW  - Birds
+KW  - Face
+KW  - Legged locomotion
+KW  - Navigation
+KW  - Safety
+KW  - Virtual environments
+KW  - Visualization
+KW  - Virtual reality
+KW  - locomotion techniques
+KW  - restricted workspaces.
+KW  - walking
+KW  - Computer Graphics
+KW  - Humans
+KW  - Space Perception
+KW  - User-Computer Interface
+KW  - Walking
+KW  - Workplace
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2012.60
+AB  - Immersive spaces such as 4-sided displays with stereo viewing and high-quality tracking provide a very engaging and realistic virtual experience. However, walking is inherently limited by the restricted physical space, both due to the screens (limited translation) and the missing back screen (limited rotation). In this paper, we propose three novel locomotion techniques that have three concurrent goals: keep the user safe from reaching the translational and rotational boundaries; increase the amount of real walking and finally, provide a more enjoyable and ecological interaction paradigm compared to traditional controller-based approaches. We notably introduce the "Virtual Companion", which uses a small bird to guide the user through VEs larger than the physical space. We evaluate the three new techniques through a user study with travel-to-target and path following tasks. The study provides insight into the relative strengths of each new technique for the three aforementioned goals. Specifically, if speed and accuracy are paramount, traditional controller interfaces augmented with our novel warning techniques may be more appropriate; if physical walking is more important, two of our paradigms (extended Magic Barrier Tape and Constrained Wand) should be preferred; last, fun and ecological criteria would favor the Virtual Companion.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Impossible Spaces: Maximizing Natural Walking in Virtual Environments with Self-Overlapping Architecture
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 4
+SN  - 1077-2626
+VO  - 18
+SP  - 555
+EP  - 564
+AU  - Suma, E.A.
+AU  - Lipps, Z.
+AU  - Finkelstein, S.
+AU  - Krum, D.M.
+AU  - Bolas, M.
+Y1  - April 2012
+PY  - 2012
+KW  - feedback
+KW  - gait analysis
+KW  - human computer interaction
+KW  - virtual reality
+KW  - adjacent overlapping room
+KW  - design mechanic
+KW  - expansive outdoor scene
+KW  - illusion
+KW  - immersive virtual environment
+KW  - impossible spaces
+KW  - natural locomotion
+KW  - natural walking
+KW  - redirection technique
+KW  - self-overlapping architectural layout
+KW  - user physical workspace
+KW  - users verbal feedback
+KW  - virtual room
+KW  - Buildings
+KW  - Educational institutions
+KW  - Estimation
+KW  - Layout
+KW  - Legged locomotion
+KW  - Space exploration
+KW  - Virtual environments
+KW  - Virtual environments
+KW  - perception
+KW  - redirection.
+KW  - spatial illusions
+KW  - Adult
+KW  - Architecture as Topic
+KW  - Computer Graphics
+KW  - Distance Perception
+KW  - Environment
+KW  - Female
+KW  - Humans
+KW  - Male
+KW  - Middle Aged
+KW  - Motion Sickness
+KW  - Space Perception
+KW  - User-Computer Interface
+KW  - Walking
+KW  - Young Adult
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2012.47
+AB  - Walking is only possible within immersive virtual environments that fit inside the boundaries of the user's physical workspace. To reduce the severity of the restrictions imposed by limited physical area, we introduce "impossible spaces," a new design mechanic for virtual environments that wish to maximize the size of the virtual environment that can be explored with natural locomotion. Such environments make use of self-overlapping architectural layouts, effectively compressing comparatively large interior environments into smaller physical areas. We conducted two formal user studies to explore the perception and experience of impossible spaces. In the first experiment, we showed that reasonably small virtual rooms may overlap by as much as 56% before users begin to detect that they are in an impossible space, and that the larger virtual rooms that expanded to maximally fill our available 9.14m &#x00D7; 9.14m workspace may overlap by up to 31%. Our results also demonstrate that users perceive distances to objects in adjacent overlapping rooms as if the overall space was uncompressed, even at overlap levels that were overtly noticeable. In our second experiment, we combined several well-known redirection techniques to string together a chain of impossible spaces in an expansive outdoor scene. We then conducted an exploratory analysis of users' verbal feedback during exploration, which indicated that impossible spaces provide an even more powerful illusion when users are naive to the manipulation.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Extended Overview Techniques for Outdoor Augmented Reality
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 4
+SN  - 1077-2626
+VO  - 18
+SP  - 565
+EP  - 572
+AU  - Veas, E.
+AU  - Grasset, R.
+AU  - Kruijff, E.
+AU  - Schmalstieg, D.
+Y1  - April 2012
+PY  - 2012
+KW  - augmented reality
+KW  - comparative user study
+KW  - data set portion filtering
+KW  - data set portion zooming
+KW  - extended overview techniques
+KW  - multiview AR interactive techniques
+KW  - outdoor augmented reality application
+KW  - site understanding
+KW  - variable perspective view interactive techniques
+KW  - Cameras
+KW  - Context
+KW  - Data visualization
+KW  - Mobile communication
+KW  - Navigation
+KW  - Solid modeling
+KW  - Three dimensional displays
+KW  - Information Interfaces and Presentation
+KW  - mobile augmented reality
+KW  - multi-perspective views
+KW  - navigation.
+KW  - situation awareness
+KW  - Adult
+KW  - Computer Graphics
+KW  - Environment
+KW  - Female
+KW  - Humans
+KW  - Male
+KW  - User-Computer Interface
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2012.44
+AB  - In this paper, we explore techniques that aim to improve site understanding for outdoor Augmented Reality (AR) applications. While the first person perspective in AR is a direct way of filtering and zooming on a portion of the data set, it severely narrows overview of the situation, particularly over large areas. We present two interactive techniques to overcome this problem: multi-view AR and variable perspective view. We describe in details the conceptual, visualization and interaction aspects of these techniques and their evaluation through a comparative user study. The results we have obtained strengthen the validity of our approach and the applicability of our methods to a large range of application domains.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Online Tracking of Outdoor Lighting Variations for Augmented Reality with Moving Cameras
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 4
+SN  - 1077-2626
+VO  - 18
+SP  - 573
+EP  - 580
+AU  - Yanli Liu
+AU  - Granier, X.
+Y1  - April 2012
+PY  - 2012
+KW  - augmented reality
+KW  - cameras
+KW  - feature extraction
+KW  - image sequences
+KW  - lighting
+KW  - object tracking
+KW  - optimisation
+KW  - video signal processing
+KW  - augmented reality
+KW  - full image-based approach
+KW  - illumination
+KW  - lighting condition
+KW  - moving camera
+KW  - online tracking
+KW  - optimization process
+KW  - outdoor lighting variation
+KW  - planar feature point extraction
+KW  - skylight relative intensity
+KW  - spatial coherence
+KW  - sunlight relative intensity
+KW  - temporal coherence
+KW  - video scene
+KW  - video sequence
+KW  - virtual object
+KW  - visual appearance consistency
+KW  - Buildings
+KW  - Cameras
+KW  - Estimation
+KW  - Feature extraction
+KW  - Geometry
+KW  - Lighting
+KW  - Three dimensional displays
+KW  - Augmented reality
+KW  - illumination coherence
+KW  - moving cameras.
+KW  - Algorithms
+KW  - Computer Graphics
+KW  - Humans
+KW  - Lighting
+KW  - Motion
+KW  - User-Computer Interface
+KW  - Video Recording
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2012.53
+AB  - In augmented reality, one of key tasks to achieve a convincing visual appearance consistency between virtual objects and video scenes is to have a coherent illumination along the whole sequence. As outdoor illumination is largely dependent on the weather, the lighting condition may change from frame to frame. In this paper, we propose a full image-based approach for online tracking of outdoor illumination variations from videos captured with moving cameras. Our key idea is to estimate the relative intensities of sunlight and skylight via a sparse set of planar feature-points extracted from each frame. To address the inevitable feature misalignments, a set of constraints are introduced to select the most reliable ones. Exploiting the spatial and temporal coherence of illumination, the relative intensities of sunlight and skylight are finally estimated by using an optimization process. We validate our technique on a set of real-life videos and show that the results with our estimations are visually coherent along the video sequences.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - The Right View from the Wrong Location: Depth Perception in Stereoscopic Multi-User Virtual Environments
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 4
+SN  - 1077-2626
+VO  - 18
+SP  - 581
+EP  - 588
+AU  - Pollock, B.
+AU  - Burton, M.
+AU  - Kelly, J.W.
+AU  - Gilbert, S.
+AU  - Winer, E.
+Y1  - April 2012
+PY  - 2012
+KW  - computer displays
+KW  - stereo image processing
+KW  - user interfaces
+KW  - virtual reality
+KW  - backward displacement
+KW  - center-of-projection
+KW  - collaborative spatial judgment
+KW  - depth perception
+KW  - distortion reduction strategy
+KW  - follower perspective
+KW  - forward displacement
+KW  - head-tracking device
+KW  - immersion
+KW  - leader perspective
+KW  - perceived depth compression
+KW  - perceived depth expansion
+KW  - ray-intersection model
+KW  - stereo geometry
+KW  - stereoscopic depth cue
+KW  - stereoscopic displays
+KW  - stereoscopic image
+KW  - stereoscopic multiuser virtual environment
+KW  - virtual shape
+KW  - Collaboration
+KW  - Educational institutions
+KW  - Predictive models
+KW  - Shape
+KW  - Stereo image processing
+KW  - Virtual environments
+KW  - Perception
+KW  - and collaborative interaction.
+KW  - stereoscopy
+KW  - Computer Graphics
+KW  - Depth Perception
+KW  - Environment
+KW  - Female
+KW  - Humans
+KW  - Male
+KW  - User-Computer Interface
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2012.58
+AB  - Stereoscopic depth cues improve depth perception and increase immersion within virtual environments (VEs). However, improper display of these cues can distort perceived distances and directions. Consider a multi-user VE, where all users view identical stereoscopic images regardless of physical location. In this scenario, cues are typically customized for one "leader" equipped with a head-tracking device. This user stands at the center of projection (CoP) and all other users ("followers") view the scene from other locations and receive improper depth cues. This paper examines perceived depth distortion when viewing stereoscopic VEs from follower perspectives and the impact of these distortions on collaborative spatial judgments. Pairs of participants made collaborative depth judgments of virtual shapes viewed from the CoP or after displacement forward or backward. Forward and backward displacement caused perceived depth compression and expansion, respectively, with greater compression than expansion. Furthermore, distortion was less than predicted by a ray-intersection model of stereo geometry. Collaboration times were significantly longer when participants stood at different locations compared to the same location, and increased with greater perceived depth discrepancy between the two viewing locations. These findings advance our understanding of spatial distortions in multi-user VEs, and suggest a strategy for reducing distortion.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Geometric Calibration of Head-Mounted Displays and its Effects on Distance Estimation
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 4
+SN  - 1077-2626
+VO  - 18
+SP  - 589
+EP  - 596
+AU  - Kellner, F.
+AU  - Bolte, B.
+AU  - Bruder, G.
+AU  - Rautenberg, U.
+AU  - Steinicke, F.
+AU  - Lappe, M.
+AU  - Koch, R.
+Y1  - April 2012
+PY  - 2012
+KW  - augmented reality
+KW  - calibration
+KW  - helmet mounted displays
+KW  - human computer interaction
+KW  - rendering (computer graphics)
+KW  - 2D point-3D line correspondences
+KW  - HMD
+KW  - augmented reality
+KW  - average distance underestimation reduction
+KW  - calibrated view frustum
+KW  - distance estimation
+KW  - distance underestimation effects
+KW  - egocentric distance
+KW  - egocentric perspective
+KW  - full per user calibration
+KW  - geometric calibration
+KW  - geometric scheme
+KW  - head-mounted display
+KW  - immersive VR environment
+KW  - immersive virtual reality environment
+KW  - manual per user adjustment
+KW  - optical see-through display
+KW  - rendering
+KW  - user interaction
+KW  - virtual view frustum set
+KW  - Calibration
+KW  - Cameras
+KW  - Estimation
+KW  - Noise
+KW  - Target tracking
+KW  - Three dimensional displays
+KW  - Vectors
+KW  - HMD calibration
+KW  - Optical see-through
+KW  - distance perception.
+KW  - Adult
+KW  - Calibration
+KW  - Computer Graphics
+KW  - Computer Simulation
+KW  - Distance Perception
+KW  - Equipment Design
+KW  - Female
+KW  - Head
+KW  - Humans
+KW  - Male
+KW  - Rotation
+KW  - User-Computer Interface
+KW  - Young Adult
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2012.45
+AB  - Head-mounted displays (HMDs) allow users to observe virtual environments (VEs) from an egocentric perspective. However, several experiments have provided evidence that egocentric distances are perceived as compressed in VEs relative to the real world. Recent experiments suggest that the virtual view frustum set for rendering the VE has an essential impact on the user's estimation of distances. In this article we analyze if distance estimation can be improved by calibrating the view frustum for a given HMD and user. Unfortunately, in an immersive virtual reality (VR) environment, a full per user calibration is not trivial and manual per user adjustment often leads to mini- or magnification of the scene. Therefore, we propose a novel per user calibration approach with optical see-through displays commonly used in augmented reality (AR). This calibration takes advantage of a geometric scheme based on 2D point - 3D line correspondences, which can be used intuitively by inexperienced users and requires less than a minute to complete. The required user interaction is based on taking aim at a distant target marker with a close marker, which ensures non-planar measurements covering a large area of the interaction space while also reducing the number of required measurements to five. We found the tendency that a calibrated view frustum reduced the average distance underestimation of users in an immersive VR environment, but even the correctly calibrated view frustum could not entirely compensate for the distance underestimation effects.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Effects of Immersion on Visual Analysis of Volume Data
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 4
+SN  - 1077-2626
+VO  - 18
+SP  - 597
+EP  - 606
+AU  - Laha, Bireswar
+AU  - Sensharma, K.
+AU  - Schiffbauer, J.D.
+AU  - Bowman, D.A.
+Y1  - April 2012
+PY  - 2012
+KW  - computerised tomography
+KW  - data analysis
+KW  - data visualisation
+KW  - rendering (computer graphics)
+KW  - virtual reality
+KW  - 3D medical image
+KW  - display system
+KW  - field-of-regard component
+KW  - head tracking component
+KW  - immersion effect
+KW  - immersive VR system
+KW  - immersive virtual reality systems
+KW  - paleontological data
+KW  - perceived task performance
+KW  - seismic data
+KW  - stereoscopic rendering component
+KW  - visual analysis
+KW  - volume data analysis
+KW  - volume visualization
+KW  - x-ray microscopic computed tomography dataset
+KW  - Data visualization
+KW  - Head
+KW  - Mice
+KW  - Rendering (computer graphics)
+KW  - Three dimensional displays
+KW  - Training
+KW  - Visualization
+KW  - 3D visualization
+KW  - CAVE
+KW  - Immersion
+KW  - data analysis
+KW  - micro-CT
+KW  - virtual environments
+KW  - virtual reality.
+KW  - volume visualization
+KW  - Adolescent
+KW  - Adult
+KW  - Animals
+KW  - Computer Graphics
+KW  - Databases, Factual
+KW  - Extremities
+KW  - Female
+KW  - Fossils
+KW  - Humans
+KW  - Imaging, Three-Dimensional
+KW  - Male
+KW  - Mice
+KW  - Task Performance and Analysis
+KW  - Tissue Scaffolds
+KW  - User-Computer Interface
+KW  - X-Ray Microtomography
+KW  - Young Adult
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2012.42
+AB  - Volume visualization has been widely used for decades for analyzing datasets ranging from 3D medical images to seismic data to paleontological data. Many have proposed using immersive virtual reality (VR) systems to view volume visualizations, and there is anecdotal evidence of the benefits of VR for this purpose. However, there has been very little empirical research exploring the effects of higher levels of immersion for volume visualization, and it is not known how various components of immersion influence the effectiveness of visualization in VR. We conducted a controlled experiment in which we studied the independent and combined effects of three components of immersion (head tracking, field of regard, and stereoscopic rendering) on the effectiveness of visualization tasks with two x-ray microscopic computed tomography datasets. We report significant benefits of analyzing volume data in an environment involving those components of immersion. We find that the benefits do not necessarily require all three components simultaneously, and that the components have variable influence on different task categories. The results of our study improve our understanding of the effects of immersion on perceived and actual task performance, and provide guidance on the choice of display systems to designers seeking to maximize the effectiveness of volume visualization applications.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Effective Replays and Summarization of Virtual Experiences
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 4
+SN  - 1077-2626
+VO  - 18
+SP  - 607
+EP  - 616
+AU  - Ponto, K.
+AU  - Kohlmann, J.
+AU  - Gleicher, M.
+Y1  - April 2012
+PY  - 2012
+KW  - cameras
+KW  - virtual reality
+KW  - content-dependent metric
+KW  - contextual view information
+KW  - egocentric experiences
+KW  - performance analysis
+KW  - unnatural camera motions
+KW  - user observations
+KW  - viewpoint extraction
+KW  - viewpoint path summarization
+KW  - virtual environment
+KW  - virtual experience replay
+KW  - virtual experience summarization
+KW  - Cameras
+KW  - Equations
+KW  - Geometry
+KW  - Graphics processing unit
+KW  - Measurement
+KW  - Three dimensional displays
+KW  - Virtual environments
+KW  - Bookmarking.
+KW  - GPU
+KW  - Summarization
+KW  - Viewpoint Similarity
+KW  - Virtual Reality
+KW  - Computer Graphics
+KW  - Humans
+KW  - Motion
+KW  - Movement
+KW  - User-Computer Interface
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2012.41
+AB  - Direct replay of the experience of a user in a virtual environment is difficult for others to watch due to unnatural camera motions. We present methods for replaying and summarizing these egocentric experiences that effectively communicate the user's observations while reducing unwanted camera movements. Our approach summarizes the viewpoint path as a concise sequence of viewpoints that cover the same parts of the scene. The core of our approach is a novel content-dependent metric that can be used to identify similarities between viewpoints. This enables viewpoints to be grouped by similar contextual view information and provides a means to generate novel viewpoints that can encapsulate a series of views. These resulting encapsulated viewpoints are used to synthesize new camera paths that convey the content of the original viewer's experience. Projecting the initial movement of the user back on the scene can be used to convey the details of their observations, and the extracted viewpoints can serve as bookmarks for control or analysis. Finally we present performance analysis along with two forms of validation to test whether the extracted viewpoints are representative of the viewer's original observations and to test for the overall effectiveness of the presented replay methods.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Haptic Palpation for Medical Simulation in Virtual Environments
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 4
+SN  - 1077-2626
+VO  - 18
+SP  - 617
+EP  - 625
+AU  - Ullrich, S.
+AU  - Kuhlen, T.
+Y1  - April 2012
+PY  - 2012
+KW  - computer based training
+KW  - finite element analysis
+KW  - haptic interfaces
+KW  - medical computing
+KW  - user interfaces
+KW  - virtual reality
+KW  - anatomy layer support
+KW  - arterial pulse simulation
+KW  - bimanual interaction
+KW  - corotational finite-element approach
+KW  - finger grip configuration
+KW  - haptic device
+KW  - haptic palpation
+KW  - manual cancer detection
+KW  - medical procedure
+KW  - medical simulation
+KW  - medical training simulator
+KW  - multiobject force algorithm
+KW  - needle insertion
+KW  - palpation examination technique
+KW  - pulse force algorithm
+KW  - regional anesthesia
+KW  - soft tissue simulation
+KW  - supplementary interaction technique
+KW  - tissue dragging
+KW  - user study
+KW  - virtual environment
+KW  - virtual reality-based medical simulator
+KW  - Bismuth
+KW  - Force
+KW  - Haptic interfaces
+KW  - Phantoms
+KW  - Rendering (computer graphics)
+KW  - Skin
+KW  - Visualization
+KW  - Medicine
+KW  - haptics
+KW  - physically-based simulation
+KW  - user studies.
+KW  - Adult
+KW  - Algorithms
+KW  - Anesthesiology
+KW  - Biophysical Phenomena
+KW  - Computer Graphics
+KW  - Computer-Assisted Instruction
+KW  - Female
+KW  - Humans
+KW  - Internship and Residency
+KW  - Male
+KW  - Middle Aged
+KW  - Palpation
+KW  - Phantoms, Imaging
+KW  - User-Computer Interface
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2012.46
+AB  - Palpation is a physical examination technique where objects, e.g., organs or body parts, are touched with fingers to determine their size, shape, consistency and location. Many medical procedures utilize palpation as a supplementary interaction technique and it can be therefore considered as an essential basic method. However, palpation is mostly neglected in medical training simulators, with the exception of very specialized simulators that solely focus on palpation, e.g., for manual cancer detection. In this article we propose a novel approach to enable haptic palpation interaction for virtual reality-based medical simulators. The main contribution is an extensive user study conducted with a large group of medical experts. To provide a plausible simulation framework for this user study, we contribute a novel and detailed interaction algorithm for palpation with tissue dragging, which utilizes a multi-object force algorithm to support multiple layers of anatomy and a pulse force algorithm for simulation of an arterial pulse. Furthermore, we propose a modification for an off-the-shelf haptic device by adding a lightweight palpation pad to support a more realistic finger grip configuration for palpation tasks. The user study itself has been conducted on a medical training simulator prototype with a specific procedure from regional anesthesia, which strongly depends on palpation. The prototype utilizes a co-rotational finite-element approach for soft tissue simulation and provides bimanual interaction by combining the aforementioned techniques with needle insertion for the other hand. The results of the user study suggest reasonable face validity of the simulator prototype and in particular validate medical plausibility of the proposed palpation interaction algorithm.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Evaluating Display Fidelity and Interaction Fidelity in a Virtual Reality Game
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 4
+SN  - 1077-2626
+VO  - 18
+SP  - 626
+EP  - 633
+AU  - McMahan, R.P.
+AU  - Bowman, D.A.
+AU  - Zielinski, D.J.
+AU  - Brady, R.B.
+Y1  - April 2012
+PY  - 2012
+KW  - computer games
+KW  - display instrumentation
+KW  - human computer interaction
+KW  - virtual reality
+KW  - VR first-person shooter game
+KW  - display fidelity evaluation
+KW  - high-display condition
+KW  - high-interaction fidelity condition
+KW  - immersive virtual reality
+KW  - interaction fidelity evaluation
+KW  - low-display condition
+KW  - low-interaction fidelity condition
+KW  - performance-intensive context
+KW  - six-sided CAVE
+KW  - subjective engagement judgement
+KW  - subjective presence judgement
+KW  - subjective usability judgement
+KW  - user experience
+KW  - virtual reality game
+KW  - Accuracy
+KW  - Games
+KW  - Humans
+KW  - Keyboards
+KW  - Mice
+KW  - Turning
+KW  - Usability
+KW  - Virtual reality
+KW  - display fidelity
+KW  - engagement.
+KW  - interaction fidelity
+KW  - presence
+KW  - Adolescent
+KW  - Adult
+KW  - Computer Graphics
+KW  - Computer Simulation
+KW  - Female
+KW  - Humans
+KW  - Male
+KW  - User-Computer Interface
+KW  - Video Games
+KW  - Young Adult
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2012.43
+AB  - In recent years, consumers have witnessed a technological revolution that has delivered more-realistic experiences in their own homes through high-definition, stereoscopic televisions and natural, gesture-based video game consoles. Although these experiences are more realistic, offering higher levels of fidelity, it is not clear how the increased display and interaction aspects of fidelity impact the user experience. Since immersive virtual reality (VR) allows us to achieve very high levels of fidelity, we designed and conducted a study that used a six-sided CAVE to evaluate display fidelity and interaction fidelity independently, at extremely high and low levels, for a VR first-person shooter (FPS) game. Our goal was to gain a better understanding of the effects of fidelity on the user in a complex, performance-intensive context. The results of our study indicate that both display and interaction fidelity significantly affect strategy and performance, as well as subjective judgments of presence, engagement, and usability. In particular, performance results were strongly in favor of two conditions: low-display, low-interaction fidelity (representative of traditional FPS games) and high-display, high-interaction fidelity (similar to the real world).
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Dense and Dynamic 3D Selection for Game-Based Virtual Environments
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 4
+SN  - 1077-2626
+VO  - 18
+SP  - 634
+EP  - 642
+AU  - Cashion, J.
+AU  - Wingrave, C.
+AU  - LaViola, J.J.
+Y1  - April 2012
+PY  - 2012
+KW  - computer games
+KW  - iterative methods
+KW  - user interfaces
+KW  - virtual reality
+KW  - 3D selection guidelines
+KW  - 3D selection techniques
+KW  - Raycasting technique
+KW  - SQUAD technique
+KW  - dense 3D object selection
+KW  - dynamic 3D object selection
+KW  - expand variation
+KW  - game-based virtual environment
+KW  - hand gesture
+KW  - iterative design
+KW  - motion controller
+KW  - motion dynamics
+KW  - object density
+KW  - sparse environment
+KW  - zoom variation
+KW  - Accuracy
+KW  - Color
+KW  - Context
+KW  - Games
+KW  - Guidelines
+KW  - Three dimensional displays
+KW  - Usability
+KW  - 3D object selection
+KW  - Interaction techniques
+KW  - dense and dynamic objects.
+KW  - game-based virtual environments
+KW  - Adolescent
+KW  - Adult
+KW  - Computer Graphics
+KW  - Computer Simulation
+KW  - Environment
+KW  - Female
+KW  - Humans
+KW  - Imaging, Three-Dimensional
+KW  - Male
+KW  - Motion
+KW  - User-Computer Interface
+KW  - Video Games
+KW  - Young Adult
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2012.40
+AB  - 3D object selection is more demanding when, 1) objects densly surround the target object, 2) the target object is significantly occluded, and 3) when the target object is dynamically changing location. Most 3D selection techniques and guidelines were developed and tested on static or mostly sparse environments. In contrast, games tend to incorporate densly packed and dynamic objects as part of their typical interaction. With the increasing popularity of 3D selection in games using hand gestures or motion controllers, our current understanding of 3D selection needs revision. We present a study that compared four different selection techniques under five different scenarios based on varying object density and motion dynamics. We utilized two existing techniques, Raycasting and SQUAD, and developed two variations of them, Zoom and Expand, using iterative design. Our results indicate that while Raycasting and SQUAD both have weaknesses in terms of speed and accuracy in dense and dynamic environments, by making small modifications to them (i.e., flavoring), we can achieve significant performance increases.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Scanning 3D Full Human Bodies Using Kinects
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 4
+SN  - 1077-2626
+VO  - 18
+SP  - 643
+EP  - 650
+AU  - Jing Tong
+AU  - Jin Zhou
+AU  - Ligang Liu
+AU  - Zhigeng Pan
+AU  - Hao Yan
+Y1  - April 2012
+PY  - 2012
+KW  - avatars
+KW  - computer animation
+KW  - interactive devices
+KW  - solid modelling
+KW  - 3D full human body model scanning
+KW  - 3D human animation
+KW  - 3D scanning devices
+KW  - Microsoft Kinect
+KW  - depth camera
+KW  - error distribution
+KW  - global alignment algorithm
+KW  - home-oriented virtual reality applications
+KW  - loop closure problem
+KW  - nonrigid deformation
+KW  - personalized avatars
+KW  - rough mesh template
+KW  - successive frame deformation
+KW  - Biological system modeling
+KW  - Computational modeling
+KW  - Geometry
+KW  - Humans
+KW  - Image reconstruction
+KW  - Shape
+KW  - Three dimensional displays
+KW  - 3D Body Scanning
+KW  - Microsoft Kinect
+KW  - global non-igid registration
+KW  - Computer Graphics
+KW  - Computer Simulation
+KW  - Humans
+KW  - Imaging, Three-Dimensional
+KW  - Models, Anatomic
+KW  - User-Computer Interface
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2012.56
+AB  - Depth camera such as Microsoft Kinect, is much cheaper than conventional 3D scanning devices, and thus it can be acquired for everyday users easily. However, the depth data captured by Kinect over a certain distance is of extreme low quality. In this paper, we present a novel scanning system for capturing 3D full human body models by using multiple Kinects. To avoid the interference phenomena, we use two Kinects to capture the upper part and lower part of a human body respectively without overlapping region. A third Kinect is used to capture the middle part of the human body from the opposite direction. We propose a practical approach for registering the various body parts of different views under non-rigid deformation. First, a rough mesh template is constructed and used to deform successive frames pairwisely. Second, global alignment is performed to distribute errors in the deformation space, which can solve the loop closure problem efficiently. Misalignment caused by complex occlusion can also be handled reasonably by our global alignment algorithm. The experimental results have shown the efficiency and applicability of our system. Our system obtains impressive results in a few minutes with low price devices, thus is practically useful for generating personalized avatars for everyday users. Our system has been used for 3D human animation and virtual try on, and can further facilitate a range of home-oriented virtual reality (VR) applications.
+ER  - 
+
+TY  - JOUR
+JO  - Visualization and Computer Graphics, IEEE Transactions on
+TI  - Interactive 3D Model Acquisition and Tracking of Building Block Structures
+T2  - Visualization and Computer Graphics, IEEE Transactions on
+IS  - 4
+SN  - 1077-2626
+VO  - 18
+SP  - 651
+EP  - 659
+AU  - Miller, A.
+AU  - White, B.
+AU  - Charbonneau, E.
+AU  - Kanzler, Z.
+AU  - LaViola, J.J.
+Y1  - April 2012
+PY  - 2012
+KW  - cameras
+KW  - data acquisition
+KW  - solid modelling
+KW  - user interfaces
+KW  - 3D model acquisition
+KW  - 3D model tracking
+KW  - 3D physical model
+KW  - 3D point lattice
+KW  - building block structure
+KW  - collaborative guided assembly system
+KW  - depth sensing camera
+KW  - interactive 3D model
+KW  - interactive construction
+KW  - interactive modification
+KW  - lattice-first algorithm
+KW  - on-screen silhouette
+KW  - user design
+KW  - user interaction
+KW  - visual feedback
+KW  - Cameras
+KW  - Computational modeling
+KW  - Image color analysis
+KW  - Lattices
+KW  - Solid modeling
+KW  - Three dimensional displays
+KW  - Visualization
+KW  - 3D model acquisition
+KW  - Interactive physical model building
+KW  - building block structures.
+KW  - depth cameras
+KW  - object tracking
+KW  - Algorithms
+KW  - Computer Graphics
+KW  - Computer Simulation
+KW  - Humans
+KW  - Imaging, Three-Dimensional
+KW  - User-Computer Interface
+VL  - 18
+JA  - Visualization and Computer Graphics, IEEE Transactions on
+DO  - 10.1109/TVCG.2012.48
+AB  - We present a prototype system for interactive construction and modification of 3D physical models using building blocks.Our system uses a depth sensing camera and a novel algorithm for acquiring and tracking the physical models. The algorithm,Lattice-First, is based on the fact that building block structures can be arranged in a 3D point lattice where the smallest block unit is a basis in which to derive all the pieces of the model. The algorithm also makes it possible for users to interact naturally with the physical model as it is acquired, using their bare hands to add and remove pieces. We present the details of our algorithm, along with examples of the models we can acquire using the interactive system. We also show the results of an experiment where participants modify a block structure in the absence of visual feedback. Finally, we discuss two proof-of-concept applications: a collaborative guided assembly system where one user is interactively guided to build a structure based on another user's design, and a game where the player must build a structure that matches an on-screen silhouette.
+ER  - 
+
+
