@@ -1,182 +1,169 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf190
-{\fonttbl\f0\froman\fcharset0 Times-Roman;}
-{\colortbl;\red255\green255\blue255;}
-\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-\deftab720
-\pard\pardeftab720
-
-\f0\fs24 \cf0 @ARTICLE\{6018965, \
-author=\{Hillaire, S. and Lecuyer, A. and Regia-Corte, T. and Cozot, R. and Royan, J. and Breton, G.\}, \
-journal=\{Visualization and Computer Graphics, IEEE Transactions on\}, \
-title=\{Design and Application of Real-Time Visual Attention Model for the Exploration of 3D Virtual Environments\}, \
-year=\{2012\}, \
-month=\{March\}, \
-volume=\{18\}, \
-number=\{3\}, \
-pages=\{356-368\}, \
-abstract=\{This paper studies the design and application of a novel visual attention model designed to compute user's gaze position automatically, i.e., without using a gaze-tracking system. The model we propose is specifically designed for real-time first-person exploration of 3D virtual environments. It is the first model adapted to this context which can compute in real time a continuous gaze point position instead of a set of 3D objects potentially observed by the user. To do so, contrary to previous models which use a mesh-based representation of visual objects, we introduce a representation based on surface-elements. Our model also simulates visual reflexes and the cognitive processes which take place in the brain such as the gaze behavior associated to first-person navigation in the virtual environment. Our visual attention model combines both bottom-up and top-down components to compute a continuous gaze point position on screen that hopefully matches the user's one. We conducted an experiment to study and compare the performance of our method with a state-of-the-art approach. Our results are found significantly better with sometimes more than 100 percent of accuracy gained. This suggests that computing a gaze point in a 3D virtual environment in real time is possible and is a valid approach, compared to object-based approaches. Finally, we expose different applications of our model when exploring virtual environments. We present different algorithms which can improve or adapt the visual feedback of virtual environments based on gaze information. We first propose a level-of-detail approach that heavily relies on multiple-texture sampling. We show that it is possible to use the gaze information of our visual attention model to increase visual quality where the user is looking, while maintaining a high-refresh rate. Second, we introduce the use of the visual attention model in three visual effects inspired by the human visual system namely: depth-of-field blur, camera- motions, and dynamic luminance. All these effects are computed based on the simulated gaze of the user, and are meant to improve user's sensations in future virtual reality applications.\}, \
-keywords=\{mesh generation;real-time systems;solid modelling;3D objects;3D virtual environments;continuous gaze point position;level-of-detail approach;mesh-based representation;multiple-texture sampling;real-time visual attention model;Adaptation models;Computational modeling;Humans;Real time systems;Solid modeling;Three dimensional displays;Visualization;Visual attention model;first-person exploration;gaze tracking;visual effects.;Adult;Algorithms;Computer Simulation;Eye Movements;Female;Humans;Image Processing, Computer-Assisted;Male;Models, Biological;Software;Stochastic Processes;User-Computer Interface;Visual Fields;Visual Perception\}, \
-doi=\{10.1109/TVCG.2011.154\}, \
-ISSN=\{1077-2626\},\}\
-@ARTICLE\{5963662, \
-author=\{Martinet, A. and Casiez, G. and Grisoni, L.\}, \
-journal=\{Visualization and Computer Graphics, IEEE Transactions on\}, \
-title=\{Integrality and Separability of Multitouch Interaction Techniques in 3D Manipulation Tasks\}, \
-year=\{2012\}, \
-month=\{March\}, \
-volume=\{18\}, \
-number=\{3\}, \
-pages=\{369-380\}, \
-abstract=\{Multitouch displays represent a promising technology for the display and manipulation of data. While the manipulation of 2D data has been widely explored, 3D manipulation with multitouch displays remains largely unexplored. Based on an analysis of the integration and separation of degrees of freedom, we propose a taxonomy for 3D manipulation techniques with multitouch displays. Using that taxonomy, we introduce Depth-Separated Screen-Space (DS3), a new 3D manipulation technique based on the separation of translation and rotation. In a controlled experiment, we compared DS3 with Sticky Tools and Screen-Space. Results show that separating the control of translation and rotation significantly affects performance for 3D manipulation, with DS3 performing faster than the two other techniques.\}, \
-keywords=\{human computer interaction;three-dimensional displays;touch sensitive screens;2D data;3D manipulation tasks;3D manipulation techniques;DS3;controlled experiment;degrees of freedom;depth-separated screen-space;integrality;multitouch displays;multitouch interaction techniques;separability;sticky tools;taxonomy;Humans;Jacobian matrices;Measurement;Mice;Taxonomy;Three dimensional displays;Visualization;3D manipulation task;DOF separation.;Multitouch displays;direct manipulation;Adult;Analysis of Variance;Computer Graphics;Depth Perception;Female;Humans;Imaging, Three-Dimensional;Male;Rotation;Task Performance and Analysis;Touch\}, \
-doi=\{10.1109/TVCG.2011.129\}, \
-ISSN=\{1077-2626\},\}\
-@ARTICLE\{6060818, \
-author=\{Sajadi, B. and Majumder, A.\}, \
-journal=\{Visualization and Computer Graphics, IEEE Transactions on\}, \
-title=\{Autocalibration of Multiprojector CAVE-Like Immersive Environments\}, \
-year=\{2012\}, \
-month=\{March\}, \
-volume=\{18\}, \
-number=\{3\}, \
-pages=\{381-393\}, \
-abstract=\{In this paper, we present the first method for the geometric autocalibration of multiple projectors on a set of CAVE-like immersive display surfaces including truncated domes and 4 or 5-wall CAVEs (three side walls, floor, and/or ceiling). All such surfaces can be categorized as swept surfaces and multiple projectors can be registered on them using a single uncalibrated camera without using any physical markers on the surface. Our method can also handle nonlinear distortion in the projectors, common in compact setups where a short throw lens is mounted on each projector. Further, when the whole swept surface is not visible from a single camera view, we can register the projectors using multiple pan and tilted views of the same camera. Thus, our method scales well with different size and resolution of the display. Since we recover the 3D shape of the display, we can achieve registration that is correct from any arbitrary viewpoint appropriate for head-tracked single-user virtual reality systems. We can also achieve wallpapered registration, more appropriate for multiuser collaborative explorations. Though much more immersive than common surfaces like planes and cylinders, general swept surfaces are used today only for niche display environments. Even the more popular 4 or 5-wall CAVE is treated as a piecewise planar surface for calibration purposes and hence projectors are not allowed to be overlapped across the corners. Our method opens up the possibility of using such swept surfaces to create more immersive VR systems without compromising the simplicity of having a completely automatic calibration technique. Such calibration allows completely arbitrary positioning of the projectors in a 5-wall CAVE, without respecting the corners.\}, \
-keywords=\{calibration;cameras;computational geometry;display devices;image registration;image resolution;optical projectors;virtual reality;3D shape;4-wall CAVE;5-wall CAVE;CAVE-like immersive display surfaces;VR systems;arbitrary viewpoint;automatic calibration technique;calibration purposes;compact setups;completely arbitrary positioning;display resolution;general swept surfaces;geometric autocalibration;head-tracked single-user virtual reality systems;multiple pan;multiple projectors;multiprojector CAVE-like immersive environments;multiuser collaborative explorations;niche display environments;nonlinear distortion;physical markers;piecewise planar surface;short throw lens;tilted views;truncated domes;uncalibrated camera;wallpapered registration;Calibration;Cameras;Optimization;Shape;Surface reconstruction;Surface treatment;Three dimensional displays;CAVEs;Geometric registration;calibration;immersive displays.;multiprojector displays;tiled displays\}, \
-doi=\{10.1109/TVCG.2011.271\}, \
-ISSN=\{1077-2626\},\}\
-@ARTICLE\{5963666, \
-author=\{Karamouzas, I. and Overmars, M.\}, \
-journal=\{Visualization and Computer Graphics, IEEE Transactions on\}, \
-title=\{Simulating and Evaluating the Local Behavior of Small Pedestrian Groups\}, \
-year=\{2012\}, \
-month=\{March\}, \
-volume=\{18\}, \
-number=\{3\}, \
-pages=\{394-406\}, \
-abstract=\{Recent advancements in local methods have significantly improved the collision avoidance behavior of virtual characters. However, existing methods fail to take into account that in real life pedestrians tend to walk in small groups, consisting mainly of pairs or triples of individuals. We present a novel approach to simulate the walking behavior of such small groups. Our model describes how group members interact with each other, with other groups and individuals. We highlight the potential of our method through a wide range of test-case scenarios. We evaluate the results from our simulations using a number of quantitative quality metrics, and also provide visual and numerical comparisons with video footages of real crowds.\}, \
-keywords=\{behavioural sciences computing;collision avoidance;pedestrians;virtual reality;collision avoidance;local behavior;quantitative quality metrics;small pedestrian groups;virtual characters;Collision avoidance;Computational modeling;Humans;Legged locomotion;Organizations;Path planning;Solid modeling;Multiagent systems;animation;kinematics and dynamics.;virtual reality;Algorithms;Computer Graphics;Computer Simulation;Humans;Image Processing, Computer-Assisted;Models, Theoretical;Pattern Recognition, Automated;Reproducibility of Results;Walking\}, \
-doi=\{10.1109/TVCG.2011.133\}, \
-ISSN=\{1077-2626\},\}\
-@ARTICLE\{5753894, \
-author=\{Rossl, C. and Theisel, H.\}, \
-journal=\{Visualization and Computer Graphics, IEEE Transactions on\}, \
-title=\{Streamline Embedding for 3D Vector Field Exploration\}, \
-year=\{2012\}, \
-month=\{March\}, \
-volume=\{18\}, \
-number=\{3\}, \
-pages=\{407-420\}, \
-abstract=\{We propose a new technique for visual exploration of streamlines in 3D vector fields. We construct a map from the space of all streamlines to points in IR
-\fs20 \super n
-\fs24 \nosupersub  based on the preservation of the Hausdorff metric in streamline space. The image of a vector field under this map is a set of 2-manifolds in IR
-\fs20 \super n
-\fs24 \nosupersub  with characteristic geometry and topology. Then standard clustering methods applied to the point sets in IR
-\fs20 \super n
-\fs24 \nosupersub  yield a segmentation of the original vector field. Our approach provides a global analysis of 3D vector fields which incorporates the topological segmentation but yields additional information. In addition to a pure segmentation, the established map provides a natural "parametrization\'94 visualized by the manifolds. We test our approach on a number of synthetic and real-world data sets.\}, \
-keywords=\{computational geometry;data visualisation;image segmentation;pattern clustering;topology;vectors;3D vector fields global analysis;Hausdorff metric;IR;clustering methods;manifold set;map;natural parametrization;real-world data sets;streamline embedding;streamline space;synthetic data sets;topological segmentation;vector field image;vector field segmentation;visual exploration;Manifolds;Measurement;Silicon;Streaming media;Three dimensional displays;Topology;Visualization;Vector fields;clustering.;streamline embedding\}, \
-doi=\{10.1109/TVCG.2011.78\}, \
-ISSN=\{1077-2626\},\}\
-@ARTICLE\{5728946, \
-author=\{Yun Jang and Ebert, D.S. and Gaither, K.\}, \
-journal=\{Visualization and Computer Graphics, IEEE Transactions on\}, \
-title=\{Time-Varying Data Visualization Using Functional Representations\}, \
-year=\{2012\}, \
-month=\{March\}, \
-volume=\{18\}, \
-number=\{3\}, \
-pages=\{421-433\}, \
-abstract=\{In many scientific simulations, the temporal variation and analysis of features are important. Visualization and visual analysis of time series data is still a significant challenge because of the large volume of data. Irregular and scattered time series data sets are even more problematic to visualize interactively. Previous work proposed functional representation using basis functions as one solution for interactively visualizing scattered data by harnessing the power of modern PC graphics boards. In this paper, we use the functional representation approach for time-varying data sets and develop an efficient encoding technique utilizing temporal similarity between time steps. Our system utilizes a graduated approach of three methods with increasing time complexity based on the lack of similarity of the evolving data sets. Using this system, we are able to enhance the encoding performance for the time-varying data sets, reduce the data storage by saving only changed or additional basis functions over time, and interactively visualize the time-varying encoding results. Moreover, we present efficient rendering of the functional representations using binary space partitioning tree textures to increase the rendering performance.\}, \
-keywords=\{data visualisation;time series;PC graphics boards;data storage;encoding technique;functional representation;functional representations;scientific simulations;temporal variation;time complexity;time series;time varying data visualization;visual analysis;Data visualization;Encoding;Equations;Feature extraction;Octrees;Rendering (computer graphics);Time varying systems;Basis functions;functional representation;time-varying data;volume rendering.\}, \
-doi=\{10.1109/TVCG.2011.54\}, \
-ISSN=\{1077-2626\},\}\
-@ARTICLE\{5887328, \
-author=\{Patel, A. and Smith, W. A P\}, \
-journal=\{Visualization and Computer Graphics, IEEE Transactions on\}, \
-title=\{Automated Construction of Low-Resolution, Texture-Mapped, Class-Optimal Meshes\}, \
-year=\{2012\}, \
-month=\{March\}, \
-volume=\{18\}, \
-number=\{3\}, \
-pages=\{434-446\}, \
-abstract=\{In this paper, we present a framework for the groupwise processing of a set of meshes in dense correspondence. Such sets arise when modeling 3D shape variation or tracking surface motion over time. We extend a number of mesh processing tools to operate in a groupwise manner. Specifically, we present a geodesic-based surface flattening and spectral clustering algorithm which estimates a single class-optimal flattening. We also show how to modify an iterative edge collapse algorithm to perform groupwise simplification while retaining the correspondence of the data. Finally, we show how to compute class-optimal texture coordinates for the simplified meshes. We present alternative algorithms for topologically symmetric data which yield a symmetric flattening and low-resolution mesh topology. We present flattening, simplification, and texture mapping results on three different data sets and show that our approach allows the construction of low-resolution 3D morphable models.\}, \
-keywords=\{data acquisition;differential geometry;group theory;iterative methods;mesh generation;pattern clustering;solid modelling;surface texture;topology;3D shape variation modeling;class optimal flattening;class optimal texture coordinate;geodesic based surface flattening;groupwise processing;groupwise simplification;iterative edge collapse algorithm;low resolution 3D morphable models;low resolution mesh topology;mesh processing tools;spectral clustering algorithm;surface motion tracking;symmetric flattening;texture mapping;topologically symmetric data;Clustering algorithms;Mesh generation;Shape;Solid modeling;Strain;Surface texture;Three dimensional displays;Groupwise processing;dense correspondence;simplification;surface flattening;texture mapping.\}, \
-doi=\{10.1109/TVCG.2011.101\}, \
-ISSN=\{1077-2626\},\}\
-@ARTICLE\{5710905, \
-author=\{Kronander, J. and Jonsson, D. and Low, J. and Ljung, P. and Ynnerman, A. and Unger, J.\}, \
-journal=\{Visualization and Computer Graphics, IEEE Transactions on\}, \
-title=\{Efficient Visibility Encoding for Dynamic Illumination in Direct Volume Rendering\}, \
-year=\{2012\}, \
-month=\{March\}, \
-volume=\{18\}, \
-number=\{3\}, \
-pages=\{447-462\}, \
-abstract=\{We present an algorithm that enables real-time dynamic shading in direct volume rendering using general lighting, including directional lights, point lights, and environment maps. Real-time performance is achieved by encoding local and global volumetric visibility using spherical harmonic (SH) basis functions stored in an efficient multiresolution grid over the extent of the volume. Our method enables high-frequency shadows in the spatial domain, but is limited to a low-frequency approximation of visibility and illumination in the angular domain. In a first pass, level of detail (LOD) selection in the grid is based on the current transfer function setting. This enables rapid online computation and SH projection of the local spherical distribution of visibility information. Using a piecewise integration of the SH coefficients over the local regions, the global visibility within the volume is then computed. By representing the light sources using their SH projections, the integral over lighting, visibility, and isotropic phase functions can be efficiently computed during rendering. The utility of our method is demonstrated in several examples showing the generality and interactive performance of the approach.\}, \
-keywords=\{approximation theory;encoding;image coding;integration;rendering (computer graphics);transfer functions;direct volume rendering;directional lights;dynamic illumination;environment maps;general lighting;isotropic phase functions;level of detail selection;low-frequency approximation;piecewise integration;point lights;real-time dynamic shading;spherical harmonic basis functions;transfer function setting;visibility encoding;Approximation methods;Harmonic analysis;Light sources;Lighting;Real time systems;Rendering (computer graphics);Scattering;Volumetric illumination;precomputed radiance transfer;volume rendering.\}, \
-doi=\{10.1109/TVCG.2011.35\}, \
-ISSN=\{1077-2626\},\}\
-@ARTICLE\{5753891, \
-author=\{Dellepiane, M. and Marroquim, R. and Callieri, M. and Cignoni, P. and Scopigno, R.\}, \
-journal=\{Visualization and Computer Graphics, IEEE Transactions on\}, \
-title=\{Flow-Based Local Optimization for Image-to-Geometry Projection\}, \
-year=\{2012\}, \
-month=\{March\}, \
-volume=\{18\}, \
-number=\{3\}, \
-pages=\{463-474\}, \
-abstract=\{The projection of a photographic data set on a 3D model is a robust and widely applicable way to acquire appearance information of an object. The first step of this procedure is the alignment of the images on the 3D model. While any reconstruction pipeline aims at avoiding misregistration by improving camera calibrations and geometry, in practice a perfect alignment cannot always be reached. Depending on the way multiple camera images are fused on the object surface, remaining misregistrations show up either as ghosting or as discontinuities at transitions from one camera view to another. In this paper we propose a method, based on the computation of Optical Flow between overlapping images, to correct the local misalignment by determining the necessary displacement. The goal is to correct the symptoms of misregistration, instead of searching for a globally consistent mapping, which might not exist. The method scales up well with the size of the data set (both photographic and geometric) and is quite independent of the characteristics of the 3D model (topology cleanliness, parametrization, density). The method is robust and can handle real world cases that have different characteristics: low level geometric details and images that lack enough features for global optimization or manual methods. It can be applied to different mapping strategies, such as texture or per-vertex attribute encoding.\}, \
-keywords=\{cameras;feature extraction;image colour analysis;image registration;image sequences;optimisation;photography;solid modelling;3D model;camera calibration;flow-based local optimization;global optimization;image-to-geometry projection;low level geometric detail;manual method;mapping strategy;multiple camera image;object information;object surface;optical flow;overlapping image;per-vertex attribute encoding;photographic data set;pipeline reconstruction;Adaptive optics;Cameras;Geometry;Image color analysis;Optical imaging;Solid modeling;Three dimensional displays;Computer graphics;image color analysis.\}, \
-doi=\{10.1109/TVCG.2011.75\}, \
-ISSN=\{1077-2626\},\}\
-@ARTICLE\{5728804, \
-author=\{O'Donovan, P. and Hertzmann, A.\}, \
-journal=\{Visualization and Computer Graphics, IEEE Transactions on\}, \
-title=\{AniPaint: Interactive Painterly Animation from Video\}, \
-year=\{2012\}, \
-month=\{March\}, \
-volume=\{18\}, \
-number=\{3\}, \
-pages=\{475-487\}, \
-abstract=\{This paper presents an interactive system for creating painterly animation from video sequences. Previous approaches to painterly animation typically emphasize either purely automatic stroke synthesis or purely manual stroke key framing. Our system supports a spectrum of interaction between these two approaches which allows the user more direct control over stroke synthesis. We introduce an approach for controlling the results of painterly animation: keyframed Control Strokes can affect automatic stroke's placement, orientation, movement, and color. Furthermore, we introduce a new automatic synthesis algorithm that traces strokes through a video sequence in a greedy manner, but, instead of a vector field, uses an objective function to guide placement. This allows the method to capture fine details, respect region boundaries, and achieve greater temporal coherence than previous methods. All editing is performed with a WYSIWYG interface where the user can directly refine the animation. We demonstrate a variety of examples using both automatic and user-guided results, with a variety of styles and source videos.\}, \
-keywords=\{computer animation;image sequences;video signal processing;AniPaint;automatic stroke synthesis;automatic synthesis algorithm;interaction spectrum;interactive painterly animation;keyframed Control Strokes;stroke synthesis;video sequences;Animation;Color;Image color analysis;Integrated optics;Painting;Rendering (computer graphics);Video sequences;Nonphotorealistic rendering;interactive video processing.;painterly animation\}, \
-doi=\{10.1109/TVCG.2011.51\}, \
-ISSN=\{1077-2626\},\}\
-@ARTICLE\{5728801, \
-author=\{Ji-yong Kwon and In-Kwon Lee\}, \
-journal=\{Visualization and Computer Graphics, IEEE Transactions on\}, \
-title=\{The Squash-and-Stretch Stylization for Character Motions\}, \
-year=\{2012\}, \
-month=\{March\}, \
-volume=\{18\}, \
-number=\{3\}, \
-pages=\{488-500\}, \
-abstract=\{The squash-and-stretch describes the rigidity of the character. This effect is the most important technique in traditional cartoon animation. In this paper, we introduce a method that applies the squash-and-stretch effect to character motion. Our method exaggerates the motion by sequentially applying the spatial exaggeration technique and the temporal exaggeration technique. The spatial exaggeration technique globally deforms the pose in order to make the squashed or stretched pose by modeling it as a covariance matrix of joint positions. Then, the temporal exaggeration technique computes a time-warping function for each joint, and applies it to the position of the joint allowing the character to stretch its links appropriately. The motion stylized by our method is a sequence of squashed and stretched poses with stretching limbs. By performing a user survey, we prove that the motion created using our method is similar to that used in 2D cartoon animation and is funnier than the original motion for human observers who are familiar with 2D cartoon animation.\}, \
-keywords=\{computer animation;covariance matrices;2D cartoon animation;character motions;covariance matrix;human observers;joint positions;spatial exaggeration technique;squash-and-stretch stylization;squashed pose;stretched pose;temporal exaggeration technique;time-warping function;user survey;Animation;Covariance matrix;Humans;Joints;Kinematics;Optimization;Shape;Squash-and-stretch;cartoon stylization;covariance matrix;exaggeration;motion capture;time warping.\}, \
-doi=\{10.1109/TVCG.2011.48\}, \
-ISSN=\{1077-2626\},\}\
-@ARTICLE\{5753889, \
-author=\{Rukun Fan and Songhua Xu and Weidong Geng\}, \
-journal=\{Visualization and Computer Graphics, IEEE Transactions on\}, \
-title=\{Example-Based Automatic Music-Driven Conventional Dance Motion Synthesis\}, \
-year=\{2012\}, \
-month=\{March\}, \
-volume=\{18\}, \
-number=\{3\}, \
-pages=\{501-515\}, \
-abstract=\{We introduce a novel method for synthesizing dance motions that follow the emotions and contents of a piece of music. Our method employs a learning-based approach to model the music to motion mapping relationship embodied in example dance motions along with those motions' accompanying background music. A key step in our method is to train a music to motion matching quality rating function through learning the music to motion mapping relationship exhibited in synchronized music and dance motion data, which were captured from professional human dance performance. To generate an optimal sequence of dance motion segments to match with a piece of music, we introduce a constraint-based dynamic programming procedure. This procedure considers both music to motion matching quality and visual smoothness of a resultant dance motion sequence. We also introduce a two-way evaluation strategy, coupled with a GPU-based implementation, through which we can execute the dynamic programming process in parallel, resulting in significant speedup. To evaluate the effectiveness of our method, we quantitatively compare the dance motions synthesized by our method with motion synthesis results by several peer methods using the motions captured from professional human dancers' performance as the gold standard. We also conducted several medium-scale user studies to explore how perceptually our dance motion synthesis method can outperform existing methods in synthesizing dance motions to match with a piece of music. These user studies produced very positive results on our music-driven dance motion synthesis experiments for several Asian dance genres, confirming the advantages of our method.\}, \
-keywords=\{dynamic programming;graphics processing units;image matching;image motion analysis;image sequences;learning (artificial intelligence);music;Asian dance genres;GPU based implementation;constraint based dynamic programming;dance motion segments;example based automatic music driven conventional dance motion synthesis;learning based approach;motion mapping relationship;motion matching quality rating function;optimal sequence;peer method;professional human dance performance;resultant dance motion sequence;synchronized music;two-way evaluation strategy;visual smoothness;Correlation;Feature extraction;Humans;Joints;Motion segmentation;Synchronization;Training;Dance motion and music mapping relationship;learning-based dance motion synthesis.;music-driven dance motion synthesis;Analysis of Variance;Dancing;Emotions;Far East;Female;Humans;Image Processing, Computer-Assisted;Male;Music;Pattern Recognition, Automated;Reproducibility of Results;Video Recording;Young Adult\}, \
-doi=\{10.1109/TVCG.2011.73\}, \
-ISSN=\{1077-2626\},\}\
-@ARTICLE\{5708198, \
-author=\{Bodin, K. and Lacoursiere, C. and Servin, M.\}, \
-journal=\{Visualization and Computer Graphics, IEEE Transactions on\}, \
-title=\{Constraint Fluids\}, \
-year=\{2012\}, \
-month=\{March\}, \
-volume=\{18\}, \
-number=\{3\}, \
-pages=\{516-526\}, \
-abstract=\{We present a fluid simulation method based on Smoothed Particle Hydrodynamics (SPH) in which incompressibility and boundary conditions are enforced using holonomic kinematic constraints on the density. This formulation enables systematic multiphysics integration in which interactions are modeled via similar constraints between the fluid pseudoparticles and impenetrable surfaces of other bodies. These conditions embody Archimede's principle for solids and thus buoyancy results as a direct consequence. We use a variational time stepping scheme suitable for general constrained multibody systems we call SPOOK. Each step requires the solution of only one Mixed Linear Complementarity Problem (MLCP) with very few inequalities, corresponding to solid boundary conditions. We solve this MLCP with a fast iterative method. Overall stability is vastly improved in comparison to the unconstrained version of SPH, and this allows much larger time steps, and an increase in overall performance by two orders of magnitude. Proof of concept is given for computer graphics applications and interactive simulations.\}, \
-keywords=\{computational fluid dynamics;computer graphics;digital simulation;hydrodynamics;iterative methods;Archimedes principle;SPOOK;boundary conditions;buoyancy;computer graphics applications;constraint fluids;fast iterative method;fluid pseudoparticles;fluid simulation method;holonomic kinematic constraints;incompressibility conditions;interactive simulations;mixed linear complementarity problem;smoothed particle hydrodynamics;systematic multiphysics integration;Approximation methods;Computational modeling;Computer graphics;Equations;Force;Mathematical model;Stability analysis;SPH;constraints;fluid simulation;incompressible;variational integrator.;Algorithms;Computer Graphics;Computer Simulation;Hydrodynamics;Models, Theoretical\}, \
-doi=\{10.1109/TVCG.2011.29\}, \
-ISSN=\{1077-2626\},\}}
+@ARTICLE{6018965, 
+author={Hillaire, S. and Lecuyer, A. and Regia-Corte, T. and Cozot, R. and Royan, J. and Breton, G.}, 
+journal={Visualization and Computer Graphics, IEEE Transactions on}, 
+title={Design and Application of Real-Time Visual Attention Model for the Exploration of 3D Virtual Environments}, 
+year={2012}, 
+month={March}, 
+volume={18}, 
+number={3}, 
+pages={356-368}, 
+abstract={This paper studies the design and application of a novel visual attention model designed to compute user's gaze position automatically, i.e., without using a gaze-tracking system. The model we propose is specifically designed for real-time first-person exploration of 3D virtual environments. It is the first model adapted to this context which can compute in real time a continuous gaze point position instead of a set of 3D objects potentially observed by the user. To do so, contrary to previous models which use a mesh-based representation of visual objects, we introduce a representation based on surface-elements. Our model also simulates visual reflexes and the cognitive processes which take place in the brain such as the gaze behavior associated to first-person navigation in the virtual environment. Our visual attention model combines both bottom-up and top-down components to compute a continuous gaze point position on screen that hopefully matches the user's one. We conducted an experiment to study and compare the performance of our method with a state-of-the-art approach. Our results are found significantly better with sometimes more than 100 percent of accuracy gained. This suggests that computing a gaze point in a 3D virtual environment in real time is possible and is a valid approach, compared to object-based approaches. Finally, we expose different applications of our model when exploring virtual environments. We present different algorithms which can improve or adapt the visual feedback of virtual environments based on gaze information. We first propose a level-of-detail approach that heavily relies on multiple-texture sampling. We show that it is possible to use the gaze information of our visual attention model to increase visual quality where the user is looking, while maintaining a high-refresh rate. Second, we introduce the use of the visual attention model in three visual effects inspired by the human visual system namely: depth-of-field blur, camera- motions, and dynamic luminance. All these effects are computed based on the simulated gaze of the user, and are meant to improve user's sensations in future virtual reality applications.}, 
+keywords={mesh generation;real-time systems;solid modelling;3D objects;3D virtual environments;continuous gaze point position;level-of-detail approach;mesh-based representation;multiple-texture sampling;real-time visual attention model;Adaptation models;Computational modeling;Humans;Real time systems;Solid modeling;Three dimensional displays;Visualization;Visual attention model;first-person exploration;gaze tracking;visual effects.;Adult;Algorithms;Computer Simulation;Eye Movements;Female;Humans;Image Processing, Computer-Assisted;Male;Models, Biological;Software;Stochastic Processes;User-Computer Interface;Visual Fields;Visual Perception}, 
+doi={10.1109/TVCG.2011.154}, 
+ISSN={1077-2626},}
+@ARTICLE{5963662, 
+author={Martinet, A. and Casiez, G. and Grisoni, L.}, 
+journal={Visualization and Computer Graphics, IEEE Transactions on}, 
+title={Integrality and Separability of Multitouch Interaction Techniques in 3D Manipulation Tasks}, 
+year={2012}, 
+month={March}, 
+volume={18}, 
+number={3}, 
+pages={369-380}, 
+abstract={Multitouch displays represent a promising technology for the display and manipulation of data. While the manipulation of 2D data has been widely explored, 3D manipulation with multitouch displays remains largely unexplored. Based on an analysis of the integration and separation of degrees of freedom, we propose a taxonomy for 3D manipulation techniques with multitouch displays. Using that taxonomy, we introduce Depth-Separated Screen-Space (DS3), a new 3D manipulation technique based on the separation of translation and rotation. In a controlled experiment, we compared DS3 with Sticky Tools and Screen-Space. Results show that separating the control of translation and rotation significantly affects performance for 3D manipulation, with DS3 performing faster than the two other techniques.}, 
+keywords={human computer interaction;three-dimensional displays;touch sensitive screens;2D data;3D manipulation tasks;3D manipulation techniques;DS3;controlled experiment;degrees of freedom;depth-separated screen-space;integrality;multitouch displays;multitouch interaction techniques;separability;sticky tools;taxonomy;Humans;Jacobian matrices;Measurement;Mice;Taxonomy;Three dimensional displays;Visualization;3D manipulation task;DOF separation.;Multitouch displays;direct manipulation;Adult;Analysis of Variance;Computer Graphics;Depth Perception;Female;Humans;Imaging, Three-Dimensional;Male;Rotation;Task Performance and Analysis;Touch}, 
+doi={10.1109/TVCG.2011.129}, 
+ISSN={1077-2626},}
+@ARTICLE{6060818, 
+author={Sajadi, B. and Majumder, A.}, 
+journal={Visualization and Computer Graphics, IEEE Transactions on}, 
+title={Autocalibration of Multiprojector CAVE-Like Immersive Environments}, 
+year={2012}, 
+month={March}, 
+volume={18}, 
+number={3}, 
+pages={381-393}, 
+abstract={In this paper, we present the first method for the geometric autocalibration of multiple projectors on a set of CAVE-like immersive display surfaces including truncated domes and 4 or 5-wall CAVEs (three side walls, floor, and/or ceiling). All such surfaces can be categorized as swept surfaces and multiple projectors can be registered on them using a single uncalibrated camera without using any physical markers on the surface. Our method can also handle nonlinear distortion in the projectors, common in compact setups where a short throw lens is mounted on each projector. Further, when the whole swept surface is not visible from a single camera view, we can register the projectors using multiple pan and tilted views of the same camera. Thus, our method scales well with different size and resolution of the display. Since we recover the 3D shape of the display, we can achieve registration that is correct from any arbitrary viewpoint appropriate for head-tracked single-user virtual reality systems. We can also achieve wallpapered registration, more appropriate for multiuser collaborative explorations. Though much more immersive than common surfaces like planes and cylinders, general swept surfaces are used today only for niche display environments. Even the more popular 4 or 5-wall CAVE is treated as a piecewise planar surface for calibration purposes and hence projectors are not allowed to be overlapped across the corners. Our method opens up the possibility of using such swept surfaces to create more immersive VR systems without compromising the simplicity of having a completely automatic calibration technique. Such calibration allows completely arbitrary positioning of the projectors in a 5-wall CAVE, without respecting the corners.}, 
+keywords={calibration;cameras;computational geometry;display devices;image registration;image resolution;optical projectors;virtual reality;3D shape;4-wall CAVE;5-wall CAVE;CAVE-like immersive display surfaces;VR systems;arbitrary viewpoint;automatic calibration technique;calibration purposes;compact setups;completely arbitrary positioning;display resolution;general swept surfaces;geometric autocalibration;head-tracked single-user virtual reality systems;multiple pan;multiple projectors;multiprojector CAVE-like immersive environments;multiuser collaborative explorations;niche display environments;nonlinear distortion;physical markers;piecewise planar surface;short throw lens;tilted views;truncated domes;uncalibrated camera;wallpapered registration;Calibration;Cameras;Optimization;Shape;Surface reconstruction;Surface treatment;Three dimensional displays;CAVEs;Geometric registration;calibration;immersive displays.;multiprojector displays;tiled displays}, 
+doi={10.1109/TVCG.2011.271}, 
+ISSN={1077-2626},}
+@ARTICLE{5963666, 
+author={Karamouzas, I. and Overmars, M.}, 
+journal={Visualization and Computer Graphics, IEEE Transactions on}, 
+title={Simulating and Evaluating the Local Behavior of Small Pedestrian Groups}, 
+year={2012}, 
+month={March}, 
+volume={18}, 
+number={3}, 
+pages={394-406}, 
+abstract={Recent advancements in local methods have significantly improved the collision avoidance behavior of virtual characters. However, existing methods fail to take into account that in real life pedestrians tend to walk in small groups, consisting mainly of pairs or triples of individuals. We present a novel approach to simulate the walking behavior of such small groups. Our model describes how group members interact with each other, with other groups and individuals. We highlight the potential of our method through a wide range of test-case scenarios. We evaluate the results from our simulations using a number of quantitative quality metrics, and also provide visual and numerical comparisons with video footages of real crowds.}, 
+keywords={behavioural sciences computing;collision avoidance;pedestrians;virtual reality;collision avoidance;local behavior;quantitative quality metrics;small pedestrian groups;virtual characters;Collision avoidance;Computational modeling;Humans;Legged locomotion;Organizations;Path planning;Solid modeling;Multiagent systems;animation;kinematics and dynamics.;virtual reality;Algorithms;Computer Graphics;Computer Simulation;Humans;Image Processing, Computer-Assisted;Models, Theoretical;Pattern Recognition, Automated;Reproducibility of Results;Walking}, 
+doi={10.1109/TVCG.2011.133}, 
+ISSN={1077-2626},}
+@ARTICLE{5753894, 
+author={Rossl, C. and Theisel, H.}, 
+journal={Visualization and Computer Graphics, IEEE Transactions on}, 
+title={Streamline Embedding for 3D Vector Field Exploration}, 
+year={2012}, 
+month={March}, 
+volume={18}, 
+number={3}, 
+pages={407-420}, 
+abstract={We propose a new technique for visual exploration of streamlines in 3D vector fields. We construct a map from the space of all streamlines to points in IRn based on the preservation of the Hausdorff metric in streamline space. The image of a vector field under this map is a set of 2-manifolds in IRn with characteristic geometry and topology. Then standard clustering methods applied to the point sets in IRn yield a segmentation of the original vector field. Our approach provides a global analysis of 3D vector fields which incorporates the topological segmentation but yields additional information. In addition to a pure segmentation, the established map provides a natural "parametrization” visualized by the manifolds. We test our approach on a number of synthetic and real-world data sets.}, 
+keywords={computational geometry;data visualisation;image segmentation;pattern clustering;topology;vectors;3D vector fields global analysis;Hausdorff metric;IR;clustering methods;manifold set;map;natural parametrization;real-world data sets;streamline embedding;streamline space;synthetic data sets;topological segmentation;vector field image;vector field segmentation;visual exploration;Manifolds;Measurement;Silicon;Streaming media;Three dimensional displays;Topology;Visualization;Vector fields;clustering.;streamline embedding}, 
+doi={10.1109/TVCG.2011.78}, 
+ISSN={1077-2626},}
+@ARTICLE{5728946, 
+author={Yun Jang and Ebert, D.S. and Gaither, K.}, 
+journal={Visualization and Computer Graphics, IEEE Transactions on}, 
+title={Time-Varying Data Visualization Using Functional Representations}, 
+year={2012}, 
+month={March}, 
+volume={18}, 
+number={3}, 
+pages={421-433}, 
+abstract={In many scientific simulations, the temporal variation and analysis of features are important. Visualization and visual analysis of time series data is still a significant challenge because of the large volume of data. Irregular and scattered time series data sets are even more problematic to visualize interactively. Previous work proposed functional representation using basis functions as one solution for interactively visualizing scattered data by harnessing the power of modern PC graphics boards. In this paper, we use the functional representation approach for time-varying data sets and develop an efficient encoding technique utilizing temporal similarity between time steps. Our system utilizes a graduated approach of three methods with increasing time complexity based on the lack of similarity of the evolving data sets. Using this system, we are able to enhance the encoding performance for the time-varying data sets, reduce the data storage by saving only changed or additional basis functions over time, and interactively visualize the time-varying encoding results. Moreover, we present efficient rendering of the functional representations using binary space partitioning tree textures to increase the rendering performance.}, 
+keywords={data visualisation;time series;PC graphics boards;data storage;encoding technique;functional representation;functional representations;scientific simulations;temporal variation;time complexity;time series;time varying data visualization;visual analysis;Data visualization;Encoding;Equations;Feature extraction;Octrees;Rendering (computer graphics);Time varying systems;Basis functions;functional representation;time-varying data;volume rendering.}, 
+doi={10.1109/TVCG.2011.54}, 
+ISSN={1077-2626},}
+@ARTICLE{5887328, 
+author={Patel, A. and Smith, W. A P}, 
+journal={Visualization and Computer Graphics, IEEE Transactions on}, 
+title={Automated Construction of Low-Resolution, Texture-Mapped, Class-Optimal Meshes}, 
+year={2012}, 
+month={March}, 
+volume={18}, 
+number={3}, 
+pages={434-446}, 
+abstract={In this paper, we present a framework for the groupwise processing of a set of meshes in dense correspondence. Such sets arise when modeling 3D shape variation or tracking surface motion over time. We extend a number of mesh processing tools to operate in a groupwise manner. Specifically, we present a geodesic-based surface flattening and spectral clustering algorithm which estimates a single class-optimal flattening. We also show how to modify an iterative edge collapse algorithm to perform groupwise simplification while retaining the correspondence of the data. Finally, we show how to compute class-optimal texture coordinates for the simplified meshes. We present alternative algorithms for topologically symmetric data which yield a symmetric flattening and low-resolution mesh topology. We present flattening, simplification, and texture mapping results on three different data sets and show that our approach allows the construction of low-resolution 3D morphable models.}, 
+keywords={data acquisition;differential geometry;group theory;iterative methods;mesh generation;pattern clustering;solid modelling;surface texture;topology;3D shape variation modeling;class optimal flattening;class optimal texture coordinate;geodesic based surface flattening;groupwise processing;groupwise simplification;iterative edge collapse algorithm;low resolution 3D morphable models;low resolution mesh topology;mesh processing tools;spectral clustering algorithm;surface motion tracking;symmetric flattening;texture mapping;topologically symmetric data;Clustering algorithms;Mesh generation;Shape;Solid modeling;Strain;Surface texture;Three dimensional displays;Groupwise processing;dense correspondence;simplification;surface flattening;texture mapping.}, 
+doi={10.1109/TVCG.2011.101}, 
+ISSN={1077-2626},}
+@ARTICLE{5710905, 
+author={Kronander, J. and Jonsson, D. and Low, J. and Ljung, P. and Ynnerman, A. and Unger, J.}, 
+journal={Visualization and Computer Graphics, IEEE Transactions on}, 
+title={Efficient Visibility Encoding for Dynamic Illumination in Direct Volume Rendering}, 
+year={2012}, 
+month={March}, 
+volume={18}, 
+number={3}, 
+pages={447-462}, 
+abstract={We present an algorithm that enables real-time dynamic shading in direct volume rendering using general lighting, including directional lights, point lights, and environment maps. Real-time performance is achieved by encoding local and global volumetric visibility using spherical harmonic (SH) basis functions stored in an efficient multiresolution grid over the extent of the volume. Our method enables high-frequency shadows in the spatial domain, but is limited to a low-frequency approximation of visibility and illumination in the angular domain. In a first pass, level of detail (LOD) selection in the grid is based on the current transfer function setting. This enables rapid online computation and SH projection of the local spherical distribution of visibility information. Using a piecewise integration of the SH coefficients over the local regions, the global visibility within the volume is then computed. By representing the light sources using their SH projections, the integral over lighting, visibility, and isotropic phase functions can be efficiently computed during rendering. The utility of our method is demonstrated in several examples showing the generality and interactive performance of the approach.}, 
+keywords={approximation theory;encoding;image coding;integration;rendering (computer graphics);transfer functions;direct volume rendering;directional lights;dynamic illumination;environment maps;general lighting;isotropic phase functions;level of detail selection;low-frequency approximation;piecewise integration;point lights;real-time dynamic shading;spherical harmonic basis functions;transfer function setting;visibility encoding;Approximation methods;Harmonic analysis;Light sources;Lighting;Real time systems;Rendering (computer graphics);Scattering;Volumetric illumination;precomputed radiance transfer;volume rendering.}, 
+doi={10.1109/TVCG.2011.35}, 
+ISSN={1077-2626},}
+@ARTICLE{5753891, 
+author={Dellepiane, M. and Marroquim, R. and Callieri, M. and Cignoni, P. and Scopigno, R.}, 
+journal={Visualization and Computer Graphics, IEEE Transactions on}, 
+title={Flow-Based Local Optimization for Image-to-Geometry Projection}, 
+year={2012}, 
+month={March}, 
+volume={18}, 
+number={3}, 
+pages={463-474}, 
+abstract={The projection of a photographic data set on a 3D model is a robust and widely applicable way to acquire appearance information of an object. The first step of this procedure is the alignment of the images on the 3D model. While any reconstruction pipeline aims at avoiding misregistration by improving camera calibrations and geometry, in practice a perfect alignment cannot always be reached. Depending on the way multiple camera images are fused on the object surface, remaining misregistrations show up either as ghosting or as discontinuities at transitions from one camera view to another. In this paper we propose a method, based on the computation of Optical Flow between overlapping images, to correct the local misalignment by determining the necessary displacement. The goal is to correct the symptoms of misregistration, instead of searching for a globally consistent mapping, which might not exist. The method scales up well with the size of the data set (both photographic and geometric) and is quite independent of the characteristics of the 3D model (topology cleanliness, parametrization, density). The method is robust and can handle real world cases that have different characteristics: low level geometric details and images that lack enough features for global optimization or manual methods. It can be applied to different mapping strategies, such as texture or per-vertex attribute encoding.}, 
+keywords={cameras;feature extraction;image colour analysis;image registration;image sequences;optimisation;photography;solid modelling;3D model;camera calibration;flow-based local optimization;global optimization;image-to-geometry projection;low level geometric detail;manual method;mapping strategy;multiple camera image;object information;object surface;optical flow;overlapping image;per-vertex attribute encoding;photographic data set;pipeline reconstruction;Adaptive optics;Cameras;Geometry;Image color analysis;Optical imaging;Solid modeling;Three dimensional displays;Computer graphics;image color analysis.}, 
+doi={10.1109/TVCG.2011.75}, 
+ISSN={1077-2626},}
+@ARTICLE{5728804, 
+author={O'Donovan, P. and Hertzmann, A.}, 
+journal={Visualization and Computer Graphics, IEEE Transactions on}, 
+title={AniPaint: Interactive Painterly Animation from Video}, 
+year={2012}, 
+month={March}, 
+volume={18}, 
+number={3}, 
+pages={475-487}, 
+abstract={This paper presents an interactive system for creating painterly animation from video sequences. Previous approaches to painterly animation typically emphasize either purely automatic stroke synthesis or purely manual stroke key framing. Our system supports a spectrum of interaction between these two approaches which allows the user more direct control over stroke synthesis. We introduce an approach for controlling the results of painterly animation: keyframed Control Strokes can affect automatic stroke's placement, orientation, movement, and color. Furthermore, we introduce a new automatic synthesis algorithm that traces strokes through a video sequence in a greedy manner, but, instead of a vector field, uses an objective function to guide placement. This allows the method to capture fine details, respect region boundaries, and achieve greater temporal coherence than previous methods. All editing is performed with a WYSIWYG interface where the user can directly refine the animation. We demonstrate a variety of examples using both automatic and user-guided results, with a variety of styles and source videos.}, 
+keywords={computer animation;image sequences;video signal processing;AniPaint;automatic stroke synthesis;automatic synthesis algorithm;interaction spectrum;interactive painterly animation;keyframed Control Strokes;stroke synthesis;video sequences;Animation;Color;Image color analysis;Integrated optics;Painting;Rendering (computer graphics);Video sequences;Nonphotorealistic rendering;interactive video processing.;painterly animation}, 
+doi={10.1109/TVCG.2011.51}, 
+ISSN={1077-2626},}
+@ARTICLE{5728801, 
+author={Ji-yong Kwon and In-Kwon Lee}, 
+journal={Visualization and Computer Graphics, IEEE Transactions on}, 
+title={The Squash-and-Stretch Stylization for Character Motions}, 
+year={2012}, 
+month={March}, 
+volume={18}, 
+number={3}, 
+pages={488-500}, 
+abstract={The squash-and-stretch describes the rigidity of the character. This effect is the most important technique in traditional cartoon animation. In this paper, we introduce a method that applies the squash-and-stretch effect to character motion. Our method exaggerates the motion by sequentially applying the spatial exaggeration technique and the temporal exaggeration technique. The spatial exaggeration technique globally deforms the pose in order to make the squashed or stretched pose by modeling it as a covariance matrix of joint positions. Then, the temporal exaggeration technique computes a time-warping function for each joint, and applies it to the position of the joint allowing the character to stretch its links appropriately. The motion stylized by our method is a sequence of squashed and stretched poses with stretching limbs. By performing a user survey, we prove that the motion created using our method is similar to that used in 2D cartoon animation and is funnier than the original motion for human observers who are familiar with 2D cartoon animation.}, 
+keywords={computer animation;covariance matrices;2D cartoon animation;character motions;covariance matrix;human observers;joint positions;spatial exaggeration technique;squash-and-stretch stylization;squashed pose;stretched pose;temporal exaggeration technique;time-warping function;user survey;Animation;Covariance matrix;Humans;Joints;Kinematics;Optimization;Shape;Squash-and-stretch;cartoon stylization;covariance matrix;exaggeration;motion capture;time warping.}, 
+doi={10.1109/TVCG.2011.48}, 
+ISSN={1077-2626},}
+@ARTICLE{5753889, 
+author={Rukun Fan and Songhua Xu and Weidong Geng}, 
+journal={Visualization and Computer Graphics, IEEE Transactions on}, 
+title={Example-Based Automatic Music-Driven Conventional Dance Motion Synthesis}, 
+year={2012}, 
+month={March}, 
+volume={18}, 
+number={3}, 
+pages={501-515}, 
+abstract={We introduce a novel method for synthesizing dance motions that follow the emotions and contents of a piece of music. Our method employs a learning-based approach to model the music to motion mapping relationship embodied in example dance motions along with those motions' accompanying background music. A key step in our method is to train a music to motion matching quality rating function through learning the music to motion mapping relationship exhibited in synchronized music and dance motion data, which were captured from professional human dance performance. To generate an optimal sequence of dance motion segments to match with a piece of music, we introduce a constraint-based dynamic programming procedure. This procedure considers both music to motion matching quality and visual smoothness of a resultant dance motion sequence. We also introduce a two-way evaluation strategy, coupled with a GPU-based implementation, through which we can execute the dynamic programming process in parallel, resulting in significant speedup. To evaluate the effectiveness of our method, we quantitatively compare the dance motions synthesized by our method with motion synthesis results by several peer methods using the motions captured from professional human dancers' performance as the gold standard. We also conducted several medium-scale user studies to explore how perceptually our dance motion synthesis method can outperform existing methods in synthesizing dance motions to match with a piece of music. These user studies produced very positive results on our music-driven dance motion synthesis experiments for several Asian dance genres, confirming the advantages of our method.}, 
+keywords={dynamic programming;graphics processing units;image matching;image motion analysis;image sequences;learning (artificial intelligence);music;Asian dance genres;GPU based implementation;constraint based dynamic programming;dance motion segments;example based automatic music driven conventional dance motion synthesis;learning based approach;motion mapping relationship;motion matching quality rating function;optimal sequence;peer method;professional human dance performance;resultant dance motion sequence;synchronized music;two-way evaluation strategy;visual smoothness;Correlation;Feature extraction;Humans;Joints;Motion segmentation;Synchronization;Training;Dance motion and music mapping relationship;learning-based dance motion synthesis.;music-driven dance motion synthesis;Analysis of Variance;Dancing;Emotions;Far East;Female;Humans;Image Processing, Computer-Assisted;Male;Music;Pattern Recognition, Automated;Reproducibility of Results;Video Recording;Young Adult}, 
+doi={10.1109/TVCG.2011.73}, 
+ISSN={1077-2626},}
+@ARTICLE{5708198, 
+author={Bodin, K. and Lacoursiere, C. and Servin, M.}, 
+journal={Visualization and Computer Graphics, IEEE Transactions on}, 
+title={Constraint Fluids}, 
+year={2012}, 
+month={March}, 
+volume={18}, 
+number={3}, 
+pages={516-526}, 
+abstract={We present a fluid simulation method based on Smoothed Particle Hydrodynamics (SPH) in which incompressibility and boundary conditions are enforced using holonomic kinematic constraints on the density. This formulation enables systematic multiphysics integration in which interactions are modeled via similar constraints between the fluid pseudoparticles and impenetrable surfaces of other bodies. These conditions embody Archimede's principle for solids and thus buoyancy results as a direct consequence. We use a variational time stepping scheme suitable for general constrained multibody systems we call SPOOK. Each step requires the solution of only one Mixed Linear Complementarity Problem (MLCP) with very few inequalities, corresponding to solid boundary conditions. We solve this MLCP with a fast iterative method. Overall stability is vastly improved in comparison to the unconstrained version of SPH, and this allows much larger time steps, and an increase in overall performance by two orders of magnitude. Proof of concept is given for computer graphics applications and interactive simulations.}, 
+keywords={computational fluid dynamics;computer graphics;digital simulation;hydrodynamics;iterative methods;Archimedes principle;SPOOK;boundary conditions;buoyancy;computer graphics applications;constraint fluids;fast iterative method;fluid pseudoparticles;fluid simulation method;holonomic kinematic constraints;incompressibility conditions;interactive simulations;mixed linear complementarity problem;smoothed particle hydrodynamics;systematic multiphysics integration;Approximation methods;Computational modeling;Computer graphics;Equations;Force;Mathematical model;Stability analysis;SPH;constraints;fluid simulation;incompressible;variational integrator.;Algorithms;Computer Graphics;Computer Simulation;Hydrodynamics;Models, Theoretical}, 
+doi={10.1109/TVCG.2011.29}, 
+ISSN={1077-2626},}

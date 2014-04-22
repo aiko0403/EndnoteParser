@@ -3,9 +3,9 @@ import fileinput
 import sys
 import csv
 
-fin = open('BibTex/201201.rtf','r')
-fin2 = open('EndNote/201201','r')
-fout = open('output_all.csv', 'a')
+fin = open('BibTex/201211.rtf','r')
+fin2 = open('EndNote/201211','r')
+fout = open('output/201211.csv', 'a')
 
 title_id = {}
 bib_ID=""
